@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 14,
-        "deletions": 5,
+        "insertions": 144,
+        "deletions": 91,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -108,8 +108,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 15,
-        "deletions": 13,
+        "insertions": 144,
+        "deletions": 18,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -184,8 +184,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 129,
-        "deletions": 139,
+        "insertions": 172,
+        "deletions": 149,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -414,6 +414,30 @@
         "deletions": 168,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "ChewKinWhye": [
@@ -638,6 +662,30 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 130,
+        "deletions": 86,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "kelvintankaiboon": [
@@ -858,10 +906,34 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 129,
+        "deletions": 5,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "Davindran": [
@@ -1086,6 +1158,30 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "gaoqikai": [
@@ -1306,26 +1402,50 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 64,
-        "deletions": 26,
+        "insertions": 65,
+        "deletions": 27,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 42,
+        "deletions": 9,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ]
   },
   "authorFinalContributionMap": {
     "HeHaowei": 4,
-    "ChewKinWhye": 41165,
-    "kelvintankaiboon": 2832,
+    "ChewKinWhye": 41240,
+    "kelvintankaiboon": 2924,
     "Davindran": 1,
-    "gaoqikai": 834
+    "gaoqikai": 864
   },
   "authorContributionVariance": {
-    "HeHaowei": 777.8262,
-    "ChewKinWhye": 7.1791616E7,
-    "kelvintankaiboon": 628265.5,
-    "Davindran": 1215.559,
-    "gaoqikai": 74774.39
+    "HeHaowei": 704.0476,
+    "ChewKinWhye": 6.5140892E7,
+    "kelvintankaiboon": 573121.7,
+    "Davindran": 1099.9415,
+    "gaoqikai": 67763.19
   },
   "authorDisplayNameMap": {
     "HeHaowei": "HE ...WEI",

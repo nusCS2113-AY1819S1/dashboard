@@ -32,8 +32,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 20,
-        "deletions": 12,
+        "insertions": 258,
+        "deletions": 76,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -102,14 +102,14 @@
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 328,
+        "deletions": 37,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 563,
+        "deletions": 111,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -134,20 +134,20 @@
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 236,
-        "deletions": 58,
+        "insertions": 718,
+        "deletions": 114,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 48,
+        "deletions": 2,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 612,
+        "deletions": 23,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -366,10 +366,40 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 20,
-        "deletions": 12,
+        "insertions": 106,
+        "deletions": 28,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 115,
+        "deletions": 15,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 37,
+        "deletions": 33,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "Chocological": [
@@ -588,6 +618,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "derpyplops": [
@@ -766,14 +826,14 @@
         "untilDate": "2018-10-11"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 255,
+        "deletions": 23,
         "sinceDate": "2018-10-11",
         "untilDate": "2018-10-12"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 12,
+        "deletions": 12,
         "sinceDate": "2018-10-12",
         "untilDate": "2018-10-13"
       },
@@ -796,16 +856,46 @@
         "untilDate": "2018-10-16"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 61,
+        "deletions": 2,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 113,
+        "deletions": 9,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 450,
+        "deletions": 102,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "sanjukta99": [
@@ -948,8 +1038,8 @@
         "untilDate": "2018-10-05"
       },
       {
-        "insertions": 53,
-        "deletions": 57,
+        "insertions": 165,
+        "deletions": 62,
         "sinceDate": "2018-10-05",
         "untilDate": "2018-10-06"
       },
@@ -960,20 +1050,20 @@
         "untilDate": "2018-10-07"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 34,
+        "deletions": 21,
         "sinceDate": "2018-10-07",
         "untilDate": "2018-10-08"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 295,
+        "deletions": 18,
         "sinceDate": "2018-10-08",
         "untilDate": "2018-10-09"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 41,
+        "deletions": 12,
         "sinceDate": "2018-10-09",
         "untilDate": "2018-10-10"
       },
@@ -1014,8 +1104,8 @@
         "untilDate": "2018-10-16"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 48,
+        "deletions": 2,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
       },
@@ -1024,20 +1114,50 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 612,
+        "deletions": 23,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ladderinc": 701,
-    "Chocological": 2611,
-    "derpyplops": 3,
-    "sanjukta99": 181
+    "ladderinc": 881,
+    "Chocological": 2593,
+    "derpyplops": 767,
+    "sanjukta99": 3001
   },
   "authorContributionVariance": {
-    "ladderinc": 86651.68,
-    "Chocological": 68154.55,
-    "derpyplops": 2010.9733,
-    "sanjukta99": 1208.3055
+    "ladderinc": 76774.98,
+    "Chocological": 62895.258,
+    "derpyplops": 10529.453,
+    "sanjukta99": 13122.843
   },
   "authorDisplayNameMap": {
     "ladderinc": "SOH...JUN",

@@ -32,8 +32,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 218,
+        "deletions": 17,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 307,
-        "deletions": 159,
+        "insertions": 553,
+        "deletions": 322,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -108,8 +108,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 264,
-        "deletions": 209,
+        "insertions": 395,
+        "deletions": 344,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -372,10 +372,28 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 217,
+        "deletions": 16,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "kennethcsj": [
@@ -596,10 +614,28 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 197,
-        "deletions": 50,
+        "insertions": 198,
+        "deletions": 51,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 107,
+        "deletions": 71,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 83,
+        "deletions": 38,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 55,
+        "deletions": 53,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "guiyong96": [
@@ -820,10 +856,28 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 26,
-        "deletions": 26,
+        "insertions": 89,
+        "deletions": 83,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 25,
+        "deletions": 33,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 43,
+        "deletions": 45,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "iashcole": [
@@ -1048,20 +1102,38 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kohjunkiat": 711,
-    "kennethcsj": 2754,
-    "guiyong96": 3547,
-    "iashcole": 274
+    "kohjunkiat": 920,
+    "kennethcsj": 2918,
+    "guiyong96": 3492,
+    "iashcole": 269
   },
   "authorContributionVariance": {
-    "kohjunkiat": 40274.703,
-    "kennethcsj": 323691.5,
-    "guiyong96": 557912.75,
-    "iashcole": 5855.598
+    "kohjunkiat": 38176.26,
+    "kennethcsj": 299518.75,
+    "guiyong96": 517909.94,
+    "iashcole": 5451.4224
   },
   "authorDisplayNameMap": {
     "kohjunkiat": "KOH...IAT",

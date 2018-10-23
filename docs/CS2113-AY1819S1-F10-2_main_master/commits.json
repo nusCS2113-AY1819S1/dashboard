@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 298,
-        "deletions": 109,
+        "insertions": 313,
+        "deletions": 123,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -376,6 +376,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "ongjiajian": [
@@ -600,6 +606,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "NichPang1": [
@@ -824,6 +836,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "C-E-OOI": [
@@ -1048,20 +1066,26 @@
         "deletions": 109,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 15,
+        "deletions": 14,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ]
   },
   "authorFinalContributionMap": {
     "keithtqs": 0,
     "ongjiajian": 0,
-    "NichPang1": 399,
-    "C-E-OOI": 418
+    "NichPang1": 394,
+    "C-E-OOI": 424
   },
   "authorContributionVariance": {
     "keithtqs": 0.0,
     "ongjiajian": 0.0,
-    "NichPang1": 7709.7515,
-    "C-E-OOI": 4848.387
+    "NichPang1": 7538.397,
+    "C-E-OOI": 4725.7236
   },
   "authorDisplayNameMap": {
     "keithtqs": "TAN...ITH",

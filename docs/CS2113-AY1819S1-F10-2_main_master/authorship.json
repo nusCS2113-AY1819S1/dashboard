@@ -33,16 +33,16 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "C-E-OOI"
         },
-        "content": "https://travis-ci.com/CS2113-AY1819-F10-2/addressbook-level3[image:https://travis-ci.com/CS2113-AY1819-F10-2/addressbook-level3.svg?branch\u003dmaster[Build Status]]"
+        "content": "https://travis-ci.com/CS2113-AY1819S1-F10-2/main[image:https://travis-ci.com/CS2113-AY1819S1-F10-2/main.svg?branch\u003dmaster[Build Status]]"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "https://www.codacy.com/app/se-edu/addressbook-level3?utm_source\u003dgithub.com\u0026utm_medium\u003dreferral\u0026utm_content\u003dse-edu/addressbook-level3\u0026utm_campaign\u003dBadge_Grade[image:https://api.codacy.com/project/badge/Grade/d4a0954383444a8db8cb26e5f5b7302c[Codacy Badge]]"
+        "content": "https://www.codacy.com/app/C-E-OOI/main?utm_source\u003dgithub.com\u0026amp;utm_medium\u003dreferral\u0026amp;utm_content\u003dCS2113-AY1819S1-F10-2/main\u0026amp;utm_campaign\u003dBadge_Grade[image:https://api.codacy.com/project/badge/Grade/88e1de3c8a33415eb7acb3963e14f733[Codacy Badge]]"
       },
       {
         "lineNumber": 7,
@@ -222,9 +222,9 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "C-E-OOI"
         },
-        "content": "Nicholas Pang Wey Shern"
+        "content": "Nicholas Pang Wey Shern +"
       },
       {
         "lineNumber": 33,
@@ -257,9 +257,9 @@
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "C-E-OOI"
         },
-        "content": "Ong Jia Jian"
+        "content": "Ong Jia Jian +"
       },
       {
         "lineNumber": 38,
@@ -292,9 +292,9 @@
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "C-E-OOI"
         },
-        "content": "Ooi Xi Yi"
+        "content": "Ooi Xi Yi +"
       },
       {
         "lineNumber": 43,
@@ -327,9 +327,9 @@
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "C-E-OOI"
         },
-        "content": "Keith Tan Qisheng"
+        "content": "Keith Tan Qisheng +"
       },
       {
         "lineNumber": 48,
@@ -389,8 +389,9 @@
       }
     ],
     "authorContributionMap": {
-      "NichPang1": 20,
-      "-": 35
+      "NichPang1": 15,
+      "-": 34,
+      "C-E-OOI": 6
     }
   },
   {
@@ -1052,103 +1053,103 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d 4.2 Login System"
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "Securely logs user on to Health Booklet"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "C-E-OOI"
-        },
-        "content": "\u003d\u003d\u003d 4.3 Scheduling"
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "C-E-OOI"
-        },
-        "content": "Scheduling allows appointment to be stored in Health Booklet."
-      },
-      {
-        "lineNumber": 98,
-        "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d 4.2.1 Current Implementation"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Login is implemented before the main GUI launches. Upon the launch of Health Booklet, Health Booklet prompts for two input from the User, username and password. Health Booklet then compares the given pair of inputs with loginstorage.txt."
+      },
+      {
         "lineNumber": 99,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d 4.3.1 Current Implementation"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": "The schedule feature currently accepts dates from the users as an input category under the add command. Input must be in the format DD-MM-YYYY for it to be accepted as a proper schedule input. For each person added, multiple schedule dates can be added and it is also not a compulsory field to fill."
+        "content": "loginstorage.txt stores the username of all users and the hashes of their passwords. Health Booklet iterates through loginstorage.txt to find the matching username, and the corresponding hashed password. The password entered is hashed using Java’s SHA-512 hashing algorithm. The result is then matched with the hash stored in loginstorage.txt, if both matches then login is successful and user is allowed into Health Booklet. If they do not match, then the program is terminated."
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": "This is achieved by setting up a schedule class which sets a regular expression (regex) that only accept valid dates in the DD-MM-YYYY format. Non-existent dates such as 30-02-2019 or 28-28-2019 would not be accepted."
+        "content": "\u003d\u003d\u003d\u003d 4.2.2 Reason for this implementation"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "There is no need to open the GUI, if User fails to log in, thus login is implemented before the GUI launches."
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": "Subsequently, a hashset of schedule act as an attribute for person class. Everytime the add command is used to add a valid person, a person object is created with the set of schedule as part of the attribute of the person. As such, there can be multiple appointment dates added together with the person. The schedule is identified using the ‘d/’ mark."
+        "content": "To ensure a secure Health Booklet, user login profiles must be stored securely. Storing the hash result instead of the password ensures that should loginstorage.txt be compromised, the actual passwords are still unknown to the perpetrators."
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d 4.3.2 Reason for Implementation"
+        "content": "\u003d\u003d\u003d\u003d 4.2.3 Alternative consideration"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": "Due to the large number of patients the doctors care for, it is at times hard to keep track of the numerous appointments made by their patients. As such, a scheduling feature would record the appointment date so that they can keep track of the numerous appointments they have for the day."
+        "content": "Java Authentication and Authorisation System (JAAS) was also considered when deciding on how to implement Health Booklet’s login system. However, using JAAS is more restrictive than the current implementation which allows for easy change in hashing algorithms used and different security features in the future. JAAS is also harder to implement and as Health Booklet is currently targeted at about 1000 users, there is no need to use JAAS."
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -1157,42 +1158,42 @@
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": "\u003d\u003d\u003d\u003d 4.3.3 Future/Alternative Implementation"
+        "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": "In future versions, the following details would be slowly incremented to ensure a smooth user experience while using the scheduling feature of Health Booklet."
+        "content": "\u003d\u003d\u003d 4.3 Scheduling"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": ".Edit the appointment dates only."
+        "content": "Scheduling allows appointment to be stored in Health Booklet. The Health Booklet recognise a schedule date with the tag \u0027d/\u0027."
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": ".A command to view all or list the appointments in a chronological order following the reference date."
+        "content": ""
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": ".A doctor can view their respective patients appointment"
+        "content": "\u003d\u003d\u003d\u003d 4.3.1 Current Implementation"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": ""
+        "content": "The schedule feature currently accepts dates from the users as an input category under the add command. Input must be in the format DD-MM-YYYY for it to be accepted as a proper schedule date input. For each person added, multiple schedule dates can be added and it is also not a compulsory field to fill."
       },
       {
         "lineNumber": 115,
@@ -1206,196 +1207,196 @@
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": "\u003d\u003d 5.Testing"
+        "content": "This is achieved by setting up a schedule class which sets a regular expression (regex) that only accept valid dates in the DD-MM-YYYY format. Non-existent dates such as 30-02-2019 or 28-28-2019 would not be accepted."
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": "Testing the Health Booklet is important as it verifies that the Health Booklet is functioning and up-to-date. This can be done so by going into IntelliJ, right-click on the test folder and choose Run \u0027All Tests\u0027."
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": ""
+        "content": "Subsequently, a hashset of schedule act as an attribute for person class. Every time the add command is used to add a valid person, a person object is created with the set of schedule as part of the attribute of the person. As such, there can be multiple appointment dates added together with the person. The schedule is identified using the ‘d/’ mark."
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
         "content": ""
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "[appendix]"
+        "content": "\u003d\u003d\u003d\u003d 4.3.2 Reason for Implementation"
       },
       {
         "lineNumber": 121,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "\u003d\u003d User Stories"
+        "content": "Due to the large number of patients the doctors care for, it is at times hard to keep track of the numerous appointments made by their patients. As such, a scheduling feature would record the appointment date so that they can keep track of the numerous appointments they have for the day."
       },
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
         "content": ""
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "Priorities: High (must have) - `* * \\*`, Medium (nice to have) - `* \\*`, Low (unlikely to have) - `*`"
+        "content": "\u003d\u003d\u003d\u003d 4.3.3 Future/Alternative Implementation"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": ""
+        "content": "In future versions, the following details would be slowly incremented to ensure a smooth user experience while using the scheduling feature of Health Booklet."
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "[width\u003d\"100%\",cols\u003d\"22%,\u003c23%,\u003c25%,\u003c30%\",options\u003d\"header\",]"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": ". Edit the appointment dates only."
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "|Priority |As a ... |I want to ... |So that I can..."
+        "content": ". A command to view all or list the appointments in a chronological order following the reference date."
       },
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "|`* * *` |new user |see usage instructions |refer to instructions when I forget how to use the App"
+        "content": ". A doctor can view their respective patients appointment"
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "|`* * *` |user |add a new person |"
+        "content": ""
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": "|`* * *` |user |delete a person |remove entries that I no longer need"
+        "content": "\u003d\u003d\u003d\u003d 4.4 Instant Messaging"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
-        "content": "|`* * *` |user |find a person by name |locate details of persons without having to go through the entire list"
+        "content": "Once fully implemented, users will be able to chat over the internet using a separate chat client."
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "-"
         },
-        "content": "|`* * *` |user |undo/redo changes made |revert changes that are unwanted"
+        "content": ""
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": "|`* *` |user |hide \u003c\u003cprivate-contact-detail, private contact details\u003e\u003e by default |minimize chance of someone else seeing them by accident"
+        "content": "Instant messaging is implemented using a Swing-based client for the chat server."
       },
       {
         "lineNumber": 134,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "-"
         },
-        "content": "|`*` |user with many persons in the Health Booklet |sort persons by name |locate a person easily"
+        "content": "Graphically it is a frame with a text field for entering messages and a text area to see the whole dialog."
       },
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "-"
         },
-        "content": "|`*` |user |see history of commands made |identify changes that were made to the Health Booklet"
+        "content": "The client follows the Chat Protocol which is as follows."
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "When the server sends \"SUBMITNAME\" the client replies with the desired screen name.  The server will keep sending \"SUBMITNAME\" requests as long as the client submits screen names that are already in use."
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": "When the server sends a line beginning with \"NAMEACCEPTED\" the client is now allowed to startsending the server arbitrary strings to be broadcast to all chatters connected to the server."
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Use Cases"
+        "content": "When the server sends a line beginning with \"MESSAGE \" then all characters following this string should be displayed in its message area."
       },
       {
         "lineNumber": 140,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
         "content": ""
       },
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "C-E-OOI"
         },
-        "content": "(For all use cases below, the *System* is the `Health Booklet` and the *Actor* is the `user`, unless specified otherwise)"
+        "content": "\u003d\u003d 5.Testing"
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": ""
+        "content": "Testing the Health Booklet is important as it verifies that the Health Booklet is functioning and up-to-date. This can be done so by going into IntelliJ, right-click on the test folder and choose Run \u0027All Tests\u0027."
       },
       {
         "lineNumber": 143,
         "author": {
-          "gitId": "-"
+          "gitId": "C-E-OOI"
         },
-        "content": "\u003d\u003d\u003d Use case: Login"
+        "content": ""
       },
       {
         "lineNumber": 144,
@@ -1409,133 +1410,133 @@
         "author": {
           "gitId": "-"
         },
-        "content": "*MSS*"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d User Stories"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
-        "content": ". User opens up Health Booklet"
+        "content": ""
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "-"
         },
-        "content": ". Health Booklet prompts for Username and Password"
+        "content": "Priorities: High (must have) - `* * \\*`, Medium (nice to have) - `* \\*`, Low (unlikely to have) - `*`"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "-"
         },
-        "content": ". User keys in Username and Password"
+        "content": ""
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
-        "content": ". On successful login, program continues. On failed login, program exits"
+        "content": "[width\u003d\"100%\",cols\u003d\"22%,\u003c23%,\u003c25%,\u003c30%\",options\u003d\"header\",]"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "-"
         },
-        "content": "Use case ends."
+        "content": "|Priority |As a ... |I want to ... |So that I can..."
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|`* * *` |new user |see usage instructions |refer to instructions when I forget how to use the App"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Delete person"
+        "content": "|`* * *` |user |my account to only be accessed by me |ensure my information and schedule is only edited by myself"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|`* * *` |user |To be able to update or recover my password |Access my account even if I forgot my password and keep my credentials secure"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "-"
         },
-        "content": "*MSS*"
+        "content": "|`* * *` |user |add a new person |"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|`* * *` |user |delete a person |remove entries that I no longer need"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": ". User requests to list persons"
+        "content": "|`* * *` |user |find a person by name |locate details of persons without having to go through the entire list"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "NichPang1"
         },
-        "content": ". Health Booklet shows a list of persons"
+        "content": "|`* * *` |user |undo/redo changes made |revert changes that are unwanted"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": ". User requests to delete a specific person in the list"
+        "content": "|`* *` |user |hide \u003c\u003cprivate-contact-detail, private contact details\u003e\u003e by default |minimize chance of someone else seeing them by accident"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "NichPang1"
         },
-        "content": ". Health Booklet deletes the person."
+        "content": "|`*` |user with many persons in the Health Booklet |sort persons by name |locate a person easily"
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "-"
+          "gitId": "NichPang1"
         },
-        "content": "+"
+        "content": "|`*` |user |see history of commands made |identify changes that were made to the Health Booklet"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": "Use case ends."
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 164,
@@ -1549,185 +1550,584 @@
         "author": {
           "gitId": "-"
         },
-        "content": "*Extensions*"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d Use Cases"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": "* 2a. The list is empty."
+        "content": ""
       },
       {
         "lineNumber": 168,
         "author": {
-          "gitId": "-"
+          "gitId": "NichPang1"
         },
-        "content": "+"
+        "content": "(For all use cases below, the *System* is the `Health Booklet` and the *Actor* is the `user`, unless specified otherwise)"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": "Use case ends."
+        "content": ""
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Use case: UC01 - Login"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
-        "content": "* 3a. The given index is invalid."
+        "content": ""
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "NichPang1"
+          "gitId": "-"
         },
-        "content": "** 3a1. Health Booklet shows an error message."
+        "content": "*MSS*"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": ""
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": "Use case resumes at step 2."
+        "content": ". User opens up Health Booklet"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Health Booklet prompts for user to enter Username and Password"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": ". User keys in Username and Password"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Non Functional Requirements"
+        "content": ". Login is successful, program continues."
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Use case ends."
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "-"
         },
-        "content": ". Should work on any \u003c\u003cmainstream-os, mainstream OS\u003e\u003e as long as it has Java 9 or higher installed."
+        "content": ""
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "-"
         },
-        "content": ". Should be able to hold up to 1000 persons."
+        "content": "*Extensions*"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
-        "content": ". Should come with automated unit tests and open source code."
+        "content": ""
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "-"
         },
-        "content": ". Should favor DOS style commands over Unix-style commands."
+        "content": "* 3a. Given set of Username and Password do not match any records"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "** 3a1 Health Booklet requests for Username and Password again"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": "** 3a2 User keys in Username and Password"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Glossary"
+        "content": "** 3a3 Correct Username and Password is entered, use case resumes from step 4"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "** Steps 3a1 - 3a2 are repeated for a maximum of two times or until a matching set of Username and Password is entered"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": "[[mainstream-os]] Mainstream OS::"
+        "content": "** If Username and Password still incorrect, program terminates"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "Windows, Linux, Unix, OS-X"
+        "content": "+"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Use case ends."
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": "[[private-contact-detail]] Private contact detail::"
+        "content": ""
       },
       {
         "lineNumber": 191,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Use case: UC02 - Determine Access Level"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "*MSS*"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". User logs in to Health Booklet (UC01)"
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Health Booklet will look up the corresponding access level of User"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Based on the designated access level of the User, various viewing and editing rights will be handed to User"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Use case ends."
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Use case: UC03 - Information Confidentiality"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "*MSS*"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". User logs in to Health Booklet (UC01)"
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Health Booklet determines access level of User (UC02)"
+      },
+      {
+        "lineNumber": 207,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Health Booklet will display information that User has access to and hide information that is beyond User’s access level"
+      },
+      {
+        "lineNumber": 208,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Use case ends."
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Use case: Delete person"
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "*MSS*"
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 215,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". User requests to list persons"
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "NichPang1"
+        },
+        "content": ". Health Booklet shows a list of persons"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". User requests to delete a specific person in the list"
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "NichPang1"
+        },
+        "content": ". Health Booklet deletes the person."
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Use case ends."
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "*Extensions*"
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* 2a. The list is empty."
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Use case ends."
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* 3a. The given index is invalid."
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "NichPang1"
+        },
+        "content": "** 3a1. Health Booklet shows an error message."
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Use case resumes at step 2."
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[appendix]"
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Non Functional Requirements"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Should work on any \u003c\u003cmainstream-os, mainstream OS\u003e\u003e as long as it has Java 9 or higher installed."
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Should be able to hold up to 1000 persons."
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Should come with automated unit tests and open source code."
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Should favor DOS style commands over Unix-style commands."
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[appendix]"
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Glossary"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[[mainstream-os]] Mainstream OS::"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Windows, Linux, Unix, OS-X"
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[[private-contact-detail]] Private contact detail::"
+      },
+      {
+        "lineNumber": 248,
         "author": {
           "gitId": "-"
         },
@@ -1736,8 +2136,8 @@
     ],
     "authorContributionMap": {
       "NichPang1": 51,
-      "-": 101,
-      "C-E-OOI": 39
+      "-": 157,
+      "C-E-OOI": 40
     }
   },
   {
@@ -1853,7 +2253,7 @@
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": "This user guide provides an overview for hospital staff on the usage of Health Booklet once Health Booklet is set up."
+        "content": "This user guide provides an overview for healthcare professionals on the usage of Health Booklet once Health Booklet is set up."
       },
       {
         "lineNumber": 17,
@@ -1928,9 +2328,9 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "C-E-OOI"
+          "gitId": "-"
         },
-        "content": ". Upon successful login, `Welcome to Health Booklet` will appear, program will exit upon login failure"
+        "content": ". Upon successful login, `Welcome to Health Booklet` will appear, program will exit upon login failure, i.e. 3 incorrect username/password tries"
       },
       {
         "lineNumber": 28,
@@ -2126,7 +2526,7 @@
         "author": {
           "gitId": "C-E-OOI"
         },
-        "content": "Persons can have any number of schedule and tags (including 0)"
+        "content": "Persons can have any number of schedule dates and tags (including 0)"
       },
       {
         "lineNumber": 56,
@@ -3387,12 +3787,68 @@
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d 6 Troubleshooting/FAQ"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[width\u003d\"100%\",cols\u003d\"32%,\u003c33%,\u003c35%\",options\u003d\"header\",]"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|Error Message |Probable Reason |Remedy"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|At Login: Maximum login attempts attempted. Please try again later |You have attempted to login unsuccessfully in successive tries |Please wait for 5 mins before trying again. If urgent access is needed, please contact the system administrator for your hospital"
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
       }
     ],
     "authorContributionMap": {
       "NichPang1": 4,
-      "-": 122,
-      "C-E-OOI": 109
+      "-": 131,
+      "C-E-OOI": 108
     }
   },
   {

@@ -32,8 +32,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 320,
-        "deletions": 18,
+        "insertions": 333,
+        "deletions": 24,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 599,
+        "deletions": 281,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 325,
-        "deletions": 50,
+        "insertions": 365,
+        "deletions": 69,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -178,14 +178,14 @@
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 674,
-        "deletions": 123,
+        "insertions": 676,
+        "deletions": 124,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 362,
+        "deletions": 242,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -410,8 +410,8 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 177,
-        "deletions": 0,
+        "insertions": 190,
+        "deletions": 6,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
       }
@@ -628,14 +628,14 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 69,
+        "deletions": 147,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 530,
+        "deletions": 134,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
       }
@@ -1082,8 +1082,8 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 40,
+        "deletions": 19,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
       }
@@ -1294,38 +1294,38 @@
         "untilDate": "2018-10-16"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2,
+        "deletions": 1,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
+        "insertions": 1,
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 361,
+        "deletions": 242,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kangmingtay": 851,
-    "px1099": 995,
-    "AngWM": 20,
-    "kianhong95": 1561,
-    "SalsabilTasnia": 1126
+    "kangmingtay": 852,
+    "px1099": 1363,
+    "AngWM": 15,
+    "kianhong95": 1497,
+    "SalsabilTasnia": 1392
   },
   "authorContributionVariance": {
-    "kangmingtay": 9508.528,
-    "px1099": 36118.93,
+    "kangmingtay": 9670.936,
+    "px1099": 46513.96,
     "AngWM": 0.0,
-    "kianhong95": 26095.482,
-    "SalsabilTasnia": 91153.23
+    "kianhong95": 26000.756,
+    "SalsabilTasnia": 97097.086
   },
   "authorDisplayNameMap": {
     "kangmingtay": "TAY...ING",

@@ -32,8 +32,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 503,
-        "deletions": 379,
+        "insertions": 560,
+        "deletions": 465,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 976,
-        "deletions": 781,
+        "insertions": 1893,
+        "deletions": 935,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -184,8 +184,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 406,
-        "deletions": 9,
+        "insertions": 813,
+        "deletions": 66,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -414,6 +414,24 @@
         "deletions": 8,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 57,
+        "deletions": 86,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "m-aslam-mj2": [
@@ -638,6 +656,24 @@
         "deletions": 1,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "zhicaizack": [
@@ -862,6 +898,24 @@
         "deletions": 23,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "jomcruz93": [
@@ -1086,6 +1140,24 @@
         "deletions": 1,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 278,
+        "deletions": 73,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 639,
+        "deletions": 81,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "harriuscai": [
@@ -1310,22 +1382,40 @@
         "deletions": 1,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 162,
+        "deletions": 1,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 245,
+        "deletions": 56,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "tristyxxnana": 1496,
-    "m-aslam-mj2": 1725,
+    "tristyxxnana": 1469,
+    "m-aslam-mj2": 1721,
     "zhicaizack": 1277,
-    "jomcruz93": 968,
-    "harriuscai": 1157
+    "jomcruz93": 1731,
+    "harriuscai": 1507
   },
   "authorContributionVariance": {
-    "tristyxxnana": 94558.24,
-    "m-aslam-mj2": 5087540.0,
-    "zhicaizack": 20900.549,
-    "jomcruz93": 92060.46,
-    "harriuscai": 9121.938
+    "tristyxxnana": 88762.73,
+    "m-aslam-mj2": 4719012.0,
+    "zhicaizack": 19560.121,
+    "jomcruz93": 96642.195,
+    "harriuscai": 10365.045
   },
   "authorDisplayNameMap": {
     "tristyxxnana": "NUR...LAN",

@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 1125,
-        "deletions": 43,
+        "insertions": 1517,
+        "deletions": 590,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -376,6 +376,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "darylnigel": [
@@ -600,6 +618,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "AllenZB": [
@@ -824,6 +860,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ],
     "Za-yn": [
@@ -1048,6 +1102,24 @@
         "deletions": 43,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 392,
+        "deletions": 547,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
       }
     ]
   },
@@ -1055,13 +1127,13 @@
     "Hyukiejun": 269,
     "darylnigel": 0,
     "AllenZB": 109,
-    "Za-yn": 1775
+    "Za-yn": 1625
   },
   "authorContributionVariance": {
-    "Hyukiejun": 655756.75,
+    "Hyukiejun": 609370.6,
     "darylnigel": 0.0,
-    "AllenZB": 155.37912,
-    "Za-yn": 39464.59
+    "AllenZB": 144.4194,
+    "Za-yn": 55630.28
   },
   "authorDisplayNameMap": {
     "Hyukiejun": "PAR...YUK",

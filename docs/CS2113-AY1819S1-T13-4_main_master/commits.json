@@ -26,14 +26,14 @@
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 259,
-        "deletions": 63,
+        "insertions": 587,
+        "deletions": 132,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 159,
+        "deletions": 4,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 1115,
-        "deletions": 144,
+        "insertions": 1253,
+        "deletions": 206,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -368,13 +368,13 @@
         "untilDate": "2018-10-11"
       },
       {
-        "insertions": 37,
-        "deletions": 31,
+        "insertions": 350,
+        "deletions": 94,
         "sinceDate": "2018-10-11",
         "untilDate": "2018-10-12"
       },
       {
-        "insertions": 0,
+        "insertions": 4,
         "deletions": 0,
         "sinceDate": "2018-10-12",
         "untilDate": "2018-10-13"
@@ -386,8 +386,8 @@
         "untilDate": "2018-10-14"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 11,
+        "deletions": 6,
         "sinceDate": "2018-10-14",
         "untilDate": "2018-10-15"
       },
@@ -410,10 +410,22 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
+        "insertions": 153,
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 6,
+        "deletions": 4,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "clara1234566": [
@@ -634,10 +646,22 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 142,
-        "deletions": 108,
+        "insertions": 280,
+        "deletions": 170,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "novin997": [
@@ -862,6 +886,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "Tsuweiquan": [
@@ -1086,6 +1122,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "rajdeepsh": [
@@ -1310,22 +1358,34 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "E0176882": 624,
-    "clara1234566": 1570,
+    "E0176882": 1044,
+    "clara1234566": 1663,
     "novin997": 0,
-    "Tsuweiquan": 2099,
-    "rajdeepsh": 4607
+    "Tsuweiquan": 2056,
+    "rajdeepsh": 4553
   },
   "authorContributionVariance": {
-    "E0176882": 4220.492,
-    "clara1234566": 37077.17,
+    "E0176882": 8749.204,
+    "clara1234566": 38288.46,
     "novin997": 0.0,
-    "Tsuweiquan": 88563.81,
-    "rajdeepsh": 256814.14
+    "Tsuweiquan": 84707.63,
+    "rajdeepsh": 246925.52
   },
   "authorDisplayNameMap": {
     "E0176882": "TAN...OEL",

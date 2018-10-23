@@ -14,8 +14,8 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 38,
+        "deletions": 3,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
       },
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 8951,
+        "insertions": 22,
+        "deletions": 8765,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -90,8 +90,8 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 45,
+        "deletions": 36,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
       },
@@ -128,8 +128,8 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 82,
+        "deletions": 8,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
       },
@@ -240,13 +240,13 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 3,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-09-27"
       },
       {
-        "insertions": 0,
+        "insertions": 35,
         "deletions": 0,
         "sinceDate": "2018-09-27",
         "untilDate": "2018-09-28"
@@ -370,6 +370,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "chelseyong": [
@@ -585,9 +603,27 @@
       },
       {
         "insertions": 0,
-        "deletions": 8951,
+        "deletions": 8749,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 22,
+        "deletions": 16,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "emobeany": [
@@ -676,8 +712,8 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 45,
+        "deletions": 36,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-09-27"
       },
@@ -806,6 +842,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "ChanChunCheong": [
@@ -900,8 +954,8 @@
         "untilDate": "2018-09-27"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 82,
+        "deletions": 8,
         "sinceDate": "2018-09-27",
         "untilDate": "2018-09-28"
       },
@@ -1024,20 +1078,38 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Jeremyinelysium": 243,
-    "chelseyong": 85,
-    "emobeany": 244,
-    "ChanChunCheong": 18
+    "Jeremyinelysium": 115,
+    "chelseyong": 335,
+    "emobeany": 285,
+    "ChanChunCheong": 154
   },
   "authorContributionVariance": {
-    "Jeremyinelysium": 0.0,
-    "chelseyong": 2159440.8,
-    "emobeany": 0.0,
-    "ChanChunCheong": 0.0
+    "Jeremyinelysium": 31.228159,
+    "chelseyong": 1908434.2,
+    "emobeany": 163.9171,
+    "ChanChunCheong": 202.367
   },
   "authorDisplayNameMap": {
     "Jeremyinelysium": "AW ...HEN",

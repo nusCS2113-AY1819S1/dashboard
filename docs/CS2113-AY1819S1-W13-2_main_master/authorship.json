@@ -2324,7 +2324,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "To do so we adhere to PADI\u0027s dive charts. These charts provide a lookup table for divers through which they can determine"
+        "content": "To do so we adhere to PADI\u0027s dive charts, available here https://elearning.padi.com/company0/tools/RDP_Table%20Met.pdf. These charts provide a lookup table for divers through which they can determine"
       },
       {
         "lineNumber": 333,
@@ -12349,65 +12349,65 @@
       {
         "lineNumber": 185,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "            return getDateStart() \u003d\u003d e.getDateStart()"
+        "content": "            return getDateStart().equals(e.getDateStart())"
       },
       {
         "lineNumber": 186,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getStart() \u003d\u003d e.getStart()"
+        "content": "                    \u0026\u0026 getStart().equals(e.getStart())"
       },
       {
         "lineNumber": 187,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getDateEnd() \u003d\u003d e.getDateEnd()"
+        "content": "                    \u0026\u0026 getDateEnd().equals(e.getDateEnd())"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getEnd() \u003d\u003d e.getEnd()"
+        "content": "                    \u0026\u0026 getEnd().equals(e.getEnd())"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getPressureGroupAtBeginning() \u003d\u003d e.getPressureGroupAtBeginning()"
+        "content": "                    \u0026\u0026 getPressureGroupAtBeginning().equals(e.getPressureGroupAtBeginning())"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getPressureGroupAtEnd() \u003d\u003d e.getPressureGroupAtEnd()"
+        "content": "                    \u0026\u0026 getPressureGroupAtEnd().equals(e.getPressureGroupAtEnd())"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getLocation() \u003d\u003d e.getLocation()"
+        "content": "                    \u0026\u0026 getLocation().equals(e.getLocation())"
       },
       {
         "lineNumber": 192,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getDepthProfile() \u003d\u003d e.getDepthProfile()"
+        "content": "                    \u0026\u0026 getDepthProfile().equals(e.getDepthProfile())"
       },
       {
         "lineNumber": 193,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getTimeZone() \u003d\u003d e.getTimeZone();"
+        "content": "                    \u0026\u0026 getTimeZone().equals(e.getTimeZone());"
       },
       {
         "lineNumber": 194,
@@ -12992,8 +12992,8 @@
       }
     ],
     "authorContributionMap": {
-      "cjunxiang": 46,
-      "-": 230
+      "cjunxiang": 41,
+      "-": 235
     }
   },
   {
@@ -16475,24 +16475,178 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        DiveSession other \u003d (DiveSession) obj;"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "        return super.equals(obj);"
+        "content": "        return other.getLocation().equals(getLocation())"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "                \u0026\u0026 other.getDateStart().equals(getDateStart())"
       },
       {
         "lineNumber": 86,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getDateEnd().equals(getDateEnd())"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getStart().equals(getStart())"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getSafetyStop().equals(getSafetyStop())"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getPressureGroupAtBeginning().equals(getPressureGroupAtBeginning())"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getPressureGroupAtEnd().equals(getPressureGroupAtEnd())"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getEnd().equals(getEnd())"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getDepthProfile().equals(getDepthProfile())"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 other.getTimeZone().equals(getTimeZone());"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public String toString() {"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        StringBuilder stringBuilder \u003d new StringBuilder();"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stringBuilder.append(\"Dive Location: \" + getLocation().getLocationName() + \"\\n\");"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stringBuilder.append(\"\\tStart: \" + getDateStart().getOurDateString() + \" \" + getStart().getTimeString() + \"\\n\");"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stringBuilder.append(\"\\tEnd: \" + getDateEnd().getOurDateString() + \" \" + getEnd().getTimeString() + \"\\n\");"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stringBuilder.append(\"\\tPressureGroup: \" + getPressureGroupAtBeginning().getPressureGroup() + \"-\u003e\""
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                + getPressureGroupAtEnd().getPressureGroup() + \"\\n\");"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stringBuilder.append(\"\\tDepth: \" + getDepthProfile().getDepth() + \"\\n\");"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stringBuilder.append(\"\\tTime Zone:\" + getTimeZone().getTimeZoneString());"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return stringBuilder.toString();"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
@@ -16500,8 +16654,8 @@
       }
     ],
     "authorContributionMap": {
-      "cjunxiang": 27,
-      "-": 59
+      "cjunxiang": 26,
+      "-": 82
     }
   },
   {
@@ -16633,19 +16787,75 @@
       {
         "lineNumber": 19,
         "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public boolean equals(Object obj) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!(obj instanceof OurDate)) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return ((OurDate) obj).getOurDateString().equals(value);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
           "gitId": "cjunxiang"
         },
         "content": "}"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 28,
         "author": {
           "gitId": "cjunxiang"
         },
         "content": ""
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 29,
         "author": {
           "gitId": "cjunxiang"
         },
@@ -16654,7 +16864,8 @@
     ],
     "authorContributionMap": {
       "null": 1,
-      "cjunxiang": 20
+      "cjunxiang": 20,
+      "-": 8
     }
   },
   {
@@ -17321,6 +17532,62 @@
       {
         "lineNumber": 25,
         "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public boolean equals(Object obj) {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!(obj instanceof TimeZone)) {"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return ((TimeZone) obj).timeZoneDifference \u003d\u003d timeZoneDifference;"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
           "gitId": "cjunxiang"
         },
         "content": "}"
@@ -17329,7 +17596,7 @@
     "authorContributionMap": {
       "null": 1,
       "cjunxiang": 20,
-      "-": 4
+      "-": 12
     }
   },
   {
@@ -17452,780 +17719,1151 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import seedu.divelog.model.dive.exceptions.InvalidTimeException;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "arjo129"
+          "gitId": "-"
         },
-        "content": "//@@author arjo129"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "/**"
+        "content": "//@@author arjo129"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "arjo129"
         },
-        "content": " * This class loads dive tables"
+        "content": "/**"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "arjo129"
         },
-        "content": " */"
+        "content": " * This class loads dive tables"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "public class PadiDiveTable {"
+        "content": " */"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "public class PadiDiveTable {"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private static final Logger logger \u003d LogsCenter.getLogger(PadiDiveTable.class);"
+        "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private static PadiDiveTable diveTable \u003d new PadiDiveTable();"
+        "content": "    private static final Logger logger \u003d LogsCenter.getLogger(PadiDiveTable.class);"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    private static final String TIME_VALIDATION_REGEX \u003d \"[0-9][0-9][:][0-9][0-9]\";"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private final DiveTableUtil surfaceTable;"
+        "content": "    private static PadiDiveTable diveTable \u003d new PadiDiveTable();"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private final DiveTableUtil depthToPressureGroup;"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private final DiveTableUtil diveTableUtil;"
+        "content": "    private final DiveTableUtil surfaceTable;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    private final DiveTableUtil depthToPressureGroup;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private PadiDiveTable() {"
+        "content": "    private final DiveTableUtil diveTableUtil;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        this.surfaceTable \u003d new DiveTableUtil(\"divetables/surface_table.json\");"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        this.depthToPressureGroup \u003d new DiveTableUtil(\"divetables/Dive_table_1.json\");"
+        "content": "    private PadiDiveTable() {"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        this.diveTableUtil \u003d new DiveTableUtil(\"divetables/Dive_table_2.json\");"
+        "content": "        this.surfaceTable \u003d new DiveTableUtil(\"divetables/surface_table.json\");"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        logger.info(\"Successfully loaded dive tables\");"
+        "content": "        this.depthToPressureGroup \u003d new DiveTableUtil(\"divetables/Dive_table_1.json\");"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        this.diveTableUtil \u003d new DiveTableUtil(\"divetables/Dive_table_2.json\");"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "        logger.info(\"Successfully loaded dive tables\");"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public static PadiDiveTable getInstance() {"
+        "content": "    }"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return diveTable;"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "    public static PadiDiveTable getInstance() {"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "        return diveTable;"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * Looks up surface interval table"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param pressureGroup1 - Pressure group along x axis"
+        "content": "    /**"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param pressureGroup2 - Pressure goup along y axis"
+        "content": "     * Looks up surface interval table"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @return returns a JSON Array with the surface intervals"
+        "content": "     * @param pressureGroup1 - Pressure group along x axis"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     */"
+        "content": "     * @param pressureGroup2 - Pressure group along y axis"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public JSONArray getSurfaceTable(PressureGroup pressureGroup1, PressureGroup pressureGroup2) {"
+        "content": "     * @return returns a JSON Array with the surface intervals"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        try {"
+        "content": "     */"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.info(\"Attempting to read json\");"
+        "content": "    public JSONArray getSurfaceTable(PressureGroup pressureGroup1, PressureGroup pressureGroup2) {"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            JSONObject table \u003d surfaceTable.readJsonFileFromResources();"
+        "content": "        try {"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.info(\"attempting to lookup data\");"
+        "content": "            logger.info(\"Attempting to read json\");"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            JSONObject column \u003d table.getJSONObject(pressureGroup1.getPressureGroup());"
+        "content": "            JSONObject table \u003d surfaceTable.readJsonFileFromResources();"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            return column.getJSONArray(pressureGroup2.getPressureGroup());"
+        "content": "            logger.info(\"attempting to lookup data\");"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        } catch (JSONException json) {"
+        "content": "            JSONObject column \u003d table.getJSONObject(pressureGroup1.getPressureGroup());"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.severe(\"Malformatted json\");"
+        "content": "            return column.getJSONArray(pressureGroup2.getPressureGroup());"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        } catch (IOException e) {"
+        "content": "        } catch (JSONException json) {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + e.getMessage());"
+        "content": "            logger.severe(\"Malformatted json\");"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "        } catch (IOException e) {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return null;"
+        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + e.getMessage());"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "        return null;"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * Looks up depth to PG"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param depth - The depth"
+        "content": "    /**"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param duration - minutes;"
+        "content": "     * Get data from the surface interval table"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     */"
+        "content": "     * @param startingPressureGroup - Initial pressure group"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public PressureGroup depthToPg(DepthProfile depth, int duration) {"
+        "content": "     * @param minutes - number of minutes"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        try {"
+        "content": "     * @return - Final pressure group"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.info(\"Attempting to read json\");"
+        "content": "     */"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            JSONObject table \u003d depthToPressureGroup.readJsonFileFromResources();"
+        "content": "    public PressureGroup fromSurfaceInterval(PressureGroup startingPressureGroup, float minutes) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.info(\"attempting to lookup data\");"
+        "content": "        try {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            String key \u003d findClosestKey(table, depth.getDepth());"
+        "content": "            JSONObject table \u003d surfaceTable.readJsonFileFromResources();"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            JSONObject column \u003d table.getJSONObject(key);"
+        "content": "            JSONObject column \u003d table.getJSONObject(startingPressureGroup.getPressureGroup());"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            key \u003d findClosestKey(column, duration);"
+        "content": "            Iterator\u003cString\u003e keys \u003d column.keys();"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            String pressureGroup \u003d column.getString(key);"
+        "content": "            while (keys.hasNext()) {"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            return new PressureGroup(pressureGroup);"
+        "content": "                String pressureGroup \u003d keys.next();"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        } catch (IOException io) {"
+        "content": "                JSONArray interval \u003d column.getJSONArray(pressureGroup);"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + io.getMessage());"
+        "content": "                try {"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        } catch (JSONException json) {"
+        "content": "                    String start \u003d interval.getString(0);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.severe(\"Failed to parse JSON\");"
+        "content": "                    String end \u003d interval.getString(1);"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "                    float minInterval \u003d timeToMinutes(start);"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "                    float maxInterval \u003d timeToMinutes(end);"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return null;"
+        "content": "                    if (minutes \u003e\u003d minInterval \u0026\u0026 minutes \u003c\u003d maxInterval) {"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "                        return new PressureGroup(pressureGroup);"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "                    }"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    /**"
+        "content": "                } catch (JSONException je) {"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * Reads the depth and pressure group and returns an array containing the minimum time"
+        "content": "                    logger.severe(\"Malformatted json: \" + je.getMessage());"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param depth - depth dove to"
+        "content": "                } catch (InvalidTimeException e) {"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param pressureGroup - pressure group at time"
+        "content": "                    logger.warning(\"Could not parse time\");"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @return an array containing"
+        "content": "                }"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     */"
+        "content": "            }"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public JSONArray depthToTimes(DepthProfile depth, PressureGroup pressureGroup) {"
+        "content": "        } catch (JSONException je) {"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        try {"
+        "content": "            logger.severe(\"Malformatted json: \" + je.getMessage());"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            JSONObject table \u003d diveTableUtil.readJsonFileFromResources();"
+        "content": "        } catch (IOException e) {"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            String key \u003d findClosestKey(table, depth.getDepth());"
+        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + e.getMessage());"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            JSONObject column \u003d table.getJSONObject(key);"
+        "content": "        }"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            return column.getJSONArray(pressureGroup.getPressureGroup());"
+        "content": "        return new PressureGroup(\"A\");"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        } catch (IOException io) {"
+        "content": "    }"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + io.getMessage());"
+        "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        } catch (JSONException json) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            logger.severe(\"Failed to parse JSON\");"
+        "content": "     * Converts a duration in HH:MM to minutes"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "     * @param time"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return null;"
+        "content": "     * @return"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "     * @throws InvalidTimeException"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    public float timeToMinutes(String time) throws InvalidTimeException {"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    /**"
+        "content": "        if (time.matches(TIME_VALIDATION_REGEX)) {"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * Looks for the nearest key"
+        "content": "            String[] minutes \u003d time.split(\":\");"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param object - JSON Object"
+        "content": "            return Integer.parseInt(minutes[0]) * 60 + Integer.parseInt(minutes[1]);"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @param key - The key that is nearest to that value."
+        "content": "        } else {"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     */"
+        "content": "            throw new InvalidTimeException();"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public static String findClosestKey(JSONObject object, float key) {"
+        "content": "        }"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        Iterator\u003cString\u003e keys \u003d object.keys();"
+        "content": "    }"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        ArrayList\u003cInteger\u003e integerKeys \u003d new ArrayList\u003cInteger\u003e();"
+        "content": "    /**"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        while (keys.hasNext()) {"
+        "content": "     * Looks up depth to PG"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            String curr \u003d keys.next();"
+        "content": "     * @param depth - The depth"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            integerKeys.add(Integer.parseInt(curr));"
+        "content": "     * @param duration - minutes;"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "     */"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        Collections.sort(integerKeys);"
+        "content": "    public PressureGroup depthToPg(DepthProfile depth, int duration) {"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        int i \u003d 0;"
+        "content": "        try {"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        while (key \u003e integerKeys.get(i)) {"
+        "content": "            logger.info(\"Attempting to read json\");"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            i++;"
+        "content": "            JSONObject table \u003d depthToPressureGroup.readJsonFileFromResources();"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "            logger.info(\"attempting to lookup data\");"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return integerKeys.get(i).toString();"
+        "content": "            String key \u003d findClosestKey(table, depth.getDepth());"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "            JSONObject column \u003d table.getJSONObject(key);"
       },
       {
         "lineNumber": 128,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            key \u003d findClosestKey(column, duration);"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            String pressureGroup \u003d column.getString(key);"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            return new PressureGroup(pressureGroup);"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        } catch (IOException io) {"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + io.getMessage());"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        } catch (JSONException json) {"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            logger.severe(\"Failed to parse JSON\");"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        return null;"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * Reads the depth and pressure group and returns an array containing the minimum time"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * @param depth - depth dove to"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * @param pressureGroup - pressure group at time"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * @return an array containing"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public JSONArray depthToTimes(DepthProfile depth, PressureGroup pressureGroup) {"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            JSONObject table \u003d diveTableUtil.readJsonFileFromResources();"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            String key \u003d findClosestKey(table, depth.getDepth());"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            JSONObject column \u003d table.getJSONObject(key);"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            return column.getJSONArray(pressureGroup.getPressureGroup());"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        } catch (IOException io) {"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            logger.severe(\"Failed to read dive tables due to an IOException\\n\\t\" + io.getMessage());"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        } catch (JSONException json) {"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            logger.severe(\"Failed to parse JSON\");"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        return null;"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * Looks for the nearest key"
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * @param object - JSON Object"
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     * @param key - The key that is nearest to that value."
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public static String findClosestKey(JSONObject object, float key) {"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        Iterator\u003cString\u003e keys \u003d object.keys();"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        ArrayList\u003cInteger\u003e integerKeys \u003d new ArrayList\u003cInteger\u003e();"
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        while (keys.hasNext()) {"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            String curr \u003d keys.next();"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            integerKeys.add(Integer.parseInt(curr));"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        Collections.sort(integerKeys);"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        int i \u003d 0;"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        while (key \u003e integerKeys.get(i)) {"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "            i++;"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        return integerKeys.get(i).toString();"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 181,
         "author": {
           "gitId": "arjo129"
         },
@@ -18233,8 +18871,8 @@
       }
     ],
     "authorContributionMap": {
-      "-": 17,
-      "arjo129": 111
+      "-": 18,
+      "arjo129": 163
     }
   },
   {
@@ -18639,7 +19277,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": " * JAXB-friendly version of the Person."
+        "content": " * JAXB-friendly version of the DiveSession."
       },
       {
         "lineNumber": 16,
@@ -19143,206 +19781,248 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    public DiveSession toModelType() {"
+        "content": "    public DiveSession toModelType() throws IllegalValueException {"
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "        return new DiveSession(new OurDate(dateStart), new Time(startTime), new Time(safetyStop),"
+        "content": "        if (!PressureGroup.isValid(pressureGroupAtBeginning)) {"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                new OurDate(dateEnd), new Time(endTime),"
+        "content": "            throw new IllegalValueException(\"Invalid pressure group!!\");"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": "                new PressureGroup(pressureGroupAtBeginning), new PressureGroup(pressureGroupAtEnd),"
+        "content": "        }"
       },
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                new Location(location), new DepthProfile(depthProfile), new TimeZone(timezone));"
+        "content": "        if (!PressureGroup.isValid(pressureGroupAtEnd)) {"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            throw new IllegalValueException(\"Invalid pressure group!!\");"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "-"
+          "gitId": "cjunxiang"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "        return new DiveSession(new OurDate(dateStart), new Time(startTime), new Time(safetyStop),"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "-"
+          "gitId": "cjunxiang"
         },
-        "content": "        if (other \u003d\u003d this) {"
+        "content": "                new OurDate(dateEnd), new Time(endTime),"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "            return true;"
+        "content": "                new PressureGroup(pressureGroupAtBeginning), new PressureGroup(pressureGroupAtEnd),"
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "-"
+          "gitId": "cjunxiang"
         },
-        "content": "        }"
+        "content": "                new Location(location), new DepthProfile(depthProfile), new TimeZone(timezone));"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!(other instanceof XmlAdaptedDiveSession)) {"
+        "content": ""
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": "            return false;"
+        "content": "    @Override"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": "        XmlAdaptedDiveSession x \u003d (XmlAdaptedDiveSession) other;"
+        "content": "            return true;"
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "        return dateStart.equals(x.dateStart)"
+        "content": "        }"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                \u0026\u0026 startTime.equals(x.startTime)"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "cjunxiang"
+          "gitId": "-"
         },
-        "content": "                \u0026\u0026 dateEnd.equals(x.dateEnd)"
+        "content": "        if (!(other instanceof XmlAdaptedDiveSession)) {"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 endTime.equals(x.endTime)"
+        "content": "            return false;"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 safetyStop.equals(x.safetyStop)"
+        "content": "        }"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 location.equals(x.location)"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 pressureGroupAtEnd.equals(x.pressureGroupAtEnd)"
+        "content": "        XmlAdaptedDiveSession x \u003d (XmlAdaptedDiveSession) other;"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "-"
+          "gitId": "cjunxiang"
         },
-        "content": "                \u0026\u0026 pressureGroupAtBeginning.equals(x.pressureGroupAtBeginning)"
+        "content": "        return dateStart.equals(x.dateStart)"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "cjunxiang"
         },
-        "content": "                \u0026\u0026 depthProfile \u003d\u003d x.depthProfile"
+        "content": "                \u0026\u0026 startTime.equals(x.startTime)"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "cjunxiang"
         },
-        "content": "                \u0026\u0026 timezone.equals(x.timezone);"
+        "content": "                \u0026\u0026 dateEnd.equals(x.dateEnd)"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "                \u0026\u0026 endTime.equals(x.endTime)"
       },
       {
         "lineNumber": 116,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 safetyStop.equals(x.safetyStop)"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 location.equals(x.location)"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 pressureGroupAtEnd.equals(x.pressureGroupAtEnd)"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 pressureGroupAtBeginning.equals(x.pressureGroupAtBeginning)"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 depthProfile \u003d\u003d x.depthProfile;"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
@@ -19350,8 +20030,8 @@
       }
     ],
     "authorContributionMap": {
-      "cjunxiang": 26,
-      "-": 90
+      "cjunxiang": 24,
+      "-": 98
     }
   },
   {
@@ -19453,325 +20133,332 @@
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private static final String FXML \u003d \"DiveListCards.fxml\";"
+        "content": "    public static final String DIVE_PREFIX \u003d \"Dive at \";"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    public static final String DEPTH_UNITS \u003d \"m\";"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    /**"
+        "content": "    private static final String FXML \u003d \"DiveListCards.fxml\";"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX."
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * As a consequence, UI elements\u0027 variable names cannot be set to such keywords"
+        "content": "    /**"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * or an exception will be thrown by JavaFX during runtime."
+        "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX."
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     *"
+        "content": "     * As a consequence, UI elements\u0027 variable names cannot be set to such keywords"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * @see \u003ca href\u003d\"https://github.com/se-edu/addressbook-level4/issues/336\"\u003eThe issue on DiveLog level 4\u003c/a\u003e"
+        "content": "     * or an exception will be thrown by JavaFX during runtime."
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "     * @see \u003ca href\u003d\"https://github.com/se-edu/addressbook-level4/issues/336\"\u003eThe issue on DiveLog level 4\u003c/a\u003e"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public final DiveSession dive;"
+        "content": "     */"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    public final DiveSession dive;"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @FXML"
+        "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private HBox cardPane;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @FXML"
+        "content": "    private HBox cardPane;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private Label name;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @FXML"
+        "content": "    private Label name;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private Label id;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @FXML"
+        "content": "    private Label id;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private Label depth;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    private Label depth;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public DiveSessionCard(DiveSession dive, int displayedIndex) {"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        super(FXML);"
+        "content": "    public DiveSessionCard(DiveSession dive, int displayedIndex) {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        this.dive \u003d dive;"
+        "content": "        super(FXML);"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        id.setText(displayedIndex + \". \");"
+        "content": "        this.dive \u003d dive;"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        name.setText(\"Dive at \" + dive.getLocation().getLocationName());"
+        "content": "        id.setText(displayedIndex + \". \");"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        depth.setText(dive.getDepthProfile().getDepth() + \"m\");"
+        "content": "        name.setText(DIVE_PREFIX + dive.getLocation().getLocationName());"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        depth.setText(dive.getDepthProfile().getDepth() + DEPTH_UNITS);"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        // short circuit if same object"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        if (other \u003d\u003d this) {"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            return true;"
+        "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "            return true;"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        // instanceof handles nulls"
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        if (!(other instanceof DiveSessionCard)) {"
+        "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "            return false;"
+        "content": "        if (!(other instanceof DiveSessionCard)) {"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        }"
+        "content": "            return false;"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        // state check"
+        "content": ""
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        DiveSessionCard card \u003d (DiveSessionCard) other;"
+        "content": "        // state check"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return id.getText().equals(card.id.getText())"
+        "content": "        DiveSessionCard card \u003d (DiveSessionCard) other;"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "                \u0026\u0026 dive.equals(card.dive);"
+        "content": "        return id.getText().equals(card.id.getText())"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "                \u0026\u0026 dive.equals(card.dive);"
       },
       {
         "lineNumber": 60,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 61,
         "author": {
           "gitId": "arjo129"
         },
@@ -19780,7 +20467,7 @@
     ],
     "authorContributionMap": {
       "-": 7,
-      "arjo129": 53
+      "arjo129": 54
     }
   },
   {
@@ -20393,264 +21080,271 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "arjo129"
+          "gitId": "-"
         },
-        "content": "//@@author arjo129"
+        "content": "import seedu.divelog.ui.DiveSessionCard;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "/**"
+        "content": "//@@author arjo129"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "arjo129"
         },
-        "content": " * Provides a handle to a dive card in the dive list panel."
+        "content": "/**"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "arjo129"
         },
-        "content": " */"
+        "content": " * Provides a handle to a dive card in the dive list panel."
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "public class DiveSessionCardHandle extends NodeHandle\u003cNode\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private static final String ID_FIELD_ID \u003d \"#id\";"
+        "content": "public class DiveSessionCardHandle extends NodeHandle\u003cNode\u003e {"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private static final String NAME_FIELD_ID \u003d \"#name\";"
+        "content": "    private static final String ID_FIELD_ID \u003d \"#id\";"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private static final String DEPTH_FIELD_ID \u003d \"#depth\";"
+        "content": "    private static final String NAME_FIELD_ID \u003d \"#name\";"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    private static final String DEPTH_FIELD_ID \u003d \"#depth\";"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private final Label idLabel;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private final Label nameLabel;"
+        "content": "    private final Label idLabel;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    private final Label depth;"
+        "content": "    private final Label nameLabel;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    private final Label depth;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public DiveSessionCardHandle(Node cardNode) {"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        super(cardNode);"
+        "content": "    public DiveSessionCardHandle(Node cardNode) {"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        idLabel \u003d getChildNode(ID_FIELD_ID);"
+        "content": "        super(cardNode);"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        nameLabel \u003d getChildNode(NAME_FIELD_ID);"
+        "content": "        idLabel \u003d getChildNode(ID_FIELD_ID);"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        depth \u003d getChildNode(DEPTH_FIELD_ID);"
+        "content": "        nameLabel \u003d getChildNode(NAME_FIELD_ID);"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        depth \u003d getChildNode(DEPTH_FIELD_ID);"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public String getId() {"
+        "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return idLabel.getText();"
+        "content": "    public String getId() {"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        return idLabel.getText();"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public String getName() {"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return nameLabel.getText();"
+        "content": "    public String getName() {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        return nameLabel.getText();"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public String getDepth() { return depth.getText(); }"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    public String getDepth() { return depth.getText(); }"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * Returns true if this handle contains {@code dive}."
+        "content": "    /**"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     * TODO: Check depth also!!"
+        "content": "     * Returns true if this handle contains {@code dive}."
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "     */"
+        "content": "     * TODO: Check depth also!!"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public boolean equals(DiveSession dive) {"
+        "content": "     */"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        return getName().equals(dive.getLocation().getLocationName());"
+        "content": "    public boolean equals(DiveSession dive) {"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "        return getName().equals(DiveSessionCard.DIVE_PREFIX + dive.getLocation().getLocationName());"
       },
       {
         "lineNumber": 43,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 44,
         "author": {
           "gitId": "arjo129"
         },
@@ -20658,7 +21352,7 @@
       }
     ],
     "authorContributionMap": {
-      "-": 5,
+      "-": 6,
       "arjo129": 38
     }
   },
@@ -21297,54 +21991,54 @@
         "author": {
           "gitId": "-"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Rule;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.divelog.model.dive.DepthProfile;"
+        "content": "import org.junit.rules.ExpectedException;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.divelog.model.dive.PressureGroup;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import seedu.divelog.model.dive.DepthProfile;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "arjo129"
+          "gitId": "-"
         },
-        "content": "//@@author arjo129"
+        "content": "import seedu.divelog.model.dive.PressureGroup;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "arjo129"
+          "gitId": "-"
         },
-        "content": "public class PadiDiveTableTest {"
+        "content": "import seedu.divelog.model.dive.exceptions.InvalidTimeException;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "arjo129"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -21353,119 +22047,119 @@
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @Test"
+        "content": "//@@author arjo129"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public void getSurfaceTable_canRead() throws JSONException {"
+        "content": "public class PadiDiveTableTest {"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        JSONArray arr \u003d padiDiveTable.getSurfaceTable(new PressureGroup(\"A\"), new PressureGroup(\"A\"));"
+        "content": "    @Rule"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        assertEquals(arr.get(0).toString(),\"00:00\");"
+        "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        assertEquals(arr.get(1).toString(),\"03:00\");"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    public void getSurfaceTable_canRead() throws JSONException {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @Test"
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public void depthToPressuregroup_canRead() {"
+        "content": "        JSONArray arr \u003d padiDiveTable.getSurfaceTable(new PressureGroup(\"A\"), new PressureGroup(\"A\"));"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+        "content": "        assertEquals(arr.get(0).toString(),\"00:00\");"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        PressureGroup pg \u003d padiDiveTable.depthToPg(new DepthProfile(10), 122);"
+        "content": "        assertEquals(arr.get(1).toString(),\"03:00\");"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        assertEquals(pg.getPressureGroup(),\"T\");"
+        "content": "    }"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "arjo129"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    @Test"
+        "content": "    public void getSurfaceTable_canCalculateDivePressure() {"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    public void depthToTimes_canRead() throws JSONException {"
+        "content": "        PressureGroup pressureGroup \u003d new PressureGroup(\"c\");"
       },
       {
         "lineNumber": 32,
@@ -21479,31 +22173,409 @@
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        JSONArray arr \u003d padiDiveTable.depthToTimes(new DepthProfile(10), new PressureGroup(\"A\"));"
+        "content": "        assertEquals(padiDiveTable.fromSurfaceInterval(pressureGroup, 22.0f), new PressureGroup(\"b\"));"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        assertEquals(arr.getInt(0), 10);"
+        "content": "    }"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "        assertEquals(arr.getInt(1),209);"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "arjo129"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 37,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void depthToPressuregroup_canRead() {"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PressureGroup pg \u003d padiDiveTable.depthToPg(new DepthProfile(10), 122);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        assertEquals(pg.getPressureGroup(),\"T\");"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void depthToTimes_canRead() throws JSONException {"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        JSONArray arr \u003d padiDiveTable.depthToTimes(new DepthProfile(10), new PressureGroup(\"A\"));"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        assertEquals(arr.getInt(0), 10);"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        assertEquals(arr.getInt(1),209);"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void timeToMinutes_emptyStringThrowsException () throws InvalidTimeException {"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        thrown.expect(InvalidTimeException.class);"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        padiDiveTable.timeToMinutes(\"\");"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void timeToMinutes_tooManyDigitsThrowsException () throws InvalidTimeException {"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        thrown.expect(InvalidTimeException.class);"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        padiDiveTable.timeToMinutes(\"000:09\");"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void timeToMinutes_tooManyMinutesThrowsException () throws InvalidTimeException {"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        thrown.expect(InvalidTimeException.class);"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        padiDiveTable.timeToMinutes(\"00:090\");"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void timeToMinutes_tooManyColonsThrowsException () throws InvalidTimeException {"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        thrown.expect(InvalidTimeException.class);"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        padiDiveTable.timeToMinutes(\"00:00:00\");"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void timeToMinutes_lettersThrowsException () throws InvalidTimeException {"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        thrown.expect(InvalidTimeException.class);"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        padiDiveTable.timeToMinutes(\"AA:00\");"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    public void timeToMinutes_correctConversion() throws InvalidTimeException {"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        PadiDiveTable padiDiveTable \u003d PadiDiveTable.getInstance();"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "        assertEquals(padiDiveTable.timeToMinutes(\"12:12\"), 732);"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "arjo129"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 91,
         "author": {
           "gitId": "arjo129"
         },
@@ -21511,8 +22583,8 @@
       }
     ],
     "authorContributionMap": {
-      "-": 11,
-      "arjo129": 26
+      "-": 14,
+      "arjo129": 77
     }
   }
 ]

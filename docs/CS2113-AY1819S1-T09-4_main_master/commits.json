@@ -32,7 +32,7 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
+        "insertions": 43,
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 323,
+        "deletions": 83,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -108,8 +108,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 1,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -370,6 +370,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 43,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "nguyenngoclinhchi": [
@@ -584,10 +614,40 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 191,
+        "deletions": 4,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 30,
+        "deletions": 3,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 102,
+        "deletions": 76,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "Tenvinc": [
@@ -806,6 +866,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ],
     "oscarzeng": [
@@ -1024,20 +1114,50 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "tztzt": 577,
-    "nguyenngoclinhchi": 711,
-    "Tenvinc": 0,
-    "oscarzeng": 575
+    "tztzt": 612,
+    "nguyenngoclinhchi": 950,
+    "Tenvinc": 1,
+    "oscarzeng": 534
   },
   "authorContributionVariance": {
-    "tztzt": 17074.541,
-    "nguyenngoclinhchi": 12927.995,
-    "Tenvinc": 0.027006168,
-    "oscarzeng": 7927.5693
+    "tztzt": 15127.679,
+    "nguyenngoclinhchi": 12408.255,
+    "Tenvinc": 0.11659726,
+    "oscarzeng": 7120.4297
   },
   "authorDisplayNameMap": {
     "tztzt": "TEH...HON",

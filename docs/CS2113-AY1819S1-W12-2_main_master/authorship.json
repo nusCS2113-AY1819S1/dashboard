@@ -33,208 +33,201 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
-        },
-        "content": "https://ci.appveyor.com/project/damithc/addressbook-level4[image:https://ci.appveyor.com/api/projects/status/3boko2x2vr5cc3w2?svg\u003dtrue[Build status]]"
-      },
-      {
-        "lineNumber": 6,
-        "author": {
           "gitId": "leegengyu"
         },
         "content": "https://coveralls.io/github/CS2113-AY1819S1-W12-2/main?branch\u003dmaster[image:https://coveralls.io/repos/github/CS2113-AY1819S1-W12-2/main/badge.svg?branch\u003dmaster[Coverage Status]]"
       },
       {
-        "lineNumber": 7,
+        "lineNumber": 6,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 8,
+        "lineNumber": 7,
         "author": {
           "gitId": "-"
         },
         "content": "ifdef::env-github[]"
       },
       {
-        "lineNumber": 9,
+        "lineNumber": 8,
         "author": {
           "gitId": "-"
         },
         "content": "image::docs/images/Ui.png[width\u003d\"600\"]"
       },
       {
-        "lineNumber": 10,
+        "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
         "content": "endif::[]"
       },
       {
-        "lineNumber": 11,
+        "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 12,
+        "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
         "content": "ifndef::env-github[]"
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 12,
         "author": {
           "gitId": "-"
         },
         "content": "image::images/Ui.png[width\u003d\"600\"]"
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
         "content": "endif::[]"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 15,
         "author": {
           "gitId": "leegengyu"
         },
         "content": "* This is a desktop Address Book and utility application. It has a GUI but most of the user interactions happen using a CLI (Command Line Interface)."
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 16,
         "author": {
           "gitId": "leegengyu"
         },
         "content": "* It is a Java application intended for NUS students to simplify parts of their daily routines, such as arranging a common timeslot with friends, and downloading their notes from IVLE."
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Site Map"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
         "content": "* \u003c\u003cUserGuide#, User Guide\u003e\u003e"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
         "content": "* \u003c\u003cDeveloperGuide#, Developer Guide\u003e\u003e"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
         "content": "* \u003c\u003cLearningOutcomes#, Learning Outcomes\u003e\u003e"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
         "content": "* \u003c\u003cAboutUs#, About Us\u003e\u003e"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "-"
         },
         "content": "* \u003c\u003cContactUs#, Contact Us\u003e\u003e"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Acknowledgements"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
         "content": "* Some parts of this sample application were inspired by the excellent http://code.makery.ch/library/javafx-8-tutorial/[Java FX tutorial] by"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
         "content": "_Marco Jakob_."
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
         "content": "* Libraries used: https://github.com/TestFX/TestFX[TextFX], https://bitbucket.org/controlsfx/controlsfx/[ControlsFX], https://github.com/FasterXML/jackson[Jackson], https://github.com/google/guava[Guava], https://github.com/junit-team/junit5[JUnit5]"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Licence : link:LICENSE[MIT]"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
@@ -242,793 +235,1746 @@
       }
     ],
     "authorContributionMap": {
-      "-": 29,
+      "-": 28,
       "leegengyu": 5
     }
   },
   {
-    "path": "SeleniumTestFiles/src/Main.java",
+    "path": "build.gradle",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "import org.openqa.selenium.*;"
+        "content": "// Gradle Configuration File"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "import org.openqa.selenium.chrome.*;"
+        "content": "// For more details take a look at the Java Quickstart chapter in the Gradle"
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "import org.openqa.selenium.support.ui.*;"
+        "content": "// user guide available at http://gradle.org/docs/4.8.1/userguide/tutorial_java_projects.html"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "import java.util.*;"
+        "content": "import org.gradle.api.tasks.testing.logging.TestLogEvent"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "// note to self. running code: -\u003e go to file-\u003eproject structure-\u003emodules-\u003edependencies then add the jar files."
+        "content": "plugins {"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    id \u0027java\u0027"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "public class Main {"
+        "content": "    id \u0027jacoco\u0027"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    id \u0027checkstyle\u0027"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "    public static void main(String[] args) throws InterruptedException"
+        "content": "    id \u0027com.github.kt3k.coveralls\u0027 version \u00272.4.0\u0027"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "    {"
+        "content": "    id \u0027com.github.johnrengelman.shadow\u0027 version \u00272.0.3\u0027"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    id \u0027org.asciidoctor.convert\u0027 version \u00271.5.6\u0027"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //input user details"
+        "content": "    id \u0027application\u0027"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        System.out.println(\"Enter ivle user name: ie: E1234567\");"
+        "content": "}"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        Scanner scanner\u003d new Scanner(System.in);"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        String ivleUsername\u003dscanner.nextLine();"
+        "content": "if (JavaVersion.current() \u003d\u003d JavaVersion.VERSION_1_10"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        System.out.println(\"Enter Password\");"
+        "content": "        \u0026\u0026 System.getProperty(\u0027os.name\u0027).startsWith(\u0027Windows\u0027)) {"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        String ivlePassword\u003dscanner.nextLine();"
+        "content": "    logger.warn(\u0027\u0027\u0027\\"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "        \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "        *********************************** WARNING **********************************"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "        \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        System.setProperty(\"webdriver.chrome.driver\",\"chromedriver.exe\");"
+        "content": "        You seem to be running Gradle with JDK 10 on Windows."
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        // TODO: 16/10/2018 Specifiy where the actual webdriver is to be stored in relative to ab4 and then include the route in the system set property"
+        "content": "        JDK 10 on Windows will fail to run tests in headless mode due to a JavaFX bug."
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        // this path is relative to where the chromedriver is stored."
+        "content": "        You are highly recommended to use JDK 9!"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "        \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        String downloadFilePath\u003d\"D:\\\\JavaCode\\\\test\\\\downloads\";"
+        "content": "        \u0027\u0027\u0027.stripIndent())"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        // TODO: 16/10/2018 SET THE PATH"
+        "content": "}"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        HashMap\u003cString,Object\u003e chromePrefs \u003d  new HashMap\u003cString,Object\u003e();"
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        chromePrefs.put(\"profile.default_content_settings.popups\",0);"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        chromePrefs.put(\"download.default_directory\",downloadFilePath);"
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        ChromeOptions options\u003dnew ChromeOptions();"
-      },
-      {
-        "lineNumber": 33,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        options.setExperimentalOption(\"prefs\",chromePrefs);"
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        options.addArguments(\"headless\");"
-      },
-      {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        WebDriver driver\u003dnew ChromeDriver(options);"
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// Specifies the entry point of the application"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "mainClassName \u003d \u0027seedu.address.MainApp\u0027"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "sourceCompatibility \u003d JavaVersion.VERSION_1_9"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "targetCompatibility \u003d JavaVersion.VERSION_1_9"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "repositories {"
+      },
+      {
         "lineNumber": 37,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //ChromeOptions options \u003d new ChromeOptions();"
+        "content": "    mavenCentral()"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //options.addArguments(\"headless\");"
+        "content": "    maven { url \u0027https://oss.sonatype.org/content/repositories/snapshots/\u0027 }"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //WebDriver driver\u003d new ChromeDriver(options);"
+        "content": "}"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "       // WebDriver driver\u003dnew ChromeDriver();"
+        "content": "checkstyle {"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    toolVersion \u003d \u00278.1\u0027"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        // login to ivle"
+        "content": "}"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        driver.get(\"https://ivle.nus.edu.sg\");"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        WebElement usernameInputField0\u003d driver.findElement(By.id(\"ctl00_ctl00_ContentPlaceHolder1_userid\"));"
+        "content": "jacocoTestReport {"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        usernameInputField0.sendKeys(ivleUsername);"
+        "content": "    reports {"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        WebElement passwordInputField0\u003d driver.findElement(By.id(\"ctl00_ctl00_ContentPlaceHolder1_password\"));"
+        "content": "        xml.enabled false"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        passwordInputField0.sendKeys(ivlePassword);"
+        "content": "        csv.enabled false"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        driver.findElement(By.id(\"ctl00_ctl00_ContentPlaceHolder1_btnSignIn\")).click();"
+        "content": "        html.destination file(\"${buildDir}/jacocoHtml\")"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //Access Download files page"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        driver.get(\"https://ivle.nus.edu.sg/v1/File/download_all.aspx\");"
+        "content": "test {"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //this is the download page link"
+        "content": "    useJUnitPlatform()"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        WebElement moduleDropList\u003d driver.findElement(By.id(\"ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ContentPlaceHolder1_ddlModule\"));"
+        "content": "}"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "dependencies {"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    String testFxVersion \u003d \u00274.0.12-alpha\u0027"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //this prints out all the modules that are available to the student"
+        "content": "    String jUnitVersion \u003d \u00275.1.0\u0027"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        Select dropDown\u003d new Select(moduleDropList);"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        List\u003cWebElement\u003e itemsModules\u003ddropDown.getOptions();"
+        "content": "    implementation group: \u0027org.controlsfx\u0027, name: \u0027controlsfx\u0027, version: \u00278.40.11\u0027"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        int itemCount\u003ditemsModules.size();"
+        "content": "    implementation group: \u0027com.fasterxml.jackson.core\u0027, name: \u0027jackson-databind\u0027, version: \u00272.7.0\u0027"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        for(int i\u003d1;i\u003citemCount;i++)"
+        "content": "    implementation group: \u0027com.fasterxml.jackson.datatype\u0027, name: \u0027jackson-datatype-jsr310\u0027, version: \u00272.7.4\u0027"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "BearPerson1"
         },
-        "content": "        {"
+        "content": "    implementation group: \u0027com.google.guava\u0027, name: \u0027guava\u0027, version: \u002725.0\u0027"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "            System.out.println(i+\" : \"+itemsModules.get(i).getText());"
+        "content": "    implementation group: \u0027javax.xml.bind\u0027, name: \u0027jaxb-api\u0027, version: \u00272.2.8\u0027"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        }"
+        "content": "    implementation group: \u0027com.sun.xml.bind\u0027, name: \u0027jaxb-impl\u0027, version: \u00272.3.0\u0027"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        //at this point, you should be at the page which displays all the available file downloads."
+        "content": "    implementation group: \u0027com.sun.xml.bind\u0027, name: \u0027jaxb-core\u0027, version: \u00272.3.0\u0027"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    implementation group: \u0027javax.activation\u0027, name: \u0027activation\u0027, version: \u00271.1.1\u0027"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        System.out.println(\"Enter Desired module by code by the index\");"
+        "content": ""
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        String intendedModule\u003dscanner.nextLine();"
+        "content": "    testImplementation group: \u0027junit\u0027, name: \u0027junit\u0027, version: \u00274.12\u0027"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": "        dropDown.selectByIndex(Integer.parseInt(intendedModule));"
+        "content": "    testImplementation group: \u0027org.testfx\u0027, name: \u0027testfx-core\u0027, version: testFxVersion, {"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "        exclude group: \u0027org.testfx\u0027, module: \u0027testfx-internal-java8\u0027"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        List\u003cWebElement\u003e els\u003ddriver.findElements(By.xpath(\"//input[@type\u003d\u0027checkbox\u0027]\"));"
-      },
-      {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        for(WebElement el: els)"
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        {"
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 77,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "            if(!el.isSelected())"
-      },
-      {
-        "lineNumber": 78,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "            {"
-      },
-      {
-        "lineNumber": 79,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "                el.click();"
-      },
-      {
-        "lineNumber": 80,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 81,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 82,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        driver.findElement(By.id(\"ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ContentPlaceHolder1_btnDownloadSel\")).click();"
-      },
-      {
-        "lineNumber": 84,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 85,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 86,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "// TODO: 16/10/2018 the below code displays all the folders and then all the links of the files. Sooooooo some parsing must be done"
-      },
-      {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "/*"
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        WebElement treeview \u003d driver.findElement(By.className(\"TreeView\"));"
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        // to get folder name"
-      },
-      {
-        "lineNumber": 90,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        // its findElements not findElement coz i need to grab all of them instead of 1"
-      },
-      {
-        "lineNumber": 91,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        List\u003cWebElement\u003e folderResult \u003d treeview.findElements(By.cssSelector(\"td \u003e span\"));"
-      },
-      {
-        "lineNumber": 92,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        for (int i\u003d0; i\u003cfolderResult.size(); i++) {"
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "            System.out.println(folderResult.get(i).getAttribute(\"innerText\")); // folder name"
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 95,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 96,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        // to get file names and their download link"
-      },
-      {
-        "lineNumber": 98,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        // its findElements not findElement coz i need to grab all of them instead of 1"
-      },
-      {
-        "lineNumber": 99,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 100,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        List\u003cWebElement\u003e fileResult \u003d treeview.findElements(By.cssSelector(\"a[href^\u003d\\\"/workbin\\\"]\"));"
-      },
-      {
-        "lineNumber": 101,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        for (int i\u003d0; i\u003cfileResult.size(); i++) {"
-      },
-      {
-        "lineNumber": 102,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "            System.out.println(fileResult.get(i).getText()); // filename"
-      },
-      {
-        "lineNumber": 103,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "            System.out.println(fileResult.get(i).getAttribute(\"href\")); // link"
-      },
-      {
-        "lineNumber": 104,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 105,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "*/"
-      },
-      {
-        "lineNumber": 106,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 107,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 108,
-        "author": {
-          "gitId": "BearPerson1"
-        },
-        "content": "        //driver.close();"
-      },
-      {
-        "lineNumber": 109,
-        "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 74,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
+        },
+        "content": "    testImplementation group: \u0027org.testfx\u0027, name: \u0027testfx-junit\u0027, version: testFxVersion"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 76,
         "author": {
-          "gitId": "BearPerson1"
+          "gitId": "-"
+        },
+        "content": "    testImplementation group: \u0027org.junit.jupiter\u0027, name: \u0027junit-jupiter-api\u0027, version: jUnitVersion"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testRuntimeOnly group: \u0027org.testfx\u0027, name: \u0027testfx-internal-java9\u0027, version: testFxVersion"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testRuntimeOnly group: \u0027org.testfx\u0027, name: \u0027openjfx-monocle\u0027, version: \u0027jdk-9+181\u0027"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testRuntimeOnly group:\u0027org.junit.vintage\u0027, name:\u0027junit-vintage-engine\u0027, version: jUnitVersion"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testRuntimeOnly group: \u0027org.junit.jupiter\u0027, name: \u0027junit-jupiter-engine\u0027, version: jUnitVersion"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "-"
         },
         "content": "}"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "shadowJar {"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    archiveName \u003d \u0027addressbook.jar\u0027"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    destinationDir \u003d file(\"${buildDir}/jar/\")"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task wrapper(type: Wrapper) {"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    gradleVersion \u003d \u00274.8.1\u0027"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task coverage(type: JacocoReport) {"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    sourceDirectories \u003d files(sourceSets.main.allSource.srcDirs)"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    classDirectories \u003d  files(sourceSets.main.output)"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    executionData \u003d files(jacocoTestReport.executionData)"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    afterEvaluate {"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        classDirectories \u003d files(classDirectories.files.collect {"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            fileTree(dir: it, exclude: [\u0027**/*.jar\u0027])"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        })"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    reports {"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        html.enabled \u003d true"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        xml.enabled \u003d true"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "coveralls {"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    sourceDirs \u003d sourceSets.main.allSource.srcDirs.absolutePath"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    jacocoReportPath \u003d \"${buildDir}/reports/jacoco/coverage/coverage.xml\""
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "tasks.coveralls {"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    dependsOn coverage"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    onlyIf { System.env.\u0027CI\u0027 }"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task(guiTests)"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task(nonGuiTests)"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// Run `test` task if `guiTests` or `nonGuiTests` is specified"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "guiTests.dependsOn test"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "nonGuiTests.dependsOn test"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task(allTests)"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// `allTests` implies both `guiTests` and `nonGuiTests`"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "allTests.dependsOn guiTests"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "allTests.dependsOn nonGuiTests"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "test {"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    systemProperty \u0027testfx.setup.timeout\u0027, \u002760000\u0027"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testLogging {"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        events TestLogEvent.FAILED, TestLogEvent.SKIPPED"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // Prints the currently running test\u0027s name in the CI\u0027s build log,"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // so that we can check if tests are being silently skipped or"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // stalling the build."
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (System.env.\u0027CI\u0027) {"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            events \u003c\u003c TestLogEvent.STARTED"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    jacoco {"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        destinationFile \u003d new File(\"${buildDir}/jacoco/test.exec\")"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    doFirst {"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        boolean runGuiTests \u003d gradle.taskGraph.hasTask(guiTests)"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        boolean runNonGuiTests \u003d gradle.taskGraph.hasTask(nonGuiTests)"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!runGuiTests \u0026\u0026 !runNonGuiTests) {"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            runGuiTests \u003d true"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            runNonGuiTests \u003d true"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (runNonGuiTests) {"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            test.include \u0027seedu/address/**\u0027"
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (runGuiTests) {"
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            test.include \u0027systemtests/**\u0027"
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            test.include \u0027seedu/address/ui/**\u0027"
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!runGuiTests) {"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            test.exclude \u0027seedu/address/ui/**\u0027"
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task headless {"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    doLast {"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        println \u0027Setting headless mode properties.\u0027"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        test {"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            systemProperties \u003d ["
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0027testfx.robot\u0027: \u0027glass\u0027,"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0027testfx.headless\u0027: \u0027true\u0027,"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0027prism.order\u0027: \u0027sw\u0027,"
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0027prism.text\u0027: \u0027t2k\u0027,"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            ]"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// Makes sure that headless properties are set before running tests"
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "test.mustRunAfter headless"
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "asciidoctor {"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    backends \u0027html5\u0027"
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    sourceDir \u0027docs\u0027"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    outputDir \"${buildDir}/docs\""
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    options \u003d ["
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        template_dirs: [file(\"${sourceDir}/templates\")],"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ]"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    attributes \u003d ["
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        linkcss: true,"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        stylesheet: \u0027gh-pages.css\u0027,"
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        \u0027source-highlighter\u0027: \u0027coderay\u0027,"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        icons: \u0027font\u0027,"
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        experimental: true,"
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        sectlinks: true,"
+      },
+      {
+        "lineNumber": 207,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        idprefix: \u0027\u0027,  // for compatibility with GitHub preview"
+      },
+      {
+        "lineNumber": 208,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        idseparator: \u0027-\u0027,"
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        \u0027site-root\u0027: \"${sourceDir}\",  // must be the same as sourceDir, do not modify"
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        \u0027site-name\u0027: \u0027AddressBook-Level4\u0027,"
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        \u0027site-githuburl\u0027: \u0027https://github.com/se-edu/addressbook-level4\u0027,"
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        \u0027site-seedu\u0027: true,  // delete this line if your project is not a fork (not a SE-EDU project)"
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ]"
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 215,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    options[\u0027template_dirs\u0027].each {"
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        inputs.files fileTree(it)"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// Copies stylesheets into the directory containing generated HTML files as"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// Asciidoctor does not copy linked CSS files to the output directory when rendering."
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// This is needed for linked stylesheets and embedded stylesheets which import other files."
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task copyStylesheets(type: Copy) {"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    from \"${asciidoctor.sourceDir}/stylesheets\""
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    into \"${asciidoctor.outputDir}/html5/stylesheets\""
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "asciidoctor.dependsOn copyStylesheets"
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task deployOfflineDocs(type: Copy) {"
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    into(\u0027src/main/resources/docs\u0027)"
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    from (\"${asciidoctor.outputDir}/html5\") {"
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        include \u0027stylesheets/*\u0027"
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        include \u0027images/*\u0027"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        include \u0027HelpWindow.html\u0027"
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "task copyDummySearchPage(type: Copy) {"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    from \u0027docs/DummySearchPage.html\u0027"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    into \"${buildDir}/docs/html5\""
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "deployOfflineDocs.dependsOn asciidoctor"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "processResources.dependsOn deployOfflineDocs"
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "defaultTasks \u0027clean\u0027, \u0027headless\u0027, \u0027allTests\u0027, \u0027coverage\u0027, \u0027asciidoctor\u0027"
       }
     ],
     "authorContributionMap": {
-      "BearPerson1": 111
+      "BearPerson1": 1,
+      "-": 246
     }
   },
   {
@@ -12435,9 +13381,9 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "\u003d\u003d PROJECT: AddressBook - Level 4"
+        "content": "\u003d\u003d PROJECT: NUSync"
       },
       {
         "lineNumber": 7,
@@ -12477,9 +13423,9 @@
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "AddressBook - Level 4 is a desktop address book application used for teaching Software Engineering principles. The user interacts with it using a CLI, and it has a GUI created with JavaFX. It is written in Java, and has about 10 kLoC."
+        "content": "NUSync is an utility application that consists of a timetable manager, as well as an all in one IVLE notes downloader."
       },
       {
         "lineNumber": 13,
@@ -12505,79 +13451,79 @@
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "BearPerson1"
         },
-        "content": "* *Major enhancement*: To be decided."
+        "content": "* *Major enhancement*: IVLE Notes downloader"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "BearPerson1"
         },
-        "content": "** What it does: To be decided."
+        "content": "** What it does: Allows the user to select and download all/selected notes"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
-        "content": "** Justification: ide a convenient way to rectify them."
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "BearPerson1"
         },
-        "content": "** Highlights: To be decided."
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "** Credits: _{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}_"
+        "content": "** Justification: Allows the user to download his or her notes with a single line of command. Additionally, allow the users to download a single file with at most 2 lines of command. This method significantly triumphs the existing method; which involves manually transversing the IVLE web page, in terms of efficiency. "
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
         "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "leegengyu"
-        },
-        "content": "* *Minor enhancement*: To be decided."
-      },
-      {
-        "lineNumber": 23,
-        "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
         "content": ""
       },
       {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "** Highlights: This is a completely new feature that has been added into the existing AddressBook level 4 code base. It does not improve on any existing feature at the moment. "
+      },
+      {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "* *Code contributed*: [https://github.com[Functional code]] [https://github.com[Test code]] _{give links to collated code files}_"
+        "content": "** Credits: Selenium Web driver. "
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
         "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "* *Other contributions*:"
+        "content": "* *Minor enhancement*: Allow the user to select a few files instead of all the files to download. "
       },
       {
         "lineNumber": 27,
@@ -12591,7 +13537,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "** Project management:"
+        "content": "* *Code contributed*: [https://github.com[Functional code]] [https://github.com[Test code]] _{give links to collated code files}_"
       },
       {
         "lineNumber": 29,
@@ -12605,7 +13551,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "** Enhancements to existing features:"
+        "content": "* *Other contributions*:"
       },
       {
         "lineNumber": 31,
@@ -12619,21 +13565,21 @@
         "author": {
           "gitId": "-"
         },
-        "content": "** Documentation:"
+        "content": "** Project management:"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": " https://github.com[#14]"
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
-        "content": "** Community:"
+        "content": "** Enhancements to existing features:"
       },
       {
         "lineNumber": 35,
@@ -12647,42 +13593,42 @@
         "author": {
           "gitId": "-"
         },
-        "content": "** Tools:"
+        "content": "** Documentation:"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": " https://github.com[#14]"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "** Community:"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": "_{you can add/remove categories in the list above}_"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "** Tools:"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Contributions to the User Guide"
+        "content": ""
       },
       {
         "lineNumber": 42,
@@ -12696,28 +13642,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "_{you can add/remove categories in the list above}_"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "|_Given below are sections I contributed to the User Guide. They showcase my ability to write documentation targeting end-users._"
+        "content": "\u003d\u003d Contributions to the User Guide"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 47,
@@ -12731,21 +13677,21 @@
         "author": {
           "gitId": "-"
         },
-        "content": "include::../UserGuide.adoc[tag\u003dundoredo]"
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|_Given below are sections I contributed to the User Guide. They showcase my ability to write documentation targeting end-users._"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "include::../UserGuide.adoc[tag\u003ddataencryption]"
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 51,
@@ -12759,7 +13705,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Contributions to the Developer Guide"
+        "content": "include::../UserGuide.adoc[tag\u003dundoredo]"
       },
       {
         "lineNumber": 53,
@@ -12773,21 +13719,21 @@
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "include::../UserGuide.adoc[tag\u003ddataencryption]"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "|_Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project._"
+        "content": ""
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "\u003d\u003d Contributions to the Developer Guide"
       },
       {
         "lineNumber": 57,
@@ -12801,21 +13747,21 @@
         "author": {
           "gitId": "-"
         },
-        "content": "include::../DeveloperGuide.adoc[tag\u003dundoredo]"
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|_Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project._"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "include::../DeveloperGuide.adoc[tag\u003ddataencryption]"
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 61,
@@ -12829,28 +13775,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "include::../DeveloperGuide.adoc[tag\u003dundoredo]"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d PROJECT: PowerPointLabs"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "include::../DeveloperGuide.adoc[tag\u003ddataencryption]"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": "---"
+        "content": ""
       },
       {
         "lineNumber": 66,
@@ -12858,32 +13804,11 @@
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 67,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "_{Optionally, you may include other projects in your portfolio.}_"
-      },
-      {
-        "lineNumber": 68,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 69,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
       }
     ],
     "authorContributionMap": {
-      "-": 65,
-      "leegengyu": 4
+      "BearPerson1": 12,
+      "-": 54
     }
   },
   {
@@ -17836,6 +18761,1127 @@
     }
   },
   {
+    "path": "src/main/java/seedu/address/logic/commands/DownloadAllCommand.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "package seedu.address.logic.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import org.openqa.selenium.*;"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import org.openqa.selenium.chrome.*;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import org.openqa.selenium.support.ui.*;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import seedu.address.logic.*;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import seedu.address.model.*;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import java.io.*;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import java.util.*;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "public class DownloadAllCommand extends Command {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"downloadAll\";"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String MESSAGE_USAGE \u003d \"downloadAll pass/(password) user/(username) mod/(moduleCode)\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String CHROMEDRIVER_PATH \u003d \"/chromedriver.exe\";"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String DOWNLOAD_RELATIVE_PATH \u003d \"/notesDownload\";"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_TITLE \u003d \"IVLE\";"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_ADDRESS \u003d \"https://ivle.nus.edu.sg\";"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_USERNAME_FIELD_ID \u003d \"ctl00_ctl00_ContentPlaceHolder1_userid\";"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_PASSWORD_FIELD_ID \u003d \"ctl00_ctl00_ContentPlaceHolder1_password\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_LOGIN_BUTTON_ID \u003d \"ctl00_ctl00_ContentPlaceHolder1_btnSignIn\";"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String WRONG_PASS_USER_MESSAGE \u003d \"WRONG PASSWORD OR USERNAME ENTERED\";"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_DOWNLOAD_PAGE_ADDRESS \u003d \"https://ivle.nus.edu.sg/v1/File/download_all.aspx\";"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_MODULE_LIST_FIELD_ID \u003d \"ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ContentPlaceHolder1_ddlModule\";"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String MODULE_NOT_FOUND_MESSAGE \u003d \"MODULE CODE NOT FOUND\";"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String CHECKBOX_XPATH_VALUE \u003d \"//input[@type\u003d\u0027checkbox\u0027]\";"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final String IVLE_DOWNLOAD_PAGE_BUTTON_ID \u003d \"ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ContentPlaceHolder1_btnDownloadSel\";"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private String username;"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private String password;"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private String moduleCode;"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private String downloadFilePath;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public DownloadAllCommand(String username, String password, String moduleCode){"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        this.password\u003dpassword;"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        this.username\u003dusername;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        this.moduleCode\u003dmoduleCode.toLowerCase();"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public CommandResult execute(Model model, CommandHistory history) {"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        String returnMessage\u003d new String();"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        returnMessage \u003d bootWebDriver(returnMessage);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        return new CommandResult(returnMessage);"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private String bootWebDriver(String returnMessage) {"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        WebDriver driver\u003dinitilizeWebDriver();"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        loginIvle(driver);"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        if(checkLoggedIn(driver)\u003d\u003dfalse){"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            driver.close();"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            return WRONG_PASS_USER_MESSAGE;"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        if(checkModExists(driver)){"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "           return moduleCode+\" FILE DOWNLOADED AT :\"+downloadFilePath;"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        else {"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            driver.close();"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            return MODULE_NOT_FOUND_MESSAGE;"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private WebDriver initilizeWebDriver(){"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        downloadFilePath \u003d new File(\"\").getAbsolutePath();"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        System.setProperty(\"webdriver.chrome.driver\",downloadFilePath+CHROMEDRIVER_PATH);"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        downloadFilePath +\u003d DOWNLOAD_RELATIVE_PATH;"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        HashMap\u003cString,Object\u003e chromePrefs \u003d  new HashMap\u003cString,Object\u003e();"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        chromePrefs.put(\"profile.default_content_settings.popups\",0);"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        chromePrefs.put(\"download.default_directory\",downloadFilePath);"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        chromePrefs.put(\"browser.setDownloadBehavior\", \"allow\");"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        ChromeOptions options\u003dnew ChromeOptions();"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        options.setExperimentalOption(\"prefs\",chromePrefs);"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        WebDriver driver\u003dnew ChromeDriver(options);"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        return driver;"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private void loginIvle(WebDriver driver){"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        driver.get(IVLE_ADDRESS);"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        driver.findElement(By.id(IVLE_USERNAME_FIELD_ID)).sendKeys(username);"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        driver.findElement(By.id(IVLE_PASSWORD_FIELD_ID)).sendKeys(password);"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        driver.findElement(By.id(IVLE_LOGIN_BUTTON_ID)).click();"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private boolean checkLoggedIn(WebDriver driver){"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        if(driver.getTitle().contains(IVLE_TITLE)){"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        return true;"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private boolean checkModExists (WebDriver driver){"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        driver.get(IVLE_DOWNLOAD_PAGE_ADDRESS);"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        Select dropDown\u003d new Select(driver.findElement(By.id(IVLE_MODULE_LIST_FIELD_ID)));"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        List\u003cWebElement\u003e itemsModules\u003ddropDown.getOptions();"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        int itemCount\u003ditemsModules.size();"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        for(int i\u003d1;i\u003citemCount;i++) {"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            if(checkModMatches(itemsModules.get(i).getText().toLowerCase())) {"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                moduleCode\u003ditemsModules.get(i).getText();"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                dropDown.selectByIndex(i);"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                downloadFiles(driver);"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                return true;"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        return false;"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private boolean checkModMatches(String input){"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            for(int i\u003d0;i\u003c6;i++){"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                if(input.charAt(i)!\u003dmoduleCode.charAt(i)) {"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                    return false;"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        catch (StringIndexOutOfBoundsException e) {"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        return true;"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private void downloadFiles(WebDriver driver){"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        List\u003cWebElement\u003e checkBoxList\u003ddriver.findElements(By.xpath(CHECKBOX_XPATH_VALUE));"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        initilizeDownloadFolder();"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        for(WebElement checkBox: checkBoxList) {"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            if(!checkBox.isSelected()) {"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                checkBox.click();"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        driver.findElement(By.id(IVLE_DOWNLOAD_PAGE_BUTTON_ID)).click();"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        dynamicWaiting(driver);"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private void initilizeDownloadFolder(){"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        File folder \u003d new File(downloadFilePath);"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        File[] filesList \u003d folder.listFiles();"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        for (int i \u003d 0; i \u003c filesList.length; i++) {"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            File currentFile \u003d filesList[i];"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            if (currentFile.getName().endsWith(\".crdownload\")) {"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                filesList[i].delete();"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    private void dynamicWaiting(WebDriver driver){"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        String[] keyExtentions\u003d{\"crdownload\"};"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            do {"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "                Thread.sleep(100);"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            } while(!org.apache.commons.io.FileUtils.listFiles(new File(downloadFilePath), keyExtentions,false).isEmpty());"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        catch(InterruptedException e){"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            driver.close();"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "BearPerson1": 159
+    }
+  },
+  {
     "path": "src/main/java/seedu/address/logic/commands/EditCommand.java",
     "lines": [
       {
@@ -22330,40 +24376,54 @@
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "            default:"
+        "content": "            case DownloadAllCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "                throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
+        "content": "                return new DownloadAllCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "            default:"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "                throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
@@ -22371,6 +24431,7 @@
       }
     ],
     "authorContributionMap": {
+      "BearPerson1": 2,
       "-": 86,
       "leegengyu": 3
     }
@@ -23236,12 +25297,26 @@
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": ""
+        "content": "    public static final Prefix PREFIX_USERNAME \u003d new Prefix(\"user/\");"
       },
       {
         "lineNumber": 17,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final Prefix PREFIX_PASSWORD \u003d new Prefix(\"pass/\");"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public static final Prefix PREFIX_MODULECODE\u003d new Prefix(\"mod/\");"
+      },
+      {
+        "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
@@ -23249,8 +25324,248 @@
       }
     ],
     "authorContributionMap": {
+      "BearPerson1": 3,
       "auskure": 1,
-      "-": 16
+      "-": 15
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/logic/parser/DownloadAllCommandParser.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "package seedu.address.logic.parser;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import seedu.address.logic.parser.exceptions.*;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import seedu.address.logic.commands.DownloadAllCommand;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import java.util.stream.*;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_MODULECODE;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "public class DownloadAllCommandParser implements Parser {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    public DownloadAllCommand parse(String args) throws ParseException{"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        ArgumentMultimap argMultimap \u003d ArgumentTokenizer.tokenize(args,PREFIX_USERNAME,PREFIX_PASSWORD,PREFIX_MODULECODE);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "         if (!arePrefixesPresent(argMultimap,PREFIX_PASSWORD,PREFIX_USERNAME,PREFIX_MODULECODE)){"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "             throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, DownloadAllCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        String username \u003d argMultimap.getValue(PREFIX_USERNAME).get();"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        String password \u003d argMultimap.getValue(PREFIX_PASSWORD).get();"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        String moduleCode \u003d argMultimap.getValue(PREFIX_MODULECODE).get();"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        return new DownloadAllCommand( username, password ,moduleCode);"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "     private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "BearPerson1": 33
     }
   },
   {

@@ -32,7 +32,7 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 762,
+        "insertions": 890,
         "deletions": 180,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 331,
-        "deletions": 19,
+        "insertions": 847,
+        "deletions": 203,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 173,
+        "deletions": 25,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -410,10 +410,16 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
+        "insertions": 128,
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "0WN463": [
@@ -638,6 +644,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 516,
+        "deletions": 184,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "micklwl": [
@@ -862,6 +874,12 @@
         "deletions": 51,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "lucdx": [
@@ -1086,6 +1104,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 173,
+        "deletions": 25,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "meisbokai": [
@@ -1310,21 +1334,27 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Meg1456": 1765,
-    "0WN463": 4826,
-    "micklwl": 2926,
-    "lucdx": 435,
+    "Meg1456": 1868,
+    "0WN463": 5149,
+    "micklwl": 2892,
+    "lucdx": 583,
     "meisbokai": 0
   },
   "authorContributionVariance": {
-    "Meg1456": 71557.48,
-    "0WN463": 188742.48,
-    "micklwl": 236935.25,
-    "lucdx": 4575.766,
+    "Meg1456": 69782.56,
+    "0WN463": 189795.42,
+    "micklwl": 231130.47,
+    "lucdx": 5315.986,
     "meisbokai": 0.0
   },
   "authorDisplayNameMap": {

@@ -30,6 +30,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-24"
       }
     ],
     "iamputradanish": [
@@ -62,6 +68,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-24"
       }
     ],
     "ShreyasKp": [
@@ -94,6 +106,12 @@
         "deletions": 122,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 248,
+        "deletions": 148,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-24"
       }
     ],
     "andyrobert3": [
@@ -126,6 +144,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-24"
       }
     ],
     "muhdharun": [
@@ -158,6 +182,12 @@
         "deletions": 522,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 149,
+        "deletions": 26,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-24"
       }
     ]
   },
@@ -372,6 +402,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "iamputradanish": [
@@ -584,6 +632,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "ShreyasKp": [
@@ -796,6 +862,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 192,
+        "deletions": 132,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 56,
+        "deletions": 16,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "andyrobert3": [
@@ -1008,6 +1092,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "muhdharun": [
@@ -1220,22 +1322,40 @@
         "deletions": 168,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-17",
+        "untilDate": "2018-10-18"
+      },
+      {
+        "insertions": 149,
+        "deletions": 26,
+        "sinceDate": "2018-10-18",
+        "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ]
   },
   "authorFinalContributionMap": {
     "ongweekeong": 0,
     "iamputradanish": 0,
-    "ShreyasKp": 199,
+    "ShreyasKp": 405,
     "andyrobert3": 0,
-    "muhdharun": 1332
+    "muhdharun": 1420
   },
   "authorContributionVariance": {
     "ongweekeong": 0.0,
     "iamputradanish": 0.0,
-    "ShreyasKp": 1121.964,
+    "ShreyasKp": 3612.842,
     "andyrobert3": 0.0,
-    "muhdharun": 23229.953
+    "muhdharun": 21958.242
   },
   "authorDisplayNameMap": {
     "ongweekeong": "ONG...ONG",

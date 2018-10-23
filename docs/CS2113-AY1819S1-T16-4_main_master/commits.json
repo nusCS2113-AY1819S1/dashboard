@@ -32,8 +32,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 248,
-        "deletions": 136,
+        "insertions": 259,
+        "deletions": 147,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 33,
-        "deletions": 0,
+        "insertions": 120157,
+        "deletions": 120152,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -108,8 +108,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 261,
-        "deletions": 21,
+        "insertions": 454,
+        "deletions": 64,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 1802,
-        "deletions": 215,
+        "insertions": 1910,
+        "deletions": 304,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -184,8 +184,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 298,
-        "deletions": 8,
+        "insertions": 881,
+        "deletions": 149,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -414,6 +414,18 @@
         "deletions": 9,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 11,
+        "deletions": 11,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "zhihong8888": [
@@ -638,6 +650,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 120006,
+        "deletions": 120006,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 118,
+        "deletions": 146,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "LimYiSheng": [
@@ -858,10 +882,22 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 118,
-        "deletions": 8,
+        "insertions": 130,
+        "deletions": 30,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 180,
+        "deletions": 20,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "ryanchen2018": [
@@ -1082,10 +1118,22 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 396,
-        "deletions": 140,
+        "insertions": 459,
+        "deletions": 197,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 45,
+        "deletions": 32,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ],
     "XiiaoPanda": [
@@ -1310,22 +1358,34 @@
         "deletions": 3,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 583,
+        "deletions": 141,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChuaZhenWei": 429,
-    "zhihong8888": 3717,
-    "LimYiSheng": 2523,
-    "ryanchen2018": 1755,
-    "XiiaoPanda": 1844
+    "ChuaZhenWei": 437,
+    "zhihong8888": 3702,
+    "LimYiSheng": 2685,
+    "ryanchen2018": 1772,
+    "XiiaoPanda": 2285
   },
   "authorContributionVariance": {
-    "ChuaZhenWei": 5240.1143,
-    "zhihong8888": 1.52163085E9,
-    "LimYiSheng": 124069.445,
-    "ryanchen2018": 63932.715,
-    "XiiaoPanda": 64882.047
+    "ChuaZhenWei": 5000.684,
+    "zhihong8888": 2.80711142E9,
+    "LimYiSheng": 118271.04,
+    "ryanchen2018": 64052.51,
+    "XiiaoPanda": 72547.03
   },
   "authorDisplayNameMap": {
     "ChuaZhenWei": "CHU...WEI",

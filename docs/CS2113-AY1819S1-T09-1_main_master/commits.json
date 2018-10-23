@@ -108,8 +108,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 18,
-        "deletions": 12,
+        "insertions": 553,
+        "deletions": 84,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -376,6 +376,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "teojunjie": [
@@ -600,6 +606,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "Psyf": [
@@ -824,6 +836,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 535,
+        "deletions": 72,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "trufflepirate": [
@@ -1048,20 +1066,26 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ]
   },
   "authorFinalContributionMap": {
     "Ftywan": 0,
     "teojunjie": 0,
-    "Psyf": 3491,
-    "trufflepirate": 1132
+    "Psyf": 4002,
+    "trufflepirate": 1130
   },
   "authorContributionVariance": {
     "Ftywan": 0.0,
     "teojunjie": 0.0,
-    "Psyf": 125244.77,
-    "trufflepirate": 13482.24
+    "Psyf": 126259.52,
+    "trufflepirate": 13170.465
   },
   "authorDisplayNameMap": {
     "Ftywan": "FU ...UAN",

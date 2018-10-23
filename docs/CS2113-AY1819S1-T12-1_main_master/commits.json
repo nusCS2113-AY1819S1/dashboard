@@ -26,8 +26,8 @@
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 557,
-        "deletions": 1968,
+        "insertions": 831,
+        "deletions": 2043,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 820,
-        "deletions": 1082,
+        "insertions": 2012,
+        "deletions": 1191,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -102,14 +102,14 @@
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 142,
-        "deletions": 46,
+        "insertions": 158,
+        "deletions": 61,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 48,
+        "deletions": 93,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -172,20 +172,20 @@
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 871,
-        "deletions": 320,
+        "insertions": 1382,
+        "deletions": 763,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 6,
-        "deletions": 7,
+        "insertions": 3770,
+        "deletions": 3576,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3590,
+        "deletions": 5314,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -368,8 +368,8 @@
         "untilDate": "2018-10-11"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 274,
+        "deletions": 75,
         "sinceDate": "2018-10-11",
         "untilDate": "2018-10-12"
       },
@@ -414,6 +414,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
       }
     ],
     "jamesyaputra": [
@@ -634,10 +664,40 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 738,
-        "deletions": 1047,
+        "insertions": 756,
+        "deletions": 1048,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 72,
+        "deletions": 38,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 150,
+        "deletions": 3,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 811,
+        "deletions": 40,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 141,
+        "deletions": 27,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
       }
     ],
     "chiaxr": [
@@ -846,14 +906,14 @@
         "untilDate": "2018-10-16"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 16,
+        "deletions": 15,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 48,
+        "deletions": 93,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
       },
@@ -862,6 +922,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
       }
     ],
     "Geraldcdx": [
@@ -1086,6 +1176,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
       }
     ],
     "Tertium3": [
@@ -1240,8 +1360,8 @@
         "untilDate": "2018-10-07"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 511,
+        "deletions": 443,
         "sinceDate": "2018-10-07",
         "untilDate": "2018-10-08"
       },
@@ -1264,14 +1384,14 @@
         "untilDate": "2018-10-11"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 693,
+        "deletions": 924,
         "sinceDate": "2018-10-11",
         "untilDate": "2018-10-12"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 712,
         "sinceDate": "2018-10-12",
         "untilDate": "2018-10-13"
       },
@@ -1282,50 +1402,80 @@
         "untilDate": "2018-10-14"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1031,
+        "deletions": 65,
         "sinceDate": "2018-10-14",
         "untilDate": "2018-10-15"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 784,
+        "deletions": 1087,
         "sinceDate": "2018-10-15",
         "untilDate": "2018-10-16"
       },
       {
-        "insertions": 6,
-        "deletions": 7,
+        "insertions": 1182,
+        "deletions": 788,
         "sinceDate": "2018-10-16",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 248,
+        "deletions": 540,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3205,
+        "deletions": 4645,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 116,
+        "deletions": 114,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-20",
+        "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 21,
+        "deletions": 15,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "cqinkai": 17,
-    "jamesyaputra": 2443,
-    "chiaxr": 255,
+    "cqinkai": 300,
+    "jamesyaputra": 3063,
+    "chiaxr": 230,
     "Geraldcdx": 0,
-    "Tertium3": 6
+    "Tertium3": 1723
   },
   "authorContributionVariance": {
-    "cqinkai": 137887.23,
-    "jamesyaputra": 521040.9,
-    "chiaxr": 9986.19,
-    "Geraldcdx": 433675.66,
-    "Tertium3": 18823.002
+    "cqinkai": 123859.11,
+    "jamesyaputra": 471896.1,
+    "chiaxr": 9170.214,
+    "Geraldcdx": 383310.97,
+    "Tertium3": 1612175.2
   },
   "authorDisplayNameMap": {
     "cqinkai": "CHU...KAI",

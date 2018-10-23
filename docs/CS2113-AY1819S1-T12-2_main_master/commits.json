@@ -70,8 +70,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 110,
-        "deletions": 98,
+        "insertions": 1181,
+        "deletions": 142,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -146,8 +146,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 107,
-        "deletions": 1701,
+        "insertions": 115,
+        "deletions": 1725,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       }
@@ -414,6 +414,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "xhxh96": [
@@ -634,10 +640,16 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 41,
+        "deletions": 44,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 1030,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "chewkahmeng": [
@@ -862,6 +874,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "brandonccm1996": [
@@ -1086,6 +1104,12 @@
         "deletions": 1641,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 8,
+        "deletions": 24,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ],
     "chokxy": [
@@ -1310,21 +1334,27 @@
         "deletions": 0,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-19",
+        "untilDate": "2018-10-20"
       }
     ]
   },
   "authorFinalContributionMap": {
     "xShaivan": 0,
-    "xhxh96": 488,
+    "xhxh96": 599,
     "chewkahmeng": 1,
-    "brandonccm1996": 1919,
+    "brandonccm1996": 1911,
     "chokxy": 0
   },
   "authorContributionVariance": {
     "xShaivan": 0.0,
-    "xhxh96": 8473.29,
-    "chewkahmeng": 0.420745,
-    "brandonccm1996": 120283.26,
+    "xhxh96": 33796.246,
+    "chewkahmeng": 0.40997264,
+    "brandonccm1996": 117487.71,
     "chokxy": 0.0
   },
   "authorDisplayNameMap": {
