@@ -331,201 +331,208 @@
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "Matthew Alexander"
+          "gitId": "Ong Wee Keong"
         },
-        "content": "  \"authors\":"
+        "content": "  \"ignoreGlobList\": [\"*.md\"],"
       },
       {
         "lineNumber": 3,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "  ["
+        "content": "  \"authors\":"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "    {"
+        "content": "  ["
       },
       {
         "lineNumber": 5,
+        "author": {
+          "gitId": "Matthew Alexander"
+        },
+        "content": "    {"
+      },
+      {
+        "lineNumber": 6,
         "author": {
           "gitId": "Ong Wee Keong"
         },
         "content": "      \"githubId\": \"Matthew Alexander\","
       },
       {
-        "lineNumber": 6,
+        "lineNumber": 7,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "      \"displayName\": \"MAT...DER\","
       },
       {
-        "lineNumber": 7,
+        "lineNumber": 8,
         "author": {
           "gitId": "Ong Wee Keong"
         },
         "content": "      \"authorNames\": [\"andyrobert3\", \"Matthew Alexander\"]"
       },
       {
-        "lineNumber": 8,
-        "author": {
-          "gitId": "Matthew Alexander"
-        },
-        "content": "    },"
-      },
-      {
         "lineNumber": 9,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "    {"
+        "content": "    },"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "      \"githubId\": \"muhdharun\","
+        "content": "    {"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "      \"displayName\": \"MUH...HID\","
+        "content": "      \"githubId\": \"muhdharun\","
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "      \"authorNames\": [\"muhdharun\", \"Harun\"]"
+        "content": "      \"displayName\": \"MUH...HID\","
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "    },"
+        "content": "      \"authorNames\": [\"muhdharun\", \"Harun\"]"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Matthew Alexander"
         },
-        "content": "    {"
+        "content": "    },"
       },
       {
         "lineNumber": 15,
+        "author": {
+          "gitId": "Matthew Alexander"
+        },
+        "content": "    {"
+      },
+      {
+        "lineNumber": 16,
         "author": {
           "gitId": "Ong Wee Keong"
         },
         "content": "      \"githubId\": \"Ong Wee Keong\","
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 17,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "      \"displayName\": \"ONG...ONG\","
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 18,
         "author": {
           "gitId": "Ong Wee Keong"
         },
         "content": "      \"authorNames\": [\"ongweekeong\", \"Wee Keong Ong\", \"Ong Wee Keong\"]"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 19,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "    },"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 20,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "    {"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 21,
         "author": {
           "gitId": "Ong Wee Keong"
         },
         "content": "      \"githubId\": \"Putra Danish\","
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 22,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "      \"displayName\": \"PUT...FEE\","
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 23,
         "author": {
           "gitId": "Ong Wee Keong"
         },
         "content": "      \"authorNames\": [\"iamputradanish\", \"Putra Danish\"]"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 24,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "    },"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 25,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "    {"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 26,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "      \"githubId\": \"ShreyasKp\","
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 27,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "      \"displayName\": \"SHR...ASH\","
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 28,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "      \"authorNames\": [\"ShreyasKp\"]"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 29,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 30,
         "author": {
           "gitId": "Matthew Alexander"
         },
         "content": "  ]"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 31,
         "author": {
           "gitId": "Matthew Alexander"
         },
@@ -534,7 +541,7 @@
     ],
     "authorContributionMap": {
       "Matthew Alexander": 24,
-      "Ong Wee Keong": 6
+      "Ong Wee Keong": 7
     }
   },
   {

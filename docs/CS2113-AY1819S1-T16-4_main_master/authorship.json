@@ -25085,105 +25085,105 @@
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    public static final String MESSAGE_NOT_EDITED \u003d \"Adding expenses not edited.\";"
+        "content": "    public static final String MESSAGE_NEGATIVE_LEFTOVER \u003d \"Cannot have negative expenses leftover.\";"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    public static final String MESSAGE_EMPLOYEE_ID_NOT_FOUND \u003d \"Employee Id not found in address book\";"
+        "content": "    public static final String MESSAGE_NOT_EDITED \u003d \"Adding expenses not edited.\";"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_EMPLOYEE_ID_NOT_FOUND \u003d \"Employee Id not found in address book\";"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    private Person toCheckEmployeeId;"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    private final Expenses toAddExpenses;"
+        "content": ""
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    private final EditExpensesDescriptor editExpensesDescriptor;"
+        "content": "    private Boolean isNegativeLeftover;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "    private Person toCheckEmployeeId;"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    public AddExpensesCommand(Expenses expenses, EditExpensesDescriptor editExpensesDescriptor) {"
+        "content": "    private final Expenses toAddExpenses;"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        requireNonNull(expenses);"
+        "content": "    private final EditExpensesDescriptor editExpensesDescriptor;"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        requireNonNull(editExpensesDescriptor);"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "    public AddExpensesCommand(Expenses expenses, EditExpensesDescriptor editExpensesDescriptor) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        toAddExpenses \u003d expenses;"
+        "content": "        Expenses toAddFormmatExpenses;"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        toCheckEmployeeId \u003d new Person(expenses.getEmployeeId());"
+        "content": "        ExpensesAmount formattedExpenses \u003d null;"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        this.editExpensesDescriptor \u003d new EditExpensesDescriptor(editExpensesDescriptor);"
+        "content": "        requireNonNull(expenses);"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    }"
+        "content": "        requireNonNull(editExpensesDescriptor);"
       },
       {
         "lineNumber": 52,
@@ -25197,707 +25197,707 @@
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    @Override"
+        "content": "        NumberFormat formatter \u003d new DecimalFormat(\"#0.00\");"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
+        "content": "        toAddFormmatExpenses \u003d expenses;"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        if (!model.hasEmployeeId(toCheckEmployeeId)) {"
+        "content": "        String formatExpenses \u003d toAddFormmatExpenses.getExpensesAmount().toString();"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            throw new CommandException(MESSAGE_EMPLOYEE_ID_NOT_FOUND);"
+        "content": "        try {"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        } else if (!model.hasExpenses(toAddExpenses)) {"
+        "content": "            formattedExpenses \u003d ParserUtil.parseExpensesAmount("
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            model.addExpenses(toAddExpenses);"
+        "content": "                    String.valueOf(formatter.format(Double.parseDouble(formatExpenses))));"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            model.commitExpensesList();"
+        "content": "        } catch (ParseException pe) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        } else if (model.hasExpenses(toAddExpenses)) {"
+        "content": "            pe.printStackTrace();"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            EmployeeIdExpensesContainsKeywordsPredicate predicatEmployeeId;"
+        "content": "        }"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            List\u003cString\u003e employeeIdList \u003d new ArrayList\u003c\u003e();"
+        "content": "        EmployeeId addEmployeeId \u003d toAddFormmatExpenses.getEmployeeId();"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            List\u003cExpenses\u003e lastShownListExpenses;"
+        "content": "        toAddExpenses \u003d new Expenses (addEmployeeId, formattedExpenses);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        toCheckEmployeeId \u003d new Person(expenses.getEmployeeId());"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            employeeIdList.add(toCheckEmployeeId.getEmployeeId().value);"
+        "content": "        this.editExpensesDescriptor \u003d new EditExpensesDescriptor(editExpensesDescriptor);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            predicatEmployeeId \u003d new EmployeeIdExpensesContainsKeywordsPredicate(employeeIdList);"
+        "content": "        isNegativeLeftover \u003d false;"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            model.updateFilteredExpensesList(predicatEmployeeId);"
+        "content": ""
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            lastShownListExpenses \u003d model.getFilteredExpensesList();"
+        "content": "    @Override"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            Expenses expensesToEdit \u003d lastShownListExpenses.get(0);"
+        "content": "        String messageToShow \u003d \"\";"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            Expenses editedExpenses \u003d createEditedExpenses(expensesToEdit, editExpensesDescriptor);"
+        "content": "        if (!model.hasEmployeeId(toCheckEmployeeId)) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "            throw new CommandException(MESSAGE_EMPLOYEE_ID_NOT_FOUND);"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        } else if (!model.hasExpenses(toAddExpenses)) {"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            model.updateExpenses(expensesToEdit, editedExpenses);"
+        "content": "            if (Double.parseDouble(toAddExpenses.getExpensesAmount().toString()) \u003c 0) {"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            model.updateFilteredExpensesList(PREDICATE_SHOW_ALL_EXPENSES);"
+        "content": "                messageToShow \u003d MESSAGE_NEGATIVE_LEFTOVER;"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "            } else if (Double.parseDouble(toAddExpenses.getExpensesAmount().toString()) \u003e\u003d 0) {"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            model.commitExpensesList();"
+        "content": "                model.addExpenses(toAddExpenses);"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "                model.commitExpensesList();"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        return new CommandResult(String.format(MESSAGE_SUCCESS, toAddExpenses));"
+        "content": "                messageToShow \u003d MESSAGE_SUCCESS;"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    }"
+        "content": "            }"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        } else if (model.hasExpenses(toAddExpenses)) {"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    /**"
+        "content": "            EmployeeIdExpensesContainsKeywordsPredicate predicatEmployeeId;"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     * Creates and returns a {@code Expenses} with the details of {@code expensesToEdit}"
+        "content": "            List\u003cString\u003e employeeIdList \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     * edited with {@code editExpensesDescriptor}."
+        "content": "            List\u003cExpenses\u003e lastShownListExpenses;"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    private static Expenses createEditedExpenses(Expenses expensesToEdit, EditExpensesDescriptor"
+        "content": "            employeeIdList.add(toCheckEmployeeId.getEmployeeId().value);"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            editExpensesDescriptor) {"
+        "content": "            predicatEmployeeId \u003d new EmployeeIdExpensesContainsKeywordsPredicate(employeeIdList);"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        assert expensesToEdit !\u003d null;"
+        "content": ""
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        ExpensesAmount updatedExpensesAmount \u003d null;"
+        "content": "            model.updateFilteredExpensesList(predicatEmployeeId);"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "            lastShownListExpenses \u003d model.getFilteredExpensesList();"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        EmployeeId updatedEmployeeId \u003d expensesToEdit.getEmployeeId();"
+        "content": ""
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        try {"
+        "content": "            Expenses expensesToEdit \u003d lastShownListExpenses.get(0);"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            updatedExpensesAmount \u003d ParserUtil.parseExpensesAmount(modifyExpensesAmount(expensesToEdit,"
+        "content": "            Expenses editedExpenses \u003d createEditedExpenses(expensesToEdit, editExpensesDescriptor);"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "                    editExpensesDescriptor));"
+        "content": ""
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        } catch (ParseException pe) {"
+        "content": "            if (getIsNegativeLeftover()) {"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            pe.printStackTrace();"
+        "content": "                messageToShow \u003d MESSAGE_NEGATIVE_LEFTOVER;"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "            } else if (!getIsNegativeLeftover()) {"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "                messageToShow \u003d MESSAGE_SUCCESS;"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        return new Expenses(updatedEmployeeId, updatedExpensesAmount);"
+        "content": "                model.updateExpenses(expensesToEdit, editedExpenses);"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    }"
+        "content": "                model.commitExpensesList();"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    /**"
+        "content": "            model.updateFilteredExpensesList(PREDICATE_SHOW_ALL_EXPENSES);"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     * Creates and returns a new String of Expenses with the details of {@code expensesToEdit}"
+        "content": "        }"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     * edited with {@code editExpensesDescriptor}."
+        "content": "        return new CommandResult(String.format(messageToShow, toAddExpenses));"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    private static String modifyExpensesAmount (Expenses expensesToEdit, EditExpensesDescriptor"
+        "content": ""
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            editExpensesDescriptor) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        NumberFormat formatter \u003d new DecimalFormat(\"#0.00\");"
+        "content": "     * Creates and returns a {@code Expenses} with the details of {@code expensesToEdit}"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        String newExpensesAmount \u003d expensesToEdit.getExpensesAmount().toString();"
+        "content": "     * edited with {@code editExpensesDescriptor}."
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        double updateExpensesAmount \u003d Double.parseDouble(newExpensesAmount);"
+        "content": "     */"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        String change \u003d editExpensesDescriptor.getExpensesAmount().toString().replaceAll(\"[^0-9.-]\","
+        "content": "    private Expenses createEditedExpenses(Expenses expensesToEdit, EditExpensesDescriptor"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "                \"\");"
+        "content": "            editExpensesDescriptor) {"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        updateExpensesAmount +\u003d Double.parseDouble(change);"
+        "content": "        assert expensesToEdit !\u003d null;"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        newExpensesAmount \u003d String.valueOf(formatter.format(updateExpensesAmount));"
+        "content": "        ExpensesAmount updatedExpensesAmount \u003d null;"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        return newExpensesAmount;"
+        "content": ""
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    }"
+        "content": "        EmployeeId updatedEmployeeId \u003d expensesToEdit.getEmployeeId();"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        try {"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    @Override"
+        "content": "            updatedExpensesAmount \u003d ParserUtil.parseExpensesAmount(modifyExpensesAmount(expensesToEdit,"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "                    editExpensesDescriptor));"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": "        } catch (ParseException pe) {"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "                || (other instanceof AddExpensesCommand // instanceof handles nulls"
+        "content": "            pe.printStackTrace();"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "                \u0026\u0026 toAddExpenses.equals(((AddExpensesCommand) other).toAddExpenses));"
+        "content": "        }"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        return new Expenses(updatedEmployeeId, updatedExpensesAmount);"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     * Stores the details to edit the person with. Each non-empty field value will replace the"
+        "content": ""
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     * corresponding field value of the person."
+        "content": "    /**"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "     */"
+        "content": "     * Creates and returns a new String of Expenses with the details of {@code expensesToEdit}"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    public static class EditExpensesDescriptor {"
+        "content": "     * edited with {@code editExpensesDescriptor}."
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        private ExpensesAmount expensesAmount;"
+        "content": "     */"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "    private String modifyExpensesAmount (Expenses expensesToEdit, EditExpensesDescriptor"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        public EditExpensesDescriptor() {"
+        "content": "            editExpensesDescriptor) {"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "        NumberFormat formatter \u003d new DecimalFormat(\"#0.00\");"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        String newExpensesAmount \u003d expensesToEdit.getExpensesAmount().toString();"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        /**"
+        "content": "        double updateExpensesAmount \u003d Double.parseDouble(newExpensesAmount);"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "         * Copy constructor."
+        "content": "        String change \u003d editExpensesDescriptor.getExpensesAmount().toString().replaceAll(\"[^0-9.-]\","
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "         * A defensive copy of {@code tags} is used internally."
+        "content": "                \"\");"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "         */"
+        "content": "        updateExpensesAmount +\u003d Double.parseDouble(change);"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        public EditExpensesDescriptor(EditExpensesDescriptor toCopy) {"
+        "content": "        if (updateExpensesAmount \u003c 0) {"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            setExpensesAmount(toCopy.expensesAmount);"
+        "content": "            setIsNegativeLeftover(true);"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "        } else if (updateExpensesAmount \u003e\u003d 0) {"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "            newExpensesAmount \u003d String.valueOf(formatter.format(updateExpensesAmount));"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        /**"
+        "content": "        }"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "         * Returns true if at least one field is edited."
+        "content": "        return newExpensesAmount;"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "         */"
+        "content": "    }"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        public boolean isAnyFieldEdited() {"
+        "content": ""
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            return CollectionUtil.isAnyNonNull(expensesAmount);"
+        "content": "    @Override"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        public void setExpensesAmount(ExpensesAmount expensesAmount) {"
+        "content": "                || (other instanceof AddExpensesCommand // instanceof handles nulls"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            this.expensesAmount \u003d expensesAmount;"
+        "content": "                \u0026\u0026 toAddExpenses.equals(((AddExpensesCommand) other).toAddExpenses));"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "    }"
       },
       {
         "lineNumber": 154,
@@ -25911,21 +25911,21 @@
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        public Optional\u003cExpensesAmount\u003e getExpensesAmount() {"
+        "content": "    public void setIsNegativeLeftover(Boolean negativeLeftover) {"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            return Optional.ofNullable(expensesAmount);"
+        "content": "        isNegativeLeftover \u003d negativeLeftover;"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "    }"
       },
       {
         "lineNumber": 158,
@@ -25939,136 +25939,395 @@
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        @Override"
+        "content": "    public boolean getIsNegativeLeftover() {"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        public boolean equals(Object other) {"
+        "content": "        return isNegativeLeftover;"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            // short circuit if same object"
+        "content": "    }"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            if (other \u003d\u003d this) {"
+        "content": ""
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "                return true;"
+        "content": "    /**"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            }"
+        "content": "     * Stores the details to edit the person with. Each non-empty field value will replace the"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "     * corresponding field value of the person."
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            // instanceof handles nulls"
+        "content": "     */"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            if (!(other instanceof EditExpensesDescriptor)) {"
+        "content": "    public static class EditExpensesDescriptor {"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "                return false;"
+        "content": "        private ExpensesAmount expensesAmount;"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        public EditExpensesDescriptor() {"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            // state check"
+        "content": "        }"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            EditExpensesDescriptor e \u003d (EditExpensesDescriptor) other;"
+        "content": ""
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": ""
+        "content": "        /**"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "            return getExpensesAmount().equals(e.getExpensesAmount());"
+        "content": "         * Copy constructor."
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "        }"
+        "content": "         * A defensive copy of {@code tags} is used internally."
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "    }"
+        "content": "         */"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "XiiaoPanda"
         },
-        "content": "}"
+        "content": "        public EditExpensesDescriptor(EditExpensesDescriptor toCopy) {"
       },
       {
         "lineNumber": 178,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            setExpensesAmount(toCopy.expensesAmount);"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "         * Returns true if at least one field is edited."
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        public boolean isAnyFieldEdited() {"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            return CollectionUtil.isAnyNonNull(expensesAmount);"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        public void setExpensesAmount(ExpensesAmount expensesAmount) {"
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            this.expensesAmount \u003d expensesAmount;"
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        public Optional\u003cExpensesAmount\u003e getExpensesAmount() {"
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            return Optional.ofNullable(expensesAmount);"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        @Override"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            // short circuit if same object"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            if (other \u003d\u003d this) {"
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "                return true;"
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            if (!(other instanceof EditExpensesDescriptor)) {"
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "                return false;"
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 207,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 208,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            // state check"
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            EditExpensesDescriptor e \u003d (EditExpensesDescriptor) other;"
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "            return getExpensesAmount().equals(e.getExpensesAmount());"
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "XiiaoPanda"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 215,
         "author": {
           "gitId": "XiiaoPanda"
         },
@@ -26076,7 +26335,7 @@
       }
     ],
     "authorContributionMap": {
-      "XiiaoPanda": 178
+      "XiiaoPanda": 215
     }
   },
   {

@@ -82,8 +82,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 402,
-        "deletions": 199,
+        "insertions": 486,
+        "deletions": 1519,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -460,6 +460,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "nianfei97": [
@@ -744,6 +756,18 @@
         "deletions": 115,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 84,
+        "deletions": 1320,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "alexiscatnip": [
@@ -1028,6 +1052,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "bennchong": [
@@ -1312,20 +1348,32 @@
         "deletions": 7,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "cjinting-nus": 959,
-    "nianfei97": 2523,
+    "cjinting-nus": 945,
+    "nianfei97": 2575,
     "alexiscatnip": 1154,
     "bennchong": 2194
   },
   "authorContributionVariance": {
-    "cjinting-nus": 169709.11,
-    "nianfei97": 50259.21,
-    "alexiscatnip": 16534.29,
-    "bennchong": 14230.351
+    "cjinting-nus": 163105.95,
+    "nianfei97": 82548.65,
+    "alexiscatnip": 16048.929,
+    "bennchong": 13836.491
   },
   "authorDisplayNameMap": {
     "cjinting-nus": "CHE...ING",

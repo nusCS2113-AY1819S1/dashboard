@@ -214,8 +214,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 212,
-        "deletions": 11,
+        "insertions": 251,
+        "deletions": 21,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -510,6 +510,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "xhxh96": [
@@ -800,6 +806,12 @@
         "deletions": 16,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "chewkahmeng": [
@@ -1090,6 +1102,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "brandonccm1996": [
@@ -1380,6 +1398,12 @@
         "deletions": 53,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "chokxy": [
@@ -1670,22 +1694,28 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 39,
+        "deletions": 10,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "xShaivan": 1216,
+    "xShaivan": 1210,
     "xhxh96": 1566,
     "chewkahmeng": 1246,
-    "brandonccm1996": 2473,
-    "chokxy": 896
+    "brandonccm1996": 2472,
+    "chokxy": 933
   },
   "authorContributionVariance": {
-    "xShaivan": 29832.398,
-    "xhxh96": 38746.246,
-    "chewkahmeng": 41850.2,
-    "brandonccm1996": 95914.02,
-    "chokxy": 9675.639
+    "xShaivan": 29319.658,
+    "xhxh96": 38088.227,
+    "chewkahmeng": 41081.152,
+    "brandonccm1996": 94433.86,
+    "chokxy": 9490.505
   },
   "authorDisplayNameMap": {
     "xShaivan": "HOV...HAO",

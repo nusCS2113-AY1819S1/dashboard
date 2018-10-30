@@ -82,8 +82,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 359,
-        "deletions": 216,
+        "insertions": 830,
+        "deletions": 441,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -460,6 +460,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "cjunxiang": [
@@ -734,16 +746,28 @@
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 54,
+        "deletions": 10,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 289,
+        "deletions": 126,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 66,
+        "deletions": 76,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 62,
+        "deletions": 13,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "shuanang": [
@@ -1028,6 +1052,18 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "arjo129": [
@@ -1312,20 +1348,32 @@
         "deletions": 78,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
     "tttaus": 452,
-    "cjunxiang": 480,
+    "cjunxiang": 907,
     "shuanang": 766,
-    "arjo129": 4522
+    "arjo129": 4353
   },
   "authorContributionVariance": {
-    "tttaus": 2699.5596,
-    "cjunxiang": 9797.463,
-    "shuanang": 4281.1665,
-    "arjo129": 641053.94
+    "tttaus": 2598.6638,
+    "cjunxiang": 12394.449,
+    "shuanang": 4123.1006,
+    "arjo129": 618819.4
   },
   "authorDisplayNameMap": {
     "tttaus": "TAN...NCE",

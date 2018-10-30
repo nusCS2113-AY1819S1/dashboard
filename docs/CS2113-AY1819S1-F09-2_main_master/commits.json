@@ -102,32 +102,32 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 984,
+        "deletions": 71,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 29,
+        "deletions": 15,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 381,
+        "deletions": 771,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 618,
+        "deletions": 70,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1,
-        "deletions": 1,
+        "insertions": 728,
+        "deletions": 143,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -164,14 +164,14 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 794,
-        "deletions": 167,
+        "insertions": 795,
+        "deletions": 171,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 2033,
-        "deletions": 1210,
+        "insertions": 2180,
+        "deletions": 1280,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -510,6 +510,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "px1099": [
@@ -800,6 +806,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "AngWM": [
@@ -888,8 +900,8 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 984,
+        "deletions": 71,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-09-27"
       },
@@ -942,8 +954,8 @@
         "untilDate": "2018-10-05"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 29,
+        "deletions": 15,
         "sinceDate": "2018-10-05",
         "untilDate": "2018-10-06"
       },
@@ -972,8 +984,8 @@
         "untilDate": "2018-10-10"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 381,
+        "deletions": 771,
         "sinceDate": "2018-10-10",
         "untilDate": "2018-10-11"
       },
@@ -1014,8 +1026,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 256,
+        "deletions": 13,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-18"
       },
@@ -1044,32 +1056,32 @@
         "untilDate": "2018-10-22"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 176,
+        "deletions": 16,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 186,
+        "deletions": 41,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 42,
+        "deletions": 6,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-25"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 237,
+        "deletions": 44,
         "sinceDate": "2018-10-25",
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 290,
+        "deletions": 39,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
       },
@@ -1080,16 +1092,22 @@
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 64,
+        "deletions": 33,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 1,
-        "deletions": 1,
+        "insertions": 58,
+        "deletions": 15,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 37,
+        "deletions": 6,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "kianhong95": [
@@ -1316,8 +1334,8 @@
         "untilDate": "2018-10-19"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 4,
         "sinceDate": "2018-10-19",
         "untilDate": "2018-10-20"
       },
@@ -1376,10 +1394,16 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 787,
-        "deletions": 101,
+        "insertions": 835,
+        "deletions": 120,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 99,
+        "deletions": 51,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "SalsabilTasnia": [
@@ -1670,22 +1694,28 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
     "kangmingtay": 1160,
-    "px1099": 1471,
-    "AngWM": 16,
-    "kianhong95": 3218,
-    "SalsabilTasnia": 1687
+    "px1099": 1473,
+    "AngWM": 2105,
+    "kianhong95": 3316,
+    "SalsabilTasnia": 1686
   },
   "authorContributionVariance": {
-    "kangmingtay": 14453.074,
-    "px1099": 38515.203,
-    "AngWM": 0.081597224,
-    "kianhong95": 112600.555,
-    "SalsabilTasnia": 78090.74
+    "kangmingtay": 14197.553,
+    "px1099": 37812.24,
+    "AngWM": 51278.85,
+    "kianhong95": 112465.4,
+    "SalsabilTasnia": 76763.33
   },
   "authorDisplayNameMap": {
     "kangmingtay": "TAY...ING",

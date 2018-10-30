@@ -126,8 +126,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 505,
-        "deletions": 172,
+        "insertions": 545,
+        "deletions": 180,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -1104,8 +1104,8 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 40,
-        "deletions": 6,
+        "insertions": 80,
+        "deletions": 14,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
       }
@@ -1705,15 +1705,15 @@
   },
   "authorFinalContributionMap": {
     "kianmengtan": 0,
-    "sxqnicholas96": 8080,
-    "MingXunSeah": 1753,
+    "sxqnicholas96": 7986,
+    "MingXunSeah": 1716,
     "andrewome": 707,
-    "leerachel": 2664
+    "leerachel": 2248
   },
   "authorContributionVariance": {
     "kianmengtan": 0.0,
     "sxqnicholas96": 1.4305088E8,
-    "MingXunSeah": 385354.28,
+    "MingXunSeah": 385204.62,
     "andrewome": 2.91218656E8,
     "leerachel": 7.1999656E7
   },

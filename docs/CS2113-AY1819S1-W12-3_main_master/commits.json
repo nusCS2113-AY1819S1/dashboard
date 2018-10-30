@@ -82,8 +82,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 567,
+        "deletions": 162,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -126,8 +126,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1687,
-        "deletions": 381,
+        "insertions": 1709,
+        "deletions": 387,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -214,8 +214,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 7549,
-        "deletions": 256,
+        "insertions": 7603,
+        "deletions": 310,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -808,8 +808,8 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 567,
+        "deletions": 162,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
       }
@@ -1104,8 +1104,8 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 22,
+        "deletions": 6,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
       }
@@ -1696,8 +1696,8 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 54,
+        "deletions": 54,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
       }
@@ -1705,17 +1705,17 @@
   },
   "authorFinalContributionMap": {
     "peiying98": 0,
-    "Limminghong": 1109,
-    "LowGinWee": 2899,
-    "lekoook": 3044,
-    "lws803": 8848
+    "Limminghong": 1484,
+    "LowGinWee": 2902,
+    "lekoook": 3047,
+    "lws803": 8908
   },
   "authorContributionVariance": {
     "peiying98": 0.0,
-    "Limminghong": 14597.661,
-    "LowGinWee": 53099.73,
+    "Limminghong": 23733.684,
+    "LowGinWee": 52959.996,
     "lekoook": 33370.13,
-    "lws803": 765235.25
+    "lws803": 764276.8
   },
   "authorDisplayNameMap": {
     "peiying98": "LIM...ING",

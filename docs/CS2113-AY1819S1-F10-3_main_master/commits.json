@@ -170,8 +170,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 5588,
-        "deletions": 765,
+        "insertions": 710,
+        "deletions": 250,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -510,6 +510,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "Matthew Alexander": [
@@ -800,6 +806,12 @@
         "deletions": 37,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "Putra Danish": [
@@ -1090,6 +1102,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "Ong Wee Keong": [
@@ -1352,7 +1370,7 @@
         "untilDate": "2018-10-25"
       },
       {
-        "insertions": 4296,
+        "insertions": 179,
         "deletions": 38,
         "sinceDate": "2018-10-25",
         "untilDate": "2018-10-26"
@@ -1364,22 +1382,28 @@
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 232,
-        "deletions": 103,
+        "insertions": 229,
+        "deletions": 90,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 372,
-        "deletions": 41,
+        "insertions": 98,
+        "deletions": 24,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 534,
-        "deletions": 492,
+        "insertions": 48,
+        "deletions": 6,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 2,
+        "deletions": 1,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "muhdharun": [
@@ -1670,6 +1694,12 @@
         "deletions": 51,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
@@ -1677,15 +1707,15 @@
     "ShreyasKp": 597,
     "Matthew Alexander": 1135,
     "Putra Danish": 1012,
-    "Ong Wee Keong": 5762,
+    "Ong Wee Keong": 5763,
     "muhdharun": 2008
   },
   "authorContributionVariance": {
-    "ShreyasKp": 5864.0786,
-    "Matthew Alexander": 9670.238,
-    "Putra Danish": 26354.084,
-    "Ong Wee Keong": 398905.75,
-    "muhdharun": 42878.484
+    "ShreyasKp": 5758.5103,
+    "Matthew Alexander": 9534.697,
+    "Putra Danish": 25895.953,
+    "Ong Wee Keong": 10081.349,
+    "muhdharun": 42298.953
   },
   "authorDisplayNameMap": {
     "ShreyasKp": "SHR...ASH",

@@ -38,8 +38,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 5,
-        "deletions": 41,
+        "insertions": 20,
+        "deletions": 49,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -510,6 +510,12 @@
         "deletions": 41,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 15,
+        "deletions": 8,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "ChewKinWhye": [
@@ -800,6 +806,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "kelvintankaiboon": [
@@ -1090,6 +1102,12 @@
         "deletions": 5,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "Davindran": [
@@ -1380,6 +1398,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "gaoqikai": [
@@ -1670,22 +1694,28 @@
         "deletions": 41,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "HeHaowei": 360,
+    "HeHaowei": 366,
     "ChewKinWhye": 41390,
     "kelvintankaiboon": 2977,
     "Davindran": 1,
     "gaoqikai": 1923
   },
   "authorContributionVariance": {
-    "HeHaowei": 639.73914,
-    "ChewKinWhye": 5.603754E7,
-    "kelvintankaiboon": 497406.88,
-    "Davindran": 942.9576,
-    "gaoqikai": 78422.29
+    "HeHaowei": 633.35706,
+    "ChewKinWhye": 5.4945196E7,
+    "kelvintankaiboon": 488310.94,
+    "Davindran": 924.11597,
+    "gaoqikai": 76935.06
   },
   "authorDisplayNameMap": {
     "HeHaowei": "HE ...WEI",

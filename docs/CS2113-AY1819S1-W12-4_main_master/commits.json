@@ -126,8 +126,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 511,
-        "deletions": 240,
+        "insertions": 647,
+        "deletions": 277,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -1060,8 +1060,8 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 136,
+        "deletions": 37,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
       }
@@ -1364,15 +1364,15 @@
     ]
   },
   "authorFinalContributionMap": {
-    "bluein-green": 1009,
+    "bluein-green": 1007,
     "scottljw": 0,
-    "Lunastryke": 1271,
-    "liu-tianhang": 2099
+    "Lunastryke": 1370,
+    "liu-tianhang": 2084
   },
   "authorContributionVariance": {
     "bluein-green": 189132.75,
     "scottljw": 0.0,
-    "Lunastryke": 24037.125,
+    "Lunastryke": 24188.873,
     "liu-tianhang": 309968.3
   },
   "authorDisplayNameMap": {

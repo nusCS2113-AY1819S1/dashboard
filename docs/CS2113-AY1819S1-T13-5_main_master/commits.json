@@ -38,8 +38,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1403,
-        "deletions": 352,
+        "insertions": 1407,
+        "deletions": 354,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -512,8 +512,8 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 11,
-        "deletions": 12,
+        "insertions": 15,
+        "deletions": 14,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
       }
@@ -1704,14 +1704,14 @@
     ]
   },
   "authorFinalContributionMap": {
-    "garyheng": 3057,
-    "sijieg": 2608,
+    "garyheng": 3060,
+    "sijieg": 2602,
     "shouteck": 2090,
     "DarylTew": 1734,
     "yicheng12": 969
   },
   "authorContributionVariance": {
-    "garyheng": 178277.98,
+    "garyheng": 178243.78,
     "sijieg": 370334.9,
     "shouteck": 258667.16,
     "DarylTew": 248329.45,

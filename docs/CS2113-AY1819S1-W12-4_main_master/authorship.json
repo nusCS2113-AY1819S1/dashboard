@@ -10736,140 +10736,140 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Login in Program:(more details about command box login will be release soon)"
+        "content": "\u003d\u003d\u003d\u003d Login:"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": ". At the login page, enter user and password,"
+        "content": "image::loginPic/login_page_main.PNG[width\u003d\"800\"]"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": ". Clicked Login Button"
+        "content": "[.noteblock]"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Exiting Program: `logout`"
+        "content": "[noteblock-title]#*User Parameters*#"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": "Return user to the login page."
+        "content": ". At the login page, enter user and password using either the CLI or GUI"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `logout`"
+        "content": ". Clicked Login Button"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Exiting Program: `exit`"
+        "content": ""
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "Exits program."
+        "content": "[.format]"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `exit`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `USERNAME PASSWORD`"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing help : `help`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
-        "content": "View help for respective user"
+        "content": ""
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `help`"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Change password: `changePassword`"
+        "content": "Both userName and password are single word. No spaces are allow in userName or password."
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "Change password of the current account"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `changePassword o/OLD_PASSWORD n/NEW_PASSWORD`"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "[.example]"
       },
       {
         "lineNumber": 119,
@@ -10883,392 +10883,392 @@
         "author": {
           "gitId": "-"
         },
-        "content": "This enable user to change their password after manager create a default account."
+        "content": "[example-title]#Examples:#"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* [example]#`tester 123`# +"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d View stock numbers of an drink based on name: `view`"
+        "content": "* [example]#`stocktaker 123`# +"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `view [-d] [n/Drink_NAME] [-b]`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The example provided is a default login account for admin. This account only create for tester."
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "-"
         },
-        "content": "The default view is for a type of drink."
+        "content": "After login in, a confirmation message would showed and indicate your authentication level."
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": "The default order will be a alphabetical order."
+        "content": ""
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
-        "content": "When command -d is added, the list will show an decreasing alphabetical order."
+        "content": "image::loginPic/login_confirmation.PNG[width\u003d\"300\"]"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": "When command -b is added, the list will show a list based on individually batch."
+        "content": ""
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d\u003d Exiting Program: `logout`"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Return user to the login page."
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d View stock numbers of an drink based on quantity: `quantity`"
+        "content": "Format: `logout`"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "Displays specifically the quantities left of the ingredient desired."
+        "content": ""
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `quantity [-d] [n/Drink_NAME] [-b] [t/tag]`"
+        "content": "\u003d\u003d\u003d\u003d Exiting Program: `exit`"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "Exits program."
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "-"
         },
-        "content": "The default view is for a type of drink."
+        "content": ""
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
-        "content": "The default order will be a increasing order whereby the least number of drink will be showed first"
+        "content": "\u003d\u003d\u003d\u003d Viewing help : `help`"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
-        "content": "When command -d is added, the list will show an decreasing order."
+        "content": "View help for respective user"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
-        "content": "When n/Drink Name is added, the list will only show the quantity related to the name."
+        "content": "Format: `help`"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
-        "content": "When command -b is added, the list will show a list based on individually batch."
+        "content": ""
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "-"
         },
-        "content": "When t/tag is added, it will show a list that has all the drinks with that particular tag."
+        "content": "\u003d\u003d\u003d\u003d Change password: `changePassword`"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Change password of the current account"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `changePassword o/OLD_PASSWORD n/NEW_PASSWORD`"
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d View import dates for a batch of drinks: `importDate`"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Displays the import dates of batches of the drink desired."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `importDate [-d] INGREDIENT_NAME`"
+        "content": "This enable user to change their password after manager create a default account."
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d\u003d View stock numbers of an drink based on name: `view`"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "-"
         },
-        "content": "The default order will be a increasing order whereby the earliest importing date will be showed first"
+        "content": ""
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
-        "content": "When command -d is added, the list will show an decreasing order"
+        "content": "Format: `view [-d] [n/Drink_NAME] [-b]`"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Manager"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The default view is for a type of drink."
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing Help: `help`"
+        "content": "The default order will be a alphabetical order."
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "-"
         },
-        "content": "Shows available commands with brief description of what can manager do."
+        "content": "When command -d is added, the list will show an decreasing alphabetical order."
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `help`"
+        "content": "When command -b is added, the list will show a list based on individually batch."
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Add new drink items: `addItem`"
+        "content": ""
       },
       {
         "lineNumber": 165,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Add a new drink item to the drink item manager for sales."
+        "content": "\u003d\u003d\u003d\u003d View stock numbers of an drink based on quantity: `quantity`"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `addItem n/DrinkItem p/DEFAULT_SELLING_PRICE`"
+        "content": "Displays specifically the quantities left of the ingredient desired."
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "\tFormat: `quantity [-d] [n/Drink_NAME] [-b] [t/tag]`"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": "All the drink item added will be in a predefined list. As such, stock taker only able to add batches that is in this predefined list."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "The default view is for a type of drink."
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The default order will be a increasing order whereby the least number of drink will be showed first"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d View history of actions: `history`"
+        "content": "When command -d is added, the list will show an decreasing order."
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
-        "content": "Displays list of actions done by user over a specified time frame."
+        "content": "When n/Drink Name is added, the list will only show the quantity related to the name."
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `history START_DATE END_DATE`"
+        "content": "When command -b is added, the list will show a list based on individually batch."
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "When t/tag is added, it will show a list that has all the drinks with that particular tag."
       },
       {
         "lineNumber": 176,
@@ -11282,70 +11282,70 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Start date must be earlier than end date"
+        "content": ""
       },
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d\u003d View import dates for a batch of drinks: `importDate`"
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "Displays the import dates of batches of the drink desired."
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Create account for other user : `createAccount`"
+        "content": "\tFormat: `importDate [-d] INGREDIENT_NAME`"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
-        "content": "Create a account with different authentication right."
+        "content": ""
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "-"
         },
-        "content": "Format:`createAccount u/USER_NAME p/PASSWORD a/AUTHENTICATION_LEVEL`"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Delete account of other user : `deleteAccount`"
+        "content": "The default order will be a increasing order whereby the earliest importing date will be showed first"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "-"
         },
-        "content": "Delete a account."
+        "content": "When command -d is added, the list will show an decreasing order"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `deleteAccount u/USER_NAME`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 187,
@@ -11359,7 +11359,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Stock Taker"
+        "content": "\u003d\u003d\u003d Manager"
       },
       {
         "lineNumber": 189,
@@ -11378,9 +11378,9 @@
       {
         "lineNumber": 191,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Shows available commands with brief description of what a stock taker can do."
+        "content": "Shows available commands with brief description of what can manager do."
       },
       {
         "lineNumber": 192,
@@ -11401,336 +11401,336 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Import transaction of a drink item: `add`"
+        "content": "\u003d\u003d\u003d\u003d Add new drink items: `addItem`"
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "Records import of a drink item."
+        "content": "Add a new drink item to the drink item manager for sales."
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `add n/DRINK_NAME  d/DATE_OF_IMPORT  q/QUANTITY_IMPORT p/TOTAL_IMPORT_PRICE`"
+        "content": "\tFormat: `addItem n/DrinkItem p/DEFAULT_SELLING_PRICE`"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "-"
         },
-        "content": "* `Add n/coca cola d/10/06/18 q/12 p/345.68`"
+        "content": "All the drink item added will be in a predefined list. As such, stock taker only able to add batches that is in this predefined list."
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d\u003d View history of actions: `history`"
       },
       {
         "lineNumber": 203,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "DRINK NAME is predefined by manager, so alert message will appear if the drink name is not in the predefined list. In addition, drink name will be case-insensitive."
+        "content": "Displays list of actions done by user over a specified time frame."
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\tFormat: `history START_DATE END_DATE`"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Sale transaction of a drink item: `sell`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
-        "content": "Record sale of a drink item"
+        "content": "Start date must be earlier than end date"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
-        "content": "           Format: `sell n/DRINK_NAME  d/DATE_SOLD  q/QUANTITY_SOLD p/TOTAL_SELLING_PRICE`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Create account for other user : `createAccount`"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "-"
         },
-        "content": "* `Sell n/coca cola d/12/06/18 q/15 p/758`"
+        "content": "Create a account with different authentication right."
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format:`createAccount u/USER_NAME p/PASSWORD a/AUTHENTICATION_LEVEL`"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d\u003d Delete account of other user : `deleteAccount`"
       },
       {
         "lineNumber": 215,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "* DRINK NAME is predefined by manager, so alert message will appear if the drink name is not in the predefined list"
+        "content": "Delete a account."
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "-"
         },
-        "content": "* Quantity sold cannot be more than stock. Or else a warning message will be shown."
+        "content": "Format: `deleteAccount u/USER_NAME`"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Stock Taker"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Accountant"
+        "content": ""
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Viewing Help: `help`"
       },
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing Help: `help`"
+        "content": "Shows available commands with brief description of what a stock taker can do."
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "-"
         },
-        "content": "Shows available commands with brief description of what can accountant do."
+        "content": "Format: `help`"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `help`"
+        "content": ""
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Import transaction of a drink item: `add`"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Get the total profit of the shop over specified periods: `profit`"
+        "content": "Records import of a drink item."
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "-"
         },
-        "content": "View the total profit earned in time periods of a day, 7 days and 30 days."
+        "content": "\tFormat: `add n/DRINK_NAME  d/DATE_OF_IMPORT  q/QUANTITY_IMPORT p/TOTAL_IMPORT_PRICE`"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `profit`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "* `Add n/coca cola d/10/06/18 q/12 p/345.68`"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "-"
         },
-        "content": "To view profit earned up to now in the current day, no parameters are used. i.e. just â€œprofitâ€?"
+        "content": ""
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
-        "content": "To view profit earned in last 7 days, append â€œ-wâ€?"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "-"
         },
-        "content": "To view profit earned in last 30 days, append â€œ-mâ€?"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "DRINK NAME is predefined by manager, so alert message will appear if the drink name is not in the predefined list. In addition, drink name will be case-insensitive."
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Get the quantities of each drink item sold over specified periods: `sales`"
+        "content": ""
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "-"
         },
-        "content": "View the sales number of each drink item in a period specified by the starting date and ending date."
+        "content": "\u003d\u003d\u003d\u003d Sale transaction of a drink item: `sell`"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `sales STARTING_DATE ENDING_DATE`"
+        "content": "Record sale of a drink item"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "           Format: `sell n/DRINK_NAME  d/DATE_SOLD  q/QUANTITY_SOLD p/TOTAL_SELLING_PRICE`"
       },
       {
         "lineNumber": 239,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "\u003d\u003d\u003d\u003d Get the trend of cost of every ingredient over specified periods: `viewcost`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "-"
         },
-        "content": "View the variation tendency of the cost of every ingredient in a period specified by the starting date and ending date."
+        "content": ""
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "-"
         },
-        "content": "\tFormat: `viewcost STARTING_DATE ENDING_DATE`"
+        "content": "* `Sell n/coca cola d/12/06/18 q/15 p/758`"
       },
       {
         "lineNumber": 242,
@@ -11744,77 +11744,77 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Update the current cost of certain ingredients: `editcost`"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "-"
         },
-        "content": "Update the cost of ingredients every time they change to keep track."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 245,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "\tFormat: `editcost INGREDIENT_NAME UNIT_COST`"
+        "content": "* DRINK NAME is predefined by manager, so alert message will appear if the drink name is not in the predefined list"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Quantity sold cannot be more than stock. Or else a warning message will be shown."
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Original command"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "-"
         },
-        "content": "Keep for reference of syntax"
+        "content": ""
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Accountant"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
+        "content": ""
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Viewing Help: `help`"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "-"
         },
-        "content": "Lists all the commands that you have entered in reverse chronological order. +"
+        "content": "Shows available commands with brief description of what can accountant do."
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `history`"
+        "content": "Format: `help`"
       },
       {
         "lineNumber": 254,
@@ -11828,238 +11828,238 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "\u003d\u003d\u003d\u003d Get the total profit of the shop over specified periods: `profit`"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "View the total profit earned in time periods of a day, 7 days and 30 days."
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "-"
         },
-        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
+        "content": "\tFormat: `profit`"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": "// tag::undoredo[]"
+        "content": "To view profit earned up to now in the current day, no parameters are used. i.e. just â€œprofitâ€?"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Undoing previous command : `undo`"
+        "content": "To view profit earned in last 7 days, append â€œ-wâ€?"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "To view profit earned in last 30 days, append â€œ-mâ€?"
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "\u003cTO BE EDITED FURTHER\u003e +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Restores the FrozenBook to the state before the previous _undoable_ command was executed. +"
+        "content": ""
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `undo`"
+        "content": "\u003d\u003d\u003d\u003d Get the quantities of each drink item sold over specified periods: `sales`"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "View the sales number of each drink item in a period specified by the starting date and ending date."
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "\tFormat: `sales STARTING_DATE ENDING_DATE`"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Undoable commands: those commands that modify the FrozenBook\u0027s content (`add`, `delete`, `edit` and `clear`)."
+        "content": "\u003d\u003d\u003d\u003d Get the trend of cost of every ingredient over specified periods: `viewcost`"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "View the variation tendency of the cost of every ingredient in a period specified by the starting date and ending date."
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\tFormat: `viewcost STARTING_DATE ENDING_DATE`"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Update the current cost of certain ingredients: `editcost`"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "Update the cost of ingredients every time they change to keep track."
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "`viewall` +"
+        "content": "\tFormat: `editcost INGREDIENT_NAME UNIT_COST`"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": ""
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Original command"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
-        "content": "* `select 1` +"
+        "content": "Keep for reference of syntax"
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "`viewall` +"
+        "content": ""
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` +"
+        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "-"
         },
-        "content": "The `undo` command fails as there are no undoable commands executed previously."
+        "content": ""
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Lists all the commands that you have entered in reverse chronological order. +"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": ""
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 289,
@@ -12071,93 +12071,93 @@
       {
         "lineNumber": 290,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "\u003cTO BE EDITED FURTHER\u003e +"
+        "content": "// tag::undoredo[]"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "-"
         },
-        "content": "Reverses the most recent `undo` command. +"
+        "content": "\u003d\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `redo`"
+        "content": ""
       },
       {
         "lineNumber": 293,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "\u003cTO BE EDITED FURTHER\u003e +"
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "Examples:"
+        "content": "Restores the FrozenBook to the state before the previous _undoable_ command was executed. +"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `undo`"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 299,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "Undoable commands: those commands that modify the FrozenBook\u0027s content (`add`, `delete`, `edit` and `clear`)."
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` +"
+        "content": ""
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "-"
         },
-        "content": "The `redo` command fails as there are no `undo` commands executed previously."
+        "content": "Examples:"
       },
       {
         "lineNumber": 303,
@@ -12176,128 +12176,128 @@
       {
         "lineNumber": 305,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "`clear` +"
+        "content": "`viewall` +"
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": ""
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "* `select 1` +"
       },
       {
         "lineNumber": 309,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "`redo` (reapplies the `clear` command) +"
+        "content": "`viewall` +"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "-"
         },
-        "content": "// end::undoredo[]"
+        "content": "`undo` +"
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Clearing all entries : `clear`"
+        "content": ""
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 314,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "Clears all data from the FrozenBook. +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `clear`"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": ""
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Redoing the previously undone command : `redo`"
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "-"
         },
-        "content": "Exits the program. +"
+        "content": ""
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "Format: `exit`"
+        "content": "\u003cTO BE EDITED FURTHER\u003e +"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Reverses the most recent `undo` command. +"
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Saving the data"
+        "content": "Format: `redo`"
       },
       {
         "lineNumber": 323,
@@ -12309,37 +12309,37 @@
       {
         "lineNumber": 324,
         "author": {
-          "gitId": "Lunastryke"
+          "gitId": "-"
         },
-        "content": "DrinkIO data is saved in the hard disk automatically after any command that changes the data. +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "-"
         },
-        "content": "There is no need to save manually."
+        "content": ""
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "-"
         },
-        "content": "// tag::dataencryption[]"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Encrypting data files `[coming in v2.0]`"
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 329,
@@ -12353,182 +12353,182 @@
         "author": {
           "gitId": "-"
         },
-        "content": "_{explain how the user can enable/disable data encryption}_"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 331,
         "author": {
           "gitId": "-"
         },
-        "content": "// end::dataencryption[]"
+        "content": "`redo` +"
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d FAQ"
+        "content": ""
       },
       {
         "lineNumber": 334,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 335,
         "author": {
           "gitId": "-"
         },
-        "content": "*Q*: How do I transfer my data to another Computer? +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "-"
         },
-        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Address Book folder."
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 337,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 338,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Command Summary"
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 339,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Common Command"
+        "content": "`redo` (reapplies the `clear` command) +"
       },
       {
         "lineNumber": 340,
         "author": {
           "gitId": "-"
         },
-        "content": "* *logout* : `logout`"
+        "content": "// end::undoredo[]"
       },
       {
         "lineNumber": 341,
         "author": {
           "gitId": "-"
         },
-        "content": "* *exit* : `exit`"
+        "content": ""
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "-"
         },
-        "content": "* *help* : `help`"
+        "content": "\u003d\u003d\u003d\u003d Clearing all entries : `clear`"
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "-"
         },
-        "content": "* *change password* : `changePassword o/OLD_PASSWORD n/NEW_PASSWORD`"
+        "content": ""
       },
       {
         "lineNumber": 344,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": "* *view stock by Name* : `view [-d] [n/Drink_NAME] [-b]`"
+        "content": "Clears all data from the FrozenBook. +"
       },
       {
         "lineNumber": 345,
         "author": {
           "gitId": "-"
         },
-        "content": "* *view stock by quantity* : `quantity [-d] [n/Drink_NAME] [-b] [t/tag]`"
+        "content": "Format: `clear`"
       },
       {
         "lineNumber": 346,
         "author": {
           "gitId": "-"
         },
-        "content": "* *view stock by import date* : `importDate [-d] INGREDIENT_NAME`"
+        "content": ""
       },
       {
         "lineNumber": 347,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Exiting the program : `exit`"
       },
       {
         "lineNumber": 348,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Manager"
+        "content": ""
       },
       {
         "lineNumber": 349,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Exits the program. +"
       },
       {
         "lineNumber": 350,
         "author": {
           "gitId": "-"
         },
-        "content": "* *add new item* : `addItem n/DrinkItem p/DEFAULT_SELLING_PRICE`"
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 351,
         "author": {
           "gitId": "-"
         },
-        "content": "* *view history* : `history START_DATE END_DATE`"
+        "content": ""
       },
       {
         "lineNumber": 352,
         "author": {
           "gitId": "-"
         },
-        "content": "* *create account* : `createAccount u/USER_NAME p/PASSWORD a/AUTHENTICATION_LEVEL`"
+        "content": "\u003d\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 353,
         "author": {
           "gitId": "-"
         },
-        "content": "* *delete account* : `deleteAccount u/USER_NAME`"
+        "content": ""
       },
       {
         "lineNumber": 354,
         "author": {
-          "gitId": "-"
+          "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "DrinkIO data is saved in the hard disk automatically after any command that changes the data. +"
       },
       {
         "lineNumber": 355,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Stock Taker"
+        "content": "There is no need to save manually."
       },
       {
         "lineNumber": 356,
@@ -12542,14 +12542,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* *add new batch of good* : `add n/DRINK_NAME  d/DATE_OF_IMPORT  q/QUANTITY_IMPORT p/TOTAL_IMPORT_PRICE`"
+        "content": "// tag::dataencryption[]"
       },
       {
         "lineNumber": 358,
         "author": {
           "gitId": "-"
         },
-        "content": "* *record Sale transaction of a drink item* : `sell n/DRINK_NAME  d/DATE_SOLD  q/QUANTITY_SOLD p/TOTAL_SELLING_PRICE`"
+        "content": "\u003d\u003d\u003d\u003d Encrypting data files `[coming in v2.0]`"
       },
       {
         "lineNumber": 359,
@@ -12563,45 +12563,255 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Accountant"
+        "content": "_{explain how the user can enable/disable data encryption}_"
       },
       {
         "lineNumber": 361,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "// end::dataencryption[]"
       },
       {
         "lineNumber": 362,
         "author": {
           "gitId": "-"
         },
-        "content": "* *total profit* : `profit`"
+        "content": ""
       },
       {
         "lineNumber": 363,
         "author": {
           "gitId": "-"
         },
-        "content": "* *sale of item* : `sales`"
+        "content": "\u003d\u003d FAQ"
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "-"
         },
-        "content": "* *cost of item* : `costs`"
+        "content": ""
       },
       {
         "lineNumber": 365,
         "author": {
           "gitId": "-"
         },
-        "content": "* *view cost trend* : `viewcost`"
+        "content": "*Q*: How do I transfer my data to another Computer? +"
       },
       {
         "lineNumber": 366,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Address Book folder."
+      },
+      {
+        "lineNumber": 367,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 368,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Command Summary"
+      },
+      {
+        "lineNumber": 369,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Common Command"
+      },
+      {
+        "lineNumber": 370,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *logout* : `logout`"
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *exit* : `exit`"
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *help* : `help`"
+      },
+      {
+        "lineNumber": 373,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *change password* : `changePassword o/OLD_PASSWORD n/NEW_PASSWORD`"
+      },
+      {
+        "lineNumber": 374,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *view stock by Name* : `view [-d] [n/Drink_NAME] [-b]`"
+      },
+      {
+        "lineNumber": 375,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *view stock by quantity* : `quantity [-d] [n/Drink_NAME] [-b] [t/tag]`"
+      },
+      {
+        "lineNumber": 376,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *view stock by import date* : `importDate [-d] INGREDIENT_NAME`"
+      },
+      {
+        "lineNumber": 377,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 378,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Manager"
+      },
+      {
+        "lineNumber": 379,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *add new item* : `addItem n/DrinkItem p/DEFAULT_SELLING_PRICE`"
+      },
+      {
+        "lineNumber": 381,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *view history* : `history START_DATE END_DATE`"
+      },
+      {
+        "lineNumber": 382,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *create account* : `createAccount u/USER_NAME p/PASSWORD a/AUTHENTICATION_LEVEL`"
+      },
+      {
+        "lineNumber": 383,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *delete account* : `deleteAccount u/USER_NAME`"
+      },
+      {
+        "lineNumber": 384,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 385,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Stock Taker"
+      },
+      {
+        "lineNumber": 386,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 387,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *add new batch of good* : `add n/DRINK_NAME  d/DATE_OF_IMPORT  q/QUANTITY_IMPORT p/TOTAL_IMPORT_PRICE`"
+      },
+      {
+        "lineNumber": 388,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *record Sale transaction of a drink item* : `sell n/DRINK_NAME  d/DATE_SOLD  q/QUANTITY_SOLD p/TOTAL_SELLING_PRICE`"
+      },
+      {
+        "lineNumber": 389,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 390,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Accountant"
+      },
+      {
+        "lineNumber": 391,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 392,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *total profit* : `profit`"
+      },
+      {
+        "lineNumber": 393,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *sale of item* : `sales`"
+      },
+      {
+        "lineNumber": 394,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *cost of item* : `costs`"
+      },
+      {
+        "lineNumber": 395,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *view cost trend* : `viewcost`"
+      },
+      {
+        "lineNumber": 396,
         "author": {
           "gitId": "-"
         },
@@ -12610,7 +12820,7 @@
     ],
     "authorContributionMap": {
       "Lunastryke": 21,
-      "-": 345
+      "-": 375
     }
   },
   {
@@ -21338,63 +21548,63 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
-        "content": "     * pass in LoginInfo list"
+        "content": "    /**"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @param loginInfoManager"
+        "content": "     * pass in LoginInfo list"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * @param loginInfoManager"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void getLoginInfoList (LoginInfoManager loginInfoManager) {"
+        "content": "     */"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.loginInfoManager \u003d loginInfoManager;"
+        "content": "    public void getLoginInfoList (LoginInfoManager loginInfoManager) {"
       },
       {
         "lineNumber": 218,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "    }"
+        "content": "        this.loginInfoManager \u003d loginInfoManager;"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 220,
@@ -21406,12 +21616,19 @@
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "-"
+          "gitId": "liu-tianhang"
         },
         "content": ""
       },
       {
         "lineNumber": 222,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 223,
         "author": {
           "gitId": "liu-tianhang"
         },
@@ -21420,7 +21637,7 @@
     ],
     "authorContributionMap": {
       "liu-tianhang": 46,
-      "-": 176
+      "-": 177
     }
   },
   {
@@ -39500,84 +39717,84 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "    public void decreaseBatchQuantity(int value) {"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Returns true if both batches have the same BatchId"
+        "content": "        batchQuantity.decreaseValue(value);"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * This defines a weaker notion of equality between two batches."
+        "content": "    }"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public boolean isSameBatch(Batch otherBatch) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (otherBatch \u003d\u003d this) {"
+        "content": "     * Returns true if both batches have the same BatchId"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            return true;"
+        "content": "     * This defines a weaker notion of equality between two batches."
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "     */"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    public boolean isSameBatch(Batch otherBatch) {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return otherBatch !\u003d null"
+        "content": "        if (otherBatch \u003d\u003d this) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                \u0026\u0026 otherBatch.getBatchId().equals(getBatchId());"
+        "content": "            return true;"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 62,
@@ -39591,14 +39808,14 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatchQuantity(int value) {"
+        "content": "        return otherBatch !\u003d null"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        batchQuantity.setValue(value);"
+        "content": "                \u0026\u0026 otherBatch.getBatchId().equals(getBatchId());"
       },
       {
         "lineNumber": 65,
@@ -39619,14 +39836,14 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public int compareDateTo(Batch otherBatch) {"
+        "content": "    public void setBatchQuantity(int value) {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return this.batchDate.compareTo(otherBatch.getBatchDate());"
+        "content": "        batchQuantity.setValue(value);"
       },
       {
         "lineNumber": 69,
@@ -39647,91 +39864,91 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    public int compareDateTo(Batch otherBatch) {"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "        return this.batchDate.compareTo(otherBatch.getBatchDate());"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Returns true if both batches have the same identity and data fields."
+        "content": "    }"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * This defines a stronger notion of equality between two batches."
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "    /**"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "     * Returns true if both batches have the same identity and data fields."
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (other \u003d\u003d this) {"
+        "content": "     * This defines a stronger notion of equality between two batches."
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            return true;"
+        "content": "     */"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (!(other instanceof Batch)) {"
+        "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            return false;"
+        "content": "            return true;"
       },
       {
         "lineNumber": 84,
@@ -39752,143 +39969,171 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        Batch otherBatch \u003d (Batch) other;"
+        "content": "        if (!(other instanceof Batch)) {"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return otherBatch.getBatchId().equals(getBatchId())"
+        "content": "            return false;"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                \u0026\u0026 otherBatch.getBatchDate().equals(getBatchDate())"
+        "content": "        }"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                \u0026\u0026 otherBatch.getBatchPrice().equals(getBatchPrice())"
+        "content": ""
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                \u0026\u0026 otherBatch.getBatchQuantity().equals(getBatchQuantity());"
+        "content": "        Batch otherBatch \u003d (Batch) other;"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        return otherBatch.getBatchId().equals(getBatchId())"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "                \u0026\u0026 otherBatch.getBatchDate().equals(getBatchDate())"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "                \u0026\u0026 otherBatch.getBatchPrice().equals(getBatchPrice())"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public String toString() {"
+        "content": "                \u0026\u0026 otherBatch.getBatchQuantity().equals(getBatchQuantity());"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        final StringBuilder builder \u003d new StringBuilder();"
+        "content": "    }"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        builder.append(\"Batch ID: \")"
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(getBatchId().toString())"
+        "content": "    @Override"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(\" Batch Quantity: \")"
+        "content": "    public String toString() {"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(getBatchQuantity().toString())"
+        "content": "        final StringBuilder builder \u003d new StringBuilder();"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(\" Batch Price: $\")"
+        "content": "        builder.append(\"Batch ID: \")"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(getBatchPrice().toString())"
+        "content": "                .append(getBatchId().toString())"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(\" Batch Date: \")"
+        "content": "                .append(\" Batch Quantity: \")"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                .append(getBatchDate().toString());"
+        "content": "                .append(getBatchQuantity().toString())"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return builder.toString();"
+        "content": "                .append(\" Batch Price: $\")"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "                .append(getBatchPrice().toString())"
       },
       {
         "lineNumber": 106,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                .append(\" Batch Date: \")"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                .append(getBatchDate().toString());"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        return builder.toString();"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 110,
         "author": {
           "gitId": "Lunastryke"
         },
@@ -39896,7 +40141,7 @@
       }
     ],
     "authorContributionMap": {
-      "Lunastryke": 106
+      "Lunastryke": 110
     }
   },
   {
@@ -43831,124 +44076,180 @@
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "    public void increaseValue(int value) {"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
-        "content": "    public String toString() {"
+        "content": "        this.value +\u003d value;"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "bluein-green"
-        },
-        "content": "        return Integer.toString(value);"
-      },
-      {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 47,
         "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
         "content": ""
       },
       {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public void decreaseValue(int value) {"
+      },
+      {
         "lineNumber": 49,
         "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "        this.value -\u003d value;"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "bluein-green"
+          "gitId": "Lunastryke"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "                || (other instanceof Quantity // instanceof handles nulls"
+        "content": "    @Override"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "                \u0026\u0026 value \u003d\u003d (((Quantity) other).value)); // state check"
+        "content": "    public String toString() {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "    }"
+        "content": "        return Integer.toString(value);"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "    public int hashCode() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "        return value; // primitive int is its own hash"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": "    }"
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "bluein-green"
         },
-        "content": ""
+        "content": "                || (other instanceof Quantity // instanceof handles nulls"
       },
       {
         "lineNumber": 61,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": "                \u0026\u0026 value \u003d\u003d (((Quantity) other).value)); // state check"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": "        return value; // primitive int is its own hash"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "bluein-green"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 69,
         "author": {
           "gitId": "bluein-green"
         },
@@ -43956,7 +44257,8 @@
       }
     ],
     "authorContributionMap": {
-      "bluein-green": 61
+      "bluein-green": 61,
+      "Lunastryke": 8
     }
   },
   {
@@ -44065,378 +44367,378 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "import seedu.address.model.drink.exceptions.InsufficientQuantityException;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * A list of batches of a particular drink that enforces uniqueness between its elements and does not allow nulls."
+        "content": "/**"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * A batch is considered unique by comparing using {@code Batch#isSameBatch(Batch)}. As such, adding and updating of"
+        "content": " * A list of batches of a particular drink that enforces uniqueness between its elements and does not allow nulls."
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * batches uses Batch#isSameBatch(Batch) for equality so as to ensure that the batch being added or updated is"
+        "content": " * A batch is considered unique by comparing using {@code Batch#isSameBatch(Batch)}. As such, adding and updating of"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * unique in terms of identity in the UniqueBatchList. However, the removal of a batch uses Batch#equals(Object) so"
+        "content": " * batches uses Batch#isSameBatch(Batch) for equality so as to ensure that the batch being added or updated is"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * as to ensure that the batch with exactly the same fields will be removed."
+        "content": " * unique in terms of identity in the UniqueBatchList. However, the removal of a batch uses Batch#equals(Object) so"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " *"
+        "content": " * as to ensure that the batch with exactly the same fields will be removed."
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * Supports a minimal set of list operations."
+        "content": " *"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " *"
+        "content": " * Supports a minimal set of list operations."
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " * @see Batch#isSameBatch(Batch)"
+        "content": " *"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": " */"
+        "content": " * @see Batch#isSameBatch(Batch)"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "public class UniqueBatchList implements Iterable\u003cBatch\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    private final ObservableList\u003cBatch\u003e internalList \u003d FXCollections.observableArrayList();"
+        "content": "public class UniqueBatchList implements Iterable\u003cBatch\u003e {"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    private final ObservableList\u003cBatch\u003e internalList \u003d FXCollections.observableArrayList();"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "    private Quantity totalQuantity \u003d new Quantity(\"0\");"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Returns true if the list contains an equivalent batch as the given argument."
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "    public Quantity getTotalQuantity() {"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public boolean contains(Batch toCheck) {"
+        "content": "        return totalQuantity;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        requireNonNull(toCheck);"
+        "content": "    }"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return internalList.stream().anyMatch(toCheck::isSameBatch);"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "     * Returns true if the list contains an equivalent batch as the given argument."
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Adds a batch to the list."
+        "content": "    public boolean contains(Batch toCheck) {"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * The batch must not already exist in the list."
+        "content": "        requireNonNull(toCheck);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "        return internalList.stream().anyMatch(toCheck::isSameBatch);"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void add(Batch toAdd) {"
+        "content": "    }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        requireNonNull(toAdd);"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (contains(toAdd)) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            throw new DuplicateBatchException();"
+        "content": "     * Adds a batch to the list."
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "     * The batch must not already exist in the list."
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        internalList.add(toAdd);"
+        "content": "     */"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "    public void addBatch(Batch toAdd) {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "        requireNonNull(toAdd);"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "        if (contains(toAdd)) {"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Replaces the batch {@code target} in the list with {@code editedBatch}."
+        "content": "            throw new DuplicateBatchException();"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * {@code target} must exist in the list."
+        "content": "        }"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * The batch identity of {@code editedBatch} must not be the same as another existing batch in the list."
+        "content": "        internalList.add(toAdd);"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "        updateTotalQuantity();"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatch(Batch target, Batch editedBatch) {"
+        "content": "    }"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        requireAllNonNull(target, editedBatch);"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        int index \u003d internalList.indexOf(target);"
+        "content": "     * Replaces the batch {@code target} in the list with {@code editedBatch}."
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (index \u003d\u003d -1) {"
+        "content": "     * {@code target} must exist in the list."
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            throw new BatchNotFoundException();"
+        "content": "     * The batch identity of {@code editedBatch} must not be the same as another existing batch in the list."
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "     */"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    public void setBatch(Batch target, Batch editedBatch) {"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (!target.isSameBatch(editedBatch) \u0026\u0026 contains(editedBatch)) {"
+        "content": "        requireAllNonNull(target, editedBatch);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            throw new DuplicateBatchException();"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "        int index \u003d internalList.indexOf(target);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "        if (index \u003d\u003d -1) {"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        internalList.set(index, editedBatch);"
+        "content": "            throw new BatchNotFoundException();"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 69,
@@ -44450,661 +44752,1200 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "        if (!target.isSameBatch(editedBatch) \u0026\u0026 contains(editedBatch)) {"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Removes the equivalent batch from the list."
+        "content": "            throw new DuplicateBatchException();"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * The batch must exist in the list."
+        "content": "        }"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void remove(Batch toRemove) {"
+        "content": "        internalList.set(index, editedBatch);"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        requireNonNull(toRemove);"
+        "content": "    }"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (!internalList.remove(toRemove)) {"
+        "content": ""
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            throw new BatchNotFoundException();"
+        "content": "    /**"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "     * Removes the equivalent batch from the list."
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "     * The batch must exist in the list."
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "    public void remove(Batch toRemove) {"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * @return the batch with the oldest import date in the list"
+        "content": "        requireNonNull(toRemove);"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "        if (!internalList.remove(toRemove)) {"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public Batch getOldestBatch() {"
+        "content": "            throw new BatchNotFoundException();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        sortBatches();"
+        "content": "        }"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return internalList.get(0);"
+        "content": "    }"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "     * Sets total quantity with the specified amount"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Sets the quantity for the batch with the oldest date"
+        "content": "     * @param value a valid quantity value expressed as an integer"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * @param value a valid quantity value expressed as an integer"
+        "content": "     */"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "    public void setTotalQuantity(int value) {"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setOldestBatchQuantity(int value) {"
+        "content": "        this.totalQuantity.setValue(value);"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        getOldestBatch().setBatchQuantity(value);"
+        "content": "    }"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "     * Decreases total quantity by value specified"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Sorts the Batch list by date"
+        "content": "     * @param value a valid quantity value expressed as an integer"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * The batch list must not be empty"
+        "content": "     */"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "    public void decreaseTotalQuantity(int value) {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void sortBatches() {"
+        "content": "        if (value \u003e this.totalQuantity.getValue()) {"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (this.internalList.isEmpty()) {"
+        "content": "            throw new InsufficientQuantityException();"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            throw new EmptyBatchListException();"
+        "content": "        }"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "        this.totalQuantity.decreaseValue(value);"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        this.internalList.sort(Comparators.BATCHDATE);"
+        "content": "    }"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatches(UniqueBatchList replacement) {"
+        "content": "     * Updates the total quantity of stock from all the batches in the list"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        requireNonNull(replacement);"
+        "content": "     */"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        internalList.setAll(replacement.internalList);"
+        "content": "    public void updateTotalQuantity() {"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        if (internalList.isEmpty()) {"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "            throw new EmptyBatchListException();"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "        }"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Replaces the contents of this list with {@code batches}."
+        "content": "        totalQuantity.setValue(0);"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * {@code batches} must not contain duplicate batches."
+        "content": "        for (Batch b : internalList) {"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "            totalQuantity.increaseValue(b.getBatchQuantity().getValue());"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatches(List\u003cBatch\u003e batches) {"
+        "content": "        }"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        requireAllNonNull(batches);"
+        "content": "    }"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        if (!batchesAreUnique(batches)) {"
+        "content": ""
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            throw new DuplicateBatchException();"
+        "content": "    /**"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": "     * Updates the quantities in the batches whenever a transaction is made"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "     * Decreases quantities in the batches by the value specified"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        internalList.setAll(batches);"
+        "content": "     * Decreases quantity in the batches by the order of date imported, with the oldest batches first"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "     * @param value a valid quantity value expressed as an integer"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "    public void updateBatchTransaction(int value) {"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Returns the backing list as an unmodifiable {@code ObservableList}."
+        "content": "        int toDecrease \u003d value;"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "        decreaseTotalQuantity(toDecrease);"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public ObservableList\u003cBatch\u003e asUnmodifiableObservableList() {"
+        "content": "        sortBatches();"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        sortBatches();"
+        "content": "        for (Batch b : internalList) {"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return FXCollections.unmodifiableObservableList(internalList);"
+        "content": "            int batchQuantity \u003d b.getBatchQuantity().getValue();"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "            if (toDecrease \u003d\u003d 0) {"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "                break;"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "            }"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public Iterator\u003cBatch\u003e iterator() {"
+        "content": "            if (toDecrease \u003e\u003d batchQuantity) {"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return internalList.iterator();"
+        "content": "                setBatchQuantity(b, 0);"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "            } else {"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "                decreaseBatchQuantity(b, toDecrease);"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "            }"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "            toDecrease -\u003d batchQuantity;"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": "        }"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                || (other instanceof UniqueBatchList // instanceof handles nulls"
+        "content": "    }"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                \u0026\u0026 internalList.equals(((UniqueBatchList) other).internalList));"
+        "content": ""
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "     * @param index  a valid index value expressed as an integer"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Override"
+        "content": "     * @return the batch with the specified index in the list"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public int hashCode() {"
+        "content": "     */"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return internalList.hashCode();"
+        "content": "    public Batch getBatch(int index) {"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        sortBatches();"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "        return internalList.get(index);"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     * Returns true if {@code persons} contains only unique batches."
+        "content": ""
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "     */"
+        "content": "    public Batch getBatch(BatchId batchId) {"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    private boolean batchesAreUnique(List\u003cBatch\u003e batches) {"
+        "content": "        for (Batch b : internalList) {"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        for (int i \u003d 0; i \u003c batches.size() - 1; i++) {"
+        "content": "            if (b.getBatchId() \u003d\u003d batchId) {"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            for (int j \u003d i + 1; j \u003c batches.size(); j++) {"
+        "content": "                return b;"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                if (batches.get(i).isSameBatch(batches.get(j))) {"
+        "content": "            }"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                    return false;"
+        "content": "        }"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "                }"
+        "content": "        throw new BatchNotFoundException();"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            }"
+        "content": "    }"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        return true;"
+        "content": "    /**"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "     * Sets the quantity for the indicated batch"
       },
       {
         "lineNumber": 164,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * @param batchToEdit a valid batch object"
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * @param value a valid quantity value expressed as an integer"
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public void setBatchQuantity(Batch batchToEdit, int value) {"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        batchToEdit.setBatchQuantity(value);"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public void decreaseBatchQuantity(Batch batchToEdit, int value) {"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        batchToEdit.decreaseBatchQuantity(value);"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * Sorts the Batch list by date"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * The batch list must not be empty"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public void sortBatches() {"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        if (this.internalList.isEmpty()) {"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "            throw new EmptyBatchListException();"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        this.internalList.sort(Comparators.BATCHDATE);"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public void setBatches(UniqueBatchList replacement) {"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        requireNonNull(replacement);"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        internalList.setAll(replacement.internalList);"
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        sortBatches();"
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * Replaces the contents of this list with {@code batches}."
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * {@code batches} must not contain duplicate batches."
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public void setBatches(List\u003cBatch\u003e batches) {"
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        requireAllNonNull(batches);"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        if (!batchesAreUnique(batches)) {"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "            throw new DuplicateBatchException();"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        internalList.setAll(batches);"
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * Returns the backing list as an unmodifiable {@code ObservableList}."
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public ObservableList\u003cBatch\u003e asUnmodifiableObservableList() {"
+      },
+      {
+        "lineNumber": 207,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        sortBatches();"
+      },
+      {
+        "lineNumber": 208,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        return FXCollections.unmodifiableObservableList(internalList);"
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public Iterator\u003cBatch\u003e iterator() {"
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        return internalList.iterator();"
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 215,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        return other \u003d\u003d this // short circuit if same object"
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                || (other instanceof UniqueBatchList // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                \u0026\u0026 internalList.equals(((UniqueBatchList) other).internalList));"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        return internalList.hashCode();"
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     * Returns true if {@code persons} contains only unique batches."
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    private boolean batchesAreUnique(List\u003cBatch\u003e batches) {"
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        for (int i \u003d 0; i \u003c batches.size() - 1; i++) {"
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "            for (int j \u003d i + 1; j \u003c batches.size(); j++) {"
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                if (batches.get(i).isSameBatch(batches.get(j))) {"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                    return false;"
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        return true;"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 241,
         "author": {
           "gitId": "Lunastryke"
         },
@@ -45112,7 +45953,7 @@
       }
     ],
     "authorContributionMap": {
-      "Lunastryke": 164
+      "Lunastryke": 241
     }
   },
   {
@@ -46590,6 +47431,84 @@
     ],
     "authorContributionMap": {
       "Lunastryke": 7
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/model/drink/exceptions/InsufficientQuantityException.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "package seedu.address.model.drink.exceptions;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": " * Signals that the operation cannot be performed as there is insufficient stock"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "public class InsufficientQuantityException extends RuntimeException {"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    public InsufficientQuantityException() {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "        super(\"Insufficient quantity in stock to perform operation\");"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Lunastryke"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Lunastryke": 10
     }
   },
   {
@@ -53562,280 +54481,280 @@
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.commons.core.LogsCenter;"
+        "content": "import seedu.address.commons.core.CurrentUser;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.commons.events.storage.DataSavingExceptionEvent;"
+        "content": "import seedu.address.commons.core.EventsCenter;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.commons.events.ui.StartUiEvent;"
+        "content": "import seedu.address.commons.core.LogsCenter;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "import seedu.address.commons.events.ui.StopUiEvent;"
+        "content": "import seedu.address.commons.events.storage.DataSavingExceptionEvent;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.commons.util.StringUtil;"
+        "content": "import seedu.address.commons.events.ui.NewResultAvailableEvent;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.logic.Logic;"
+        "content": "import seedu.address.commons.events.ui.StartUiEvent;"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "liu-tianhang"
         },
-        "content": "import seedu.address.model.UserPrefs;"
+        "content": "import seedu.address.commons.events.ui.StopUiEvent;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import seedu.address.commons.util.StringUtil;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
-        "content": "/**"
+        "content": "import seedu.address.logic.Logic;"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "-"
         },
-        "content": " * The MANAGER of the UI component."
+        "content": "import seedu.address.model.UserPrefs;"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "-"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
-        "content": "public class UiManager extends ComponentManager implements Ui {"
+        "content": "/**"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": " * The MANAGER of the UI component."
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String ALERT_DIALOG_PANE_FIELD_ID \u003d \"alertDialogPane\";"
+        "content": " */"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "public class UiManager extends ComponentManager implements Ui {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String FILE_OPS_ERROR_DIALOG_STAGE_TITLE \u003d \"File Op Error\";"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String FILE_OPS_ERROR_DIALOG_HEADER_MESSAGE \u003d \"Could not save data\";"
+        "content": "    public static final String ALERT_DIALOG_PANE_FIELD_ID \u003d \"alertDialogPane\";"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String FILE_OPS_ERROR_DIALOG_CONTENT_MESSAGE \u003d \"Could not save data to file\";"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String FILE_OPS_ERROR_DIALOG_STAGE_TITLE \u003d \"File Op Error\";"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final Logger logger \u003d LogsCenter.getLogger(UiManager.class);"
+        "content": "    public static final String FILE_OPS_ERROR_DIALOG_HEADER_MESSAGE \u003d \"Could not save data\";"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final String ICON_APPLICATION \u003d \"/images/address_book_32.png\";"
+        "content": "    public static final String FILE_OPS_ERROR_DIALOG_CONTENT_MESSAGE \u003d \"Could not save data to file\";"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String WELCOME_MESSAGE \u003d \"Welcome %1$s\";"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "    private Logic logic;"
+        "content": "    private static final Logger logger \u003d LogsCenter.getLogger(UiManager.class);"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": "    private Config config;"
+        "content": "    private static final String ICON_APPLICATION \u003d \"/images/address_book_32.png\";"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": "    private UserPrefs prefs;"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": "    private MainWindow mainWindow;"
+        "content": "    private Logic logic;"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private Config config;"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": "    public UiManager(Logic logic, Config config, UserPrefs prefs) {"
+        "content": "    private UserPrefs prefs;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "        super();"
+        "content": "    private MainWindow mainWindow;"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.logic \u003d logic;"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.config \u003d config;"
+        "content": "    public UiManager(Logic logic, Config config, UserPrefs prefs) {"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.prefs \u003d prefs;"
+        "content": "        super();"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        this.logic \u003d logic;"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.config \u003d config;"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "        this.prefs \u003d prefs;"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void start(Stage primaryStage) {"
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "        logger.info(\"Starting UI...\");"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "        //Set the application icon."
+        "content": "    public void start(Stage primaryStage) {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "        primaryStage.getIcons().add(getImage(ICON_APPLICATION));"
+        "content": "        logger.info(\"Starting UI...\");"
       },
       {
         "lineNumber": 55,
@@ -53849,147 +54768,147 @@
         "author": {
           "gitId": "-"
         },
-        "content": "        try {"
+        "content": "        //Set the application icon."
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "            mainWindow \u003d new MainWindow(primaryStage, config, prefs, logic);"
+        "content": "        primaryStage.getIcons().add(getImage(ICON_APPLICATION));"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "            mainWindow.show(); //This should be called before creating other UI parts"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "            mainWindow.fillInnerParts();"
+        "content": "        try {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            mainWindow \u003d new MainWindow(primaryStage, config, prefs, logic);"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "        } catch (Throwable e) {"
+        "content": "            mainWindow.show(); //This should be called before creating other UI parts"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "            logger.severe(StringUtil.getDetails(e));"
+        "content": "            mainWindow.fillInnerParts();"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "            showFatalErrorDialogAndShutdown(\"Fatal error during initializing\", e);"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        } catch (Throwable e) {"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            logger.severe(StringUtil.getDetails(e));"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            showFatalErrorDialogAndShutdown(\"Fatal error during initializing\", e);"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "        }"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void stop() {"
+        "content": "        EventsCenter.getInstance().post(new NewResultAvailableEvent ("
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": "        prefs.updateLastUsedGuiSetting(mainWindow.getCurrentGuiSetting());"
+        "content": "                                            String.format (WELCOME_MESSAGE, CurrentUser.getAuthenticationLevel ())));"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "        mainWindow.hide();"
+        "content": "    }"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": "        mainWindow.releaseResources();"
+        "content": ""
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public void stop() {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void showFileOperationAlertAndWait(String description, String details, Throwable cause) {"
+        "content": "        prefs.updateLastUsedGuiSetting(mainWindow.getCurrentGuiSetting());"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "        final String content \u003d details + \":\\n\" + cause.toString();"
+        "content": "        mainWindow.hide();"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "        showAlertDialogAndWait(AlertType.ERROR, FILE_OPS_ERROR_DIALOG_STAGE_TITLE, description, content);"
+        "content": "        mainWindow.releaseResources();"
       },
       {
         "lineNumber": 77,
@@ -54010,374 +54929,409 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    private Image getImage(String imagePath) {"
+        "content": "    private void showFileOperationAlertAndWait(String description, String details, Throwable cause) {"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
-        "content": "        return new Image(MainApp.class.getResourceAsStream(imagePath));"
+        "content": "        final String content \u003d details + \":\\n\" + cause.toString();"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        showAlertDialogAndWait(AlertType.ERROR, FILE_OPS_ERROR_DIALOG_STAGE_TITLE, description, content);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
-        "content": "    void showAlertDialogAndWait(Alert.AlertType type, String title, String headerText, String contentText) {"
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
-        "content": "        showAlertDialogAndWait(mainWindow.getPrimaryStage(), type, title, headerText, contentText);"
+        "content": "    private Image getImage(String imagePath) {"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return new Image(MainApp.class.getResourceAsStream(imagePath));"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Shows an alert dialog on {@code owner} with the given parameters."
+        "content": "    void showAlertDialogAndWait(Alert.AlertType type, String title, String headerText, String contentText) {"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
-        "content": "     * This method only returns after the user has closed the alert dialog."
+        "content": "        showAlertDialogAndWait(mainWindow.getPrimaryStage(), type, title, headerText, contentText);"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static void showAlertDialogAndWait(Stage owner, AlertType type, String title, String headerText,"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "                                               String contentText) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": "        final Alert alert \u003d new Alert(type);"
+        "content": "     * Shows an alert dialog on {@code owner} with the given parameters."
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.getDialogPane().getStylesheets().add(\"view/DarkTheme.css\");"
+        "content": "     * This method only returns after the user has closed the alert dialog."
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.initOwner(owner);"
+        "content": "     */"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.setTitle(title);"
+        "content": "    private static void showAlertDialogAndWait(Stage owner, AlertType type, String title, String headerText,"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.setHeaderText(headerText);"
+        "content": "                                               String contentText) {"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.setContentText(contentText);"
+        "content": "        final Alert alert \u003d new Alert(type);"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.getDialogPane().setId(ALERT_DIALOG_PANE_FIELD_ID);"
+        "content": "        alert.getDialogPane().getStylesheets().add(\"view/DarkTheme.css\");"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": "        alert.showAndWait();"
+        "content": "        alert.initOwner(owner);"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        alert.setTitle(title);"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        alert.setHeaderText(headerText);"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "        alert.setContentText(contentText);"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Shows an error alert dialog with {@code title} and error message, {@code e},"
+        "content": "        alert.getDialogPane().setId(ALERT_DIALOG_PANE_FIELD_ID);"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "     * and exits the application after the user has closed the alert dialog."
+        "content": "        alert.showAndWait();"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void showFatalErrorDialogAndShutdown(String title, Throwable e) {"
+        "content": ""
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "        logger.severe(title + \" \" + e.getMessage() + StringUtil.getDetails(e));"
+        "content": "    /**"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": "        showAlertDialogAndWait(Alert.AlertType.ERROR, title, e.getMessage(), e.toString());"
+        "content": "     * Shows an error alert dialog with {@code title} and error message, {@code e},"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": "        Platform.exit();"
+        "content": "     * and exits the application after the user has closed the alert dialog."
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": "        System.exit(1);"
+        "content": "     */"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    private void showFatalErrorDialogAndShutdown(String title, Throwable e) {"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        logger.severe(title + \" \" + e.getMessage() + StringUtil.getDetails(e));"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Event Handling Code \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "        showAlertDialogAndWait(Alert.AlertType.ERROR, title, e.getMessage(), e.toString());"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        Platform.exit();"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Subscribe"
+        "content": "        System.exit(1);"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void handleDataSavingExceptionEvent(DataSavingExceptionEvent event) {"
+        "content": "    }"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": "        logger.info(LogsCenter.getEventHandlingLogMessage(event));"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
-        "content": "        showFileOperationAlertAndWait(FILE_OPS_ERROR_DIALOG_HEADER_MESSAGE, FILE_OPS_ERROR_DIALOG_CONTENT_MESSAGE,"
+        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Event Handling Code \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
-        "content": "                event.exception);"
+        "content": ""
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    @Subscribe"
       },
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "    @Subscribe"
+        "content": "    private void handleDataSavingExceptionEvent(DataSavingExceptionEvent event) {"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        logger.info(LogsCenter.getEventHandlingLogMessage(event));"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void handleStartUiEvent(StartUiEvent event) {"
+        "content": "        showFileOperationAlertAndWait(FILE_OPS_ERROR_DIALOG_HEADER_MESSAGE, FILE_OPS_ERROR_DIALOG_CONTENT_MESSAGE,"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "        System.out.println (\"Uievent in UI MANAGER\");"
+        "content": "                event.exception);"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": "        start(event.mainStage);"
+        "content": "    }"
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "-"
+          "gitId": "liu-tianhang"
         },
-        "content": "    }"
+        "content": "    @Subscribe"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Subscribe"
+        "content": ""
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "    private void handleStopUiEvent(StopUiEvent event) {"
+        "content": "    public void handleStartUiEvent(StartUiEvent event) {"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "        stop ();"
+        "content": "        System.out.println (\"Uievent in UI MANAGER\");"
       },
       {
         "lineNumber": 131,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        start(event.mainStage);"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Subscribe"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "liu-tianhang"
+        },
+        "content": "    private void handleStopUiEvent(StopUiEvent event) {"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "liu-tianhang"
+        },
+        "content": "        stop ();"
+      },
+      {
+        "lineNumber": 136,
         "author": {
           "gitId": "liu-tianhang"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 132,
+        "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
@@ -54386,7 +55340,7 @@
     ],
     "authorContributionMap": {
       "liu-tianhang": 6,
-      "-": 126
+      "-": 131
     }
   },
   {
@@ -55248,51 +56202,51 @@
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "        \u003cImageView fitHeight\u003d\"416.0\" fitWidth\u003d\"300.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\"\u003e"
+        "content": "        \u003cTextField fx:id\u003d\"usernameField\" layoutX\u003d\"357.0\" layoutY\u003d\"197.0\" onKeyPressed\u003d\"#handleEnterPressed\" /\u003e"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "            \u003cimage\u003e"
+        "content": "        \u003cLabel layoutX\u003d\"373.0\" layoutY\u003d\"82.0\" text\u003d\"Welcome to\" textFill\u003d\"#ed0505\"\u003e"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "                \u003cImage url\u003d\"@../images/login_page_pic_1.jpg\" /\u003e"
+        "content": "            \u003cfont\u003e"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "            \u003c/image\u003e"
+        "content": "                \u003cFont name\u003d\"Lucida Console\" size\u003d\"20.0\" /\u003e"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "        \u003c/ImageView\u003e"
+        "content": "            \u003c/font\u003e"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "liu-tianhang"
         },
-        "content": "        \u003cTextField fx:id\u003d\"usernameField\" layoutX\u003d\"382.0\" layoutY\u003d\"200.0\" onKeyPressed\u003d\"#handleEnterPressed\" /\u003e"
+        "content": "        \u003c/Label\u003e"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "        \u003cLabel layoutX\u003d\"398.0\" layoutY\u003d\"85.0\" text\u003d\"Welcome to\" textFill\u003d\"#ed0505\"\u003e"
+        "content": "        \u003cLabel layoutX\u003d\"365.0\" layoutY\u003d\"115.0\" text\u003d\"Drink I/O\" textFill\u003d\"#3b33e2\"\u003e"
       },
       {
         "lineNumber": 23,
@@ -55306,7 +56260,7 @@
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "                \u003cFont name\u003d\"Lucida Console\" size\u003d\"20.0\" /\u003e"
+        "content": "                \u003cFont name\u003d\"Marlett\" size\u003d\"33.0\" /\u003e"
       },
       {
         "lineNumber": 25,
@@ -55327,7 +56281,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cLabel layoutX\u003d\"388.0\" layoutY\u003d\"114.0\" text\u003d\"Drink I/O\" textFill\u003d\"#3b33e2\"\u003e"
+        "content": "        \u003cLabel layoutX\u003d\"357.0\" layoutY\u003d\"167.0\" text\u003d\"Username\"\u003e"
       },
       {
         "lineNumber": 28,
@@ -55341,7 +56295,7 @@
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "                \u003cFont name\u003d\"Marlett\" size\u003d\"33.0\" /\u003e"
+        "content": "                \u003cFont name\u003d\"Arial Black\" size\u003d\"12.0\" /\u003e"
       },
       {
         "lineNumber": 30,
@@ -55360,212 +56314,212 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "        \u003cLabel layoutX\u003d\"381.0\" layoutY\u003d\"169.0\" text\u003d\"Username\"\u003e"
+        "content": "        \u003cImageView fitHeight\u003d\"394.0\" fitWidth\u003d\"200.0\" layoutX\u003d\"6.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\" /\u003e"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "            \u003cfont\u003e"
+        "content": "        \u003cLabel layoutX\u003d\"359.0\" layoutY\u003d\"234.0\" text\u003d\"Password\"\u003e"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "                \u003cFont name\u003d\"Arial Black\" size\u003d\"12.0\" /\u003e"
+        "content": "            \u003cfont\u003e"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "            \u003c/font\u003e"
+        "content": "                \u003cFont name\u003d\"Arial Black\" size\u003d\"12.0\" /\u003e"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "        \u003c/Label\u003e"
+        "content": "            \u003c/font\u003e"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "        \u003cImageView fitHeight\u003d\"150.0\" fitWidth\u003d\"200.0\" layoutX\u003d\"10.0\" layoutY\u003d\"10.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\" /\u003e"
+        "content": "        \u003c/Label\u003e"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "        \u003cLabel layoutX\u003d\"383.0\" layoutY\u003d\"234.0\" text\u003d\"Password\"\u003e"
+        "content": "        \u003cButton layoutX\u003d\"396.0\" layoutY\u003d\"308.0\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleLoginButtonClick\" prefHeight\u003d\"26.0\" prefWidth\u003d\"54.0\" style\u003d\"-fx-background-color: #6fa1f2;\" text\u003d\"Login\" /\u003e"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "            \u003cfont\u003e"
+        "content": "        \u003cImageView fitHeight\u003d\"109.0\" fitWidth\u003d\"54.0\" layoutX\u003d\"509.0\" layoutY\u003d\"55.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\" style\u003d\"-fx-rotate: -20;\"\u003e"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "                \u003cFont name\u003d\"Arial Black\" size\u003d\"12.0\" /\u003e"
+        "content": "            \u003cimage\u003e"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "            \u003c/font\u003e"
+        "content": "                \u003cImage url\u003d\"@../images/login_page_pic_2.jpg\" /\u003e"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "        \u003c/Label\u003e"
+        "content": "            \u003c/image\u003e"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "-"
+          "gitId": "liu-tianhang"
         },
-        "content": "        \u003cButton layoutX\u003d\"420.0\" layoutY\u003d\"289.0\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleLoginButtonClick\" prefHeight\u003d\"26.0\" prefWidth\u003d\"54.0\" style\u003d\"-fx-background-color: #6fa1f2;\" text\u003d\"Login\" /\u003e"
+        "content": "        \u003c/ImageView\u003e"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "liu-tianhang"
         },
-        "content": "        \u003cImageView fitHeight\u003d\"79.0\" fitWidth\u003d\"149.0\" layoutX\u003d\"383.0\" layoutY\u003d\"315.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\"\u003e"
+        "content": "        \u003cLabel fx:id\u003d\"loginError\" layoutX\u003d\"460.0\" layoutY\u003d\"234.0\" textFill\u003d\"#fa0c0c\" /\u003e"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "liu-tianhang"
+          "gitId": "-"
         },
-        "content": "            \u003cimage\u003e"
+        "content": "        \u003cPasswordField fx:id\u003d\"passwordField\" layoutX\u003d\"357.0\" layoutY\u003d\"263.0\" onKeyPressed\u003d\"#handleEnterPressed\" /\u003e"
       },
       {
         "lineNumber": 46,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "                \u003cImage url\u003d\"@../images/login_page_pic_3.jpg\" /\u003e"
-      },
-      {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "            \u003c/image\u003e"
-      },
-      {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "        \u003c/ImageView\u003e"
-      },
-      {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "        \u003cImageView fitHeight\u003d\"109.0\" fitWidth\u003d\"54.0\" layoutX\u003d\"516.0\" layoutY\u003d\"31.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\" style\u003d\"-fx-rotate: -20;\"\u003e"
-      },
-      {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "            \u003cimage\u003e"
-      },
-      {
-        "lineNumber": 51,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "                \u003cImage url\u003d\"@../images/login_page_pic_2.jpg\" /\u003e"
-      },
-      {
-        "lineNumber": 52,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "            \u003c/image\u003e"
-      },
-      {
-        "lineNumber": 53,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "        \u003c/ImageView\u003e"
-      },
-      {
-        "lineNumber": 54,
-        "author": {
-          "gitId": "liu-tianhang"
-        },
-        "content": "        \u003cLabel fx:id\u003d\"loginError\" layoutX\u003d\"460.0\" layoutY\u003d\"234.0\" textFill\u003d\"#fa0c0c\" /\u003e"
-      },
-      {
-        "lineNumber": 55,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        \u003cPasswordField fx:id\u003d\"passwordField\" layoutX\u003d\"381.0\" layoutY\u003d\"263.0\" onKeyPressed\u003d\"#handleEnterPressed\" /\u003e"
-      },
-      {
-        "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
         "content": "        \u003cLabel layoutX\u003d\"576.0\" layoutY\u003d\"28.0\" onMouseClicked\u003d\"#handleClose\" prefHeight\u003d\"18.0\" prefWidth\u003d\"19.0\" text\u003d\"x\" textFill\u003d\"#e20505\"\u003e"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 47,
         "author": {
           "gitId": "liu-tianhang"
         },
         "content": "            \u003cfont\u003e"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 48,
         "author": {
           "gitId": "liu-tianhang"
         },
         "content": "                \u003cFont size\u003d\"17.0\" /\u003e"
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 49,
         "author": {
           "gitId": "liu-tianhang"
         },
         "content": "            \u003c/font\u003e"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 50,
         "author": {
           "gitId": "liu-tianhang"
         },
         "content": "        \u003c/Label\u003e"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
         "content": "      \u003cTextField fx:id\u003d\"commandBox\" layoutY\u003d\"2.0\" onKeyReleased\u003d\"#handleInputFromCommandBox\" prefHeight\u003d\"26.0\" prefWidth\u003d\"600.0\" /\u003e"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "      \u003cImageView fitHeight\u003d\"119.0\" fitWidth\u003d\"64.0\" layoutX\u003d\"518.0\" layoutY\u003d\"174.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\"\u003e"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         \u003cimage\u003e"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            \u003cImage url\u003d\"@../images/login_page_pic_1.jpg\" /\u003e"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         \u003c/image\u003e"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "      \u003c/ImageView\u003e"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "      \u003cImageView fitHeight\u003d\"370.0\" fitWidth\u003d\"314.0\" layoutY\u003d\"30.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\"\u003e"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         \u003cimage\u003e"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            \u003cImage url\u003d\"@../images/login_page_pic_4.jpg\" /\u003e"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         \u003c/image\u003e"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "      \u003c/ImageView\u003e"
       },
       {
         "lineNumber": 62,
@@ -55584,8 +56538,8 @@
     ],
     "authorContributionMap": {
       "null": 1,
-      "liu-tianhang": 56,
-      "-": 6
+      "liu-tianhang": 41,
+      "-": 21
     }
   },
   {
@@ -55797,51 +56751,51 @@
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "bluein-green"
-        },
-        "content": "        //assert False(Password.isValidPassword(\"^\")); // only non-alphanumeric characters // TODO: this test failed"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "bluein-green"
-        },
-        "content": "        //assertFalse(Password.isValidPassword(\"peter*\")); // contains non-alphanumeric characters"
-      },
-      {
-        "lineNumber": 32,
-        "author": {
           "gitId": "-"
         },
         "content": "        assertFalse(Password.isValidPassword(\"password password\")); //contain space"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
         "content": "        // valid userName"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
         "content": "        assertTrue(Password.isValidPassword(\"myPassword\")); // alphabets only"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
         "content": "        assertTrue(Password.isValidPassword(\"myPassword123\")); // numbers and alphabets"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertTrue (Password.isValidPassword (\"myPassword123^*(\")); //with non-alphanumeric characters"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertTrue (Password.isValidPassword (\"Gcf70h4aWQ1T9NMxE03XM3nq3nCmFGihnO4xMzHMgP0\"));"
       },
       {
         "lineNumber": 37,
@@ -55925,24 +56879,45 @@
         "author": {
           "gitId": "-"
         },
-        "content": "        assertFalse (Password.isPasswordTooLong(\"tester123tester123tester123\")); //long name that is less than 30 char"
+        "content": "        assertFalse (Password.isPasswordTooLong(\"Gcf70h4aWQ1T9NMxE03XM3nq3nCmFGihnO4xMzHMgP0\"));"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        //long hashed that is less than 50 char"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        assertFalse (Password.isPasswordTooLong(\"tester123tester123tester123\"));"
       },
       {
         "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        //long password that is less than 50 char"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
@@ -55950,8 +56925,8 @@
       }
     ],
     "authorContributionMap": {
-      "bluein-green": 5,
-      "-": 46
+      "bluein-green": 3,
+      "-": 51
     }
   },
   {
@@ -57065,98 +58040,98 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "import static seedu.address.model.testutil.TypicalBatches.getTypicalBatches;"
+        "content": "import static seedu.address.model.testutil.TypicalBatches.COKE6;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "import static seedu.address.model.testutil.TypicalBatches.getTypicalBatches;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "import org.junit.Rule;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Rule;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "import org.junit.rules.ExpectedException;"
+        "content": "import org.junit.jupiter.api.Test;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "import org.junit.rules.ExpectedException;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "import seedu.address.model.drink.exceptions.BatchNotFoundException;"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "import seedu.address.model.drink.exceptions.DuplicateBatchException;"
+        "content": "import seedu.address.model.drink.exceptions.BatchNotFoundException;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "import seedu.address.model.drink.exceptions.DuplicateBatchException;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "class UniqueBatchListTest {"
+        "content": "import seedu.address.model.testutil.Assert;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Rule"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
+        "content": "class UniqueBatchListTest {"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    @Rule"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    private final UniqueBatchList uniqueBatchList \u003d new UniqueBatchList();"
+        "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
       },
       {
         "lineNumber": 22,
@@ -57170,147 +58145,147 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": "    private final UniqueBatchList uniqueBatchList \u003d new UniqueBatchList();"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    void contains_nullBatch_throwsNullPointerException() {"
+        "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        thrown.expect(NullPointerException.class);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.contains(null);"
+        "content": "    void contains_nullBatch_throwsNullPointerException() {"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e uniqueBatchList.contains(null));"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    void contains_batchNotInList_returnsFalse() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        assertFalse(uniqueBatchList.contains(COKE2));"
+        "content": "    void contains_batchNotInList_returnsFalse() {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        assertFalse(uniqueBatchList.contains(COKE2));"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    void contains_batchInList_returnsTrue() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.add(COKE2);"
+        "content": "    void contains_batchInList_returnsTrue() {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        assertTrue(uniqueBatchList.contains(COKE2));"
+        "content": "        uniqueBatchList.addBatch(COKE2);"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        assertTrue(uniqueBatchList.contains(COKE2));"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    void add_nullBatch_throwsNullPointerException() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        thrown.expect(NullPointerException.class);"
+        "content": "    void add_nullBatch_throwsNullPointerException() {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.add(null);"
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e uniqueBatchList.addBatch(null));"
       },
       {
         "lineNumber": 44,
@@ -57345,252 +58320,252 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.add(COKE2);"
+        "content": "        uniqueBatchList.addBatch(COKE2);"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        thrown.expect(DuplicateBatchException.class);"
+        "content": "        Assert.assertThrows(DuplicateBatchException.class, () -\u003e uniqueBatchList.addBatch(COKE2));"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.add(COKE2);"
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": "    public void setBatch_nullTargetBatch_throwsNullPointerException() {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatch_nullTargetBatch_throwsNullPointerException() {"
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e uniqueBatchList.setBatch(null, COKE2));"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        thrown.expect(NullPointerException.class);"
+        "content": "    }"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.setBatch(null, COKE2);"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "    public void setBatch_nullEditedBatch_throwsNullPointerException() {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e uniqueBatchList.setBatch(COKE2, null));"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatch_nullEditedBatch_throwsNullPointerException() {"
+        "content": "    }"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        thrown.expect(NullPointerException.class);"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.setBatch(COKE2, null);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "    public void setBatch_targetBatchNotInList_throwsPersonNotFoundException() {"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "        Assert.assertThrows(BatchNotFoundException.class, () -\u003e uniqueBatchList.setBatch(COKE2, COKE2));"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatch_targetBatchNotInList_throwsPersonNotFoundException() {"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        thrown.expect(BatchNotFoundException.class);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.setBatch(COKE2, COKE2);"
+        "content": "    public void setBatch_editedBatchIsSameBatch_success() {"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        uniqueBatchList.addBatch(COKE2);"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "        uniqueBatchList.setBatch(COKE2, COKE2);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": "        UniqueBatchList expectedUniqueBatchList \u003d new UniqueBatchList();"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    public void setBatch_editedBatchIsSameBatch_success() {"
+        "content": "        expectedUniqueBatchList.addBatch(COKE2);"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.add(COKE2);"
+        "content": "        assertEquals(expectedUniqueBatchList, uniqueBatchList);"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.setBatch(COKE2, COKE2);"
+        "content": "    }"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        UniqueBatchList expectedUniqueBatchList \u003d new UniqueBatchList();"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        expectedUniqueBatchList.add(COKE2);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        assertEquals(expectedUniqueBatchList, uniqueBatchList);"
+        "content": "    void sortBatches() {"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    }"
+        "content": "        // Sets uniqueBatchList"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": ""
+        "content": "        uniqueBatchList.setBatches(getTypicalBatches());"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    @Test"
+        "content": "        // Calls sort method to sort batch list"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "    void sortBatches() {"
+        "content": "        uniqueBatchList.sortBatches();"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        // Sets uniqueBatchList"
+        "content": "        // Checks for order of batches"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "        uniqueBatchList.setBatches(getTypicalBatches());"
+        "content": "        assertEquals(uniqueBatchList.getBatch(0), COKE6);"
       },
       {
         "lineNumber": 84,
@@ -59333,7 +60308,7 @@
         "author": {
           "gitId": "Lunastryke"
         },
-        "content": "            ubl.add(batch);"
+        "content": "            ubl.addBatch(batch);"
       },
       {
         "lineNumber": 54,

@@ -38,8 +38,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 697,
-        "deletions": 102,
+        "insertions": 828,
+        "deletions": 175,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
       }
@@ -462,10 +462,16 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 20,
-        "deletions": 2,
+        "insertions": 150,
+        "deletions": 74,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "Meowzz95": [
@@ -756,6 +762,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "E0191729": [
@@ -1046,6 +1058,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "xllx1": [
@@ -1336,20 +1354,26 @@
         "deletions": 84,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "HansKoh": 1306,
-    "Meowzz95": 3185,
+    "HansKoh": 1351,
+    "Meowzz95": 3175,
     "E0191729": 318,
-    "xllx1": 2169
+    "xllx1": 2180
   },
   "authorContributionVariance": {
-    "HansKoh": 20948.768,
-    "Meowzz95": 858224.56,
-    "E0191729": 2201.4993,
-    "xllx1": 152164.3
+    "HansKoh": 21137.814,
+    "Meowzz95": 842123.75,
+    "E0191729": 2159.3801,
+    "xllx1": 149570.55
   },
   "authorDisplayNameMap": {
     "HansKoh": "Xu Hanhui",

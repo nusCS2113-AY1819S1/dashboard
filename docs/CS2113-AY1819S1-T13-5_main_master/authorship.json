@@ -5804,16 +5804,16 @@
       {
         "lineNumber": 433,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "The user can consider changing the state tag directly without transitioning through `current` i.e. from `future` to `completed` by using the complete command."
+        "content": "* The user can only change the state tag from `current` to `completed` by using the complete command."
       },
       {
         "lineNumber": 434,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "The user can also reverse the state tag i.e. from `completed` to `current` by using the current command."
+        "content": "* The user can only change the state tag from `future` to `current` or `completed` to `current` by using the current command."
       },
       {
         "lineNumber": 435,
@@ -10704,9 +10704,9 @@
     ],
     "authorContributionMap": {
       "garyheng": 23,
-      "sijieg": 109,
+      "sijieg": 107,
       "shouteck": 47,
-      "-": 953
+      "-": 955
     }
   },
   {
@@ -11221,7 +11221,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* A terminal message will appear if one of the tags do not include a state tag - future, current or completed."
+        "content": "* The state tag \"future\" will automatically be added to any new workout."
       },
       {
         "lineNumber": 74,
@@ -11261,9 +11261,9 @@
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "A workout can have any number of tags (including 0)"
+        "content": "A workout can have any number of tags (minimally 1)"
       },
       {
         "lineNumber": 80,
@@ -11401,16 +11401,16 @@
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "* When editing tags, the existing tags of the workout will be removed i.e adding of tags is not cumulative."
+        "content": "* When editing tags, the existing tags of the workout except the state tag will be removed i.e adding of tags is not cumulative."
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "* You can remove all the workout\u0027s tags by typing `tag/` without specifying any tags after it."
+        "content": "* You can remove all the workout\u0027s tags except the state tag by typing `tag/` without specifying any tags after it."
       },
       {
         "lineNumber": 101,
@@ -11464,9 +11464,9 @@
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "Edits the name of the 2nd workout to be `Arnold\u0027s workout` and clears all existing tags."
+        "content": "Edits the name of the 2nd workout to be `Arnold\u0027s workout` and clears all existing tags except the state tag."
       },
       {
         "lineNumber": 109,
@@ -11494,7 +11494,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Changes a workout to be a current workout in the workout book. +"
+        "content": "Changes a workout to be the current workout in the workout book. +"
       },
       {
         "lineNumber": 113,
@@ -11536,266 +11536,266 @@
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "* You only can have either zero or one current workout at any point in time."
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": "* `current 1` +"
+        "content": ""
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "-"
         },
-        "content": "Changes the state tag of the 1st workout to be `current`."
+        "content": "* `current 1` +"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Changes the state tag of the 1st workout to be `current`."
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Changing a workout to completed : `complete`"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Changing a workout to completed : `complete`"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
-        "content": "Changes a workout to be a completed workout in the workout book. +"
+        "content": ""
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `complete INDEX`"
+        "content": "Changes a workout to be a completed workout in the workout book. +"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `complete INDEX`"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
-        "content": "* Changes the state tag of the workout at the specified `INDEX`. The index refers to the index number shown in the displayed workout list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "****"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": "* You can change the state tag from both `future` and `current`."
+        "content": "* Changes the state tag of the workout at the specified `INDEX`. The index refers to the index number shown in the displayed workout list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "* You can change the state tag only from `current`."
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": "* `complete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "Changes the state tag of the 1st workout to be `completed`."
+        "content": "* `complete 1` +"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Changes the state tag of the 1st workout to be `completed`."
       },
       {
         "lineNumber": 140,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 141,
         "author": {
           "gitId": "yicheng12"
         },
         "content": "\u003d\u003d\u003d Locating workouts by name: `filter`"
       },
       {
-        "lineNumber": 141,
+        "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 142,
+        "lineNumber": 143,
         "author": {
           "gitId": "yicheng12"
         },
         "content": "Filters workouts whose types, durations, equipments contain any of the given keywords. +"
       },
       {
-        "lineNumber": 143,
+        "lineNumber": 144,
         "author": {
           "gitId": "shouteck"
         },
         "content": "Format: `filter type/TYPE duration/DURATION equipment/EQUIPMENT`"
       },
       {
-        "lineNumber": 144,
+        "lineNumber": 145,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 145,
-        "author": {
-          "gitId": "yicheng12"
-        },
-        "content": "****"
-      },
-      {
         "lineNumber": 146,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* The search is case insensitive. e.g `filter type/strength` will match `filter type/STRENGTH`"
+        "content": "****"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* The order of the keywords does not matter. e.g. `filter type/strength duration/20m` will match `filter duration/20m type/strength`"
+        "content": "* The search is case insensitive. e.g `filter type/strength` will match `filter type/STRENGTH`"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* Duration, equipment, type are searched."
+        "content": "* The order of the keywords does not matter. e.g. `filter type/strength duration/20m` will match `filter duration/20m type/strength`"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "****"
+        "content": "* Duration, equipment, type are searched."
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* `filter duration/20m equipment/dumbbell type/strength` +"
+        "content": ""
       },
       {
         "lineNumber": 154,
         "author": {
-          "gitId": "shouteck"
+          "gitId": "yicheng12"
         },
-        "content": "Returns any workout having duration of `20m`, with equipment of `dumbbell` and of type `strength`."
+        "content": "* `filter duration/20m equipment/dumbbell type/strength` +"
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "yicheng12"
+          "gitId": "shouteck"
         },
-        "content": ""
+        "content": "Returns any workout having duration of `20m`, with equipment of `dumbbell` and of type `strength`."
       },
       {
         "lineNumber": 156,
@@ -11807,1531 +11807,1538 @@
       {
         "lineNumber": 157,
         "author": {
+          "gitId": "yicheng12"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 158,
+        "author": {
           "gitId": "sijieg"
         },
         "content": "\u003d\u003d\u003d Locating workouts by name: `find`"
       },
       {
-        "lineNumber": 158,
+        "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 159,
+        "lineNumber": 160,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Finds workouts whose names contain any of the given keywords. +"
       },
       {
-        "lineNumber": 160,
+        "lineNumber": 161,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `find KEYWORD [MORE_KEYWORDS]`"
       },
       {
-        "lineNumber": 161,
+        "lineNumber": 162,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 162,
+        "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
         "content": "****"
-      },
-      {
-        "lineNumber": 163,
-        "author": {
-          "gitId": "sijieg"
-        },
-        "content": "* The search is case insensitive. e.g `Commando workout` will match `commando workout`"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* The order of the keywords does not matter. e.g. `workout commando` will match `commando workout`"
+        "content": "* The search is case insensitive. e.g `Commando workout` will match `commando workout`"
       },
       {
         "lineNumber": 165,
+        "author": {
+          "gitId": "sijieg"
+        },
+        "content": "* The order of the keywords does not matter. e.g. `workout commando` will match `commando workout`"
+      },
+      {
+        "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
         "content": "* Only the name is searched."
       },
       {
-        "lineNumber": 166,
+        "lineNumber": 167,
         "author": {
           "gitId": "sijieg"
         },
         "content": "* Only full words will be matched e.g. `command workout` will not match `commando workout`"
       },
       {
-        "lineNumber": 167,
+        "lineNumber": 168,
         "author": {
           "gitId": "sijieg"
         },
         "content": "* workouts matching at least one keyword will be returned (i.e. `OR` search). e.g. `commando arnold\u0027s` will return `commando workout`, `Arnold\u0027s workout`"
       },
       {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 172,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 173,
         "author": {
           "gitId": "sijieg"
         },
         "content": "* `find commando` +"
       },
       {
-        "lineNumber": 173,
+        "lineNumber": 174,
         "author": {
           "gitId": "shouteck"
         },
         "content": "Returns `command workout`."
       },
       {
-        "lineNumber": 174,
+        "lineNumber": 175,
         "author": {
           "gitId": "sijieg"
         },
         "content": "* `find commando arnold\u0027s` +"
       },
       {
-        "lineNumber": 175,
+        "lineNumber": 176,
         "author": {
           "gitId": "shouteck"
         },
         "content": "Returns any workout having names `commando` or `arnold\u0027s`."
       },
       {
-        "lineNumber": 176,
+        "lineNumber": 177,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 177,
+        "lineNumber": 178,
         "author": {
           "gitId": "sijieg"
         },
         "content": "\u003d\u003d\u003d Deleting a workout : `delete`"
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 179,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 179,
+        "lineNumber": 180,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Deletes the specified workout from the workout book. +"
       },
       {
-        "lineNumber": 180,
+        "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `delete INDEX`"
       },
       {
-        "lineNumber": 181,
+        "lineNumber": 182,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 182,
+        "lineNumber": 183,
         "author": {
           "gitId": "-"
         },
         "content": "****"
-      },
-      {
-        "lineNumber": 183,
-        "author": {
-          "gitId": "sijieg"
-        },
-        "content": "* Deletes the workout at the specified `INDEX`."
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* The index refers to the index number shown in the displayed workout list."
+        "content": "* Deletes the workout at the specified `INDEX`."
       },
       {
         "lineNumber": 185,
         "author": {
-          "gitId": "-"
+          "gitId": "sijieg"
         },
-        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "* The index refers to the index number shown in the displayed workout list."
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": "* `list` +"
+        "content": ""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": "`delete 2` +"
+        "content": "* `list` +"
       },
       {
         "lineNumber": 192,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "Deletes the 2nd workout in the workout book."
+        "content": "`delete 2` +"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* `find commando` +"
+        "content": "Deletes the 2nd workout in the workout book."
       },
       {
         "lineNumber": 194,
+        "author": {
+          "gitId": "sijieg"
+        },
+        "content": "* `find commando` +"
+      },
+      {
+        "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
         "content": "`delete 1` +"
       },
       {
-        "lineNumber": 195,
+        "lineNumber": 196,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Deletes the 1st workout in the results of the `find` command."
       },
       {
-        "lineNumber": 196,
+        "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 197,
+        "lineNumber": 198,
         "author": {
           "gitId": "sijieg"
         },
         "content": "\u003d\u003d\u003d Selecting a workout : `select`"
       },
       {
-        "lineNumber": 198,
+        "lineNumber": 199,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 199,
+        "lineNumber": 200,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Selects the workout identified by the index number used in the displayed workout list. +"
       },
       {
-        "lineNumber": 200,
+        "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `select INDEX`"
       },
       {
-        "lineNumber": 201,
+        "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 202,
+        "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
         "content": "****"
-      },
-      {
-        "lineNumber": 203,
-        "author": {
-          "gitId": "sijieg"
-        },
-        "content": "* Selects the workout and loads the Google search page the workout at the specified `INDEX`."
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* The index refers to the index number shown in the displayed workout list."
+        "content": "* Selects the workout and loads the Google search page the workout at the specified `INDEX`."
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "-"
+          "gitId": "sijieg"
         },
-        "content": "* The index *must be a positive integer* `1, 2, 3, ...`"
+        "content": "* The index refers to the index number shown in the displayed workout list."
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "* The index *must be a positive integer* `1, 2, 3, ...`"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "-"
         },
-        "content": "* `list` +"
+        "content": ""
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "-"
         },
-        "content": "`select 2` +"
+        "content": "* `list` +"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "Selects the 2nd workout in the workout book."
+        "content": "`select 2` +"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* `find commando` +"
+        "content": "Selects the 2nd workout in the workout book."
       },
       {
         "lineNumber": 214,
+        "author": {
+          "gitId": "sijieg"
+        },
+        "content": "* `find commando` +"
+      },
+      {
+        "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
         "content": "`select 1` +"
       },
       {
-        "lineNumber": 215,
+        "lineNumber": 216,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Selects the 1st workout in the results of the `find` command."
       },
       {
-        "lineNumber": 216,
+        "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "yicheng12"
-        },
-        "content": "\u003d\u003d\u003d Selecting a workout : `sort`"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Selecting a workout : `sort`"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "Sorts the workouts. +"
+        "content": ""
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "Format: `sort`"
+        "content": "Sorts the workouts. +"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "Format: `sort`"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* Sorts the workout."
+        "content": "****"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* The index refers to the index number shown in the displayed workout list."
+        "content": "* Sorts the workout."
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "****"
+        "content": "* The index refers to the index number shown in the displayed workout list."
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* `add name/joe\u0027s workout type/strength duration/20m difficulty/beginner equipment/dumbbell muscle/bicep calories/200 instruction/bicep curl reps: 4-6 tag/future​` +"
+        "content": ""
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "`sort` +"
+        "content": "* `add name/joe\u0027s workout type/strength duration/20m difficulty/beginner equipment/dumbbell muscle/bicep calories/200 instruction/bicep curl reps: 4-6 tag/future​` +"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "Sorts a list of all workouts in the workout book based on names after `add` a new workout."
+        "content": "`sort` +"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "Sorts a list of all workouts in the workout book based on names after `add` a new workout."
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "`sort` +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "yicheng12"
         },
-        "content": "Sorts workout after `delete` a workout."
+        "content": "`sort` +"
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "-"
+          "gitId": "yicheng12"
         },
-        "content": ""
+        "content": "Sorts workout after `delete` a workout."
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Listing entered commands : `history`"
+        "content": ""
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Listing entered commands : `history`"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "-"
         },
-        "content": "Lists all the commands that you have entered in reverse chronological order. +"
+        "content": ""
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `history`"
+        "content": "Lists all the commands that you have entered in reverse chronological order. +"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "-"
         },
-        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "-"
         },
-        "content": "// tag::undoredo[]"
+        "content": ""
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "// tag::undoredo[]"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "\u003d\u003d\u003d Listing entered commands : `profile`"
+        "content": ""
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "sijieg"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Listing entered commands : `profile`"
       },
       {
         "lineNumber": 251,
+        "author": {
+          "gitId": "sijieg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 252,
         "author": {
           "gitId": "shouteck"
         },
         "content": "Shows the user profile. +"
       },
       {
-        "lineNumber": 252,
+        "lineNumber": 253,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Format: `profile`"
       },
       {
-        "lineNumber": 253,
-        "author": {
-          "gitId": "sijieg"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 254,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "\u003d\u003d\u003d Listing entered commands : `modify`"
+        "content": ""
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "sijieg"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Listing entered commands : `modify`"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "Modify the user\u0027s profile. +"
+        "content": ""
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "Format: `modify username/[USERNAME] gender/[GENDER] height/[HEIGHT] weight/[WEIGHT] preferred_difficulty/[DIFFICULTY]`"
+        "content": "Modify the user\u0027s profile. +"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "sijieg"
         },
-        "content": ""
+        "content": "Format: `modify username/[USERNAME] gender/[GENDER] height/[HEIGHT] weight/[WEIGHT] preferred_difficulty/[DIFFICULTY]`"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "sijieg"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* `modify username/apple` +"
+        "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "Change the Profile\u0027s name to apple."
+        "content": "* `modify username/apple` +"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "* `modify username/apple height/1.82` +"
+        "content": "Change the Profile\u0027s name to apple."
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "Change the Profile\u0027s name to apple, height to 1.82m and update the BMI accordingly."
+        "content": "* `modify username/apple height/1.82` +"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "sijieg"
         },
-        "content": ""
+        "content": "Change the Profile\u0027s name to apple, height to 1.82m and update the BMI accordingly."
       },
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "shouteck"
+          "gitId": "sijieg"
         },
-        "content": "\u003d\u003d\u003d Listing entered commands : `recommend`"
+        "content": ""
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "shouteck"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Listing entered commands : `recommend`"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "Recommend a workout from the existing workouts. +"
+        "content": ""
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "Format: `recommend [calories/CALORIES] [difficulty/DIFFICULTY] [duration/DURATION]`"
+        "content": "Recommend a workout from the existing workouts. +"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "shouteck"
         },
-        "content": ""
+        "content": "Format: `recommend [calories/CALORIES] [difficulty/DIFFICULTY] [duration/DURATION]`"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "* Accepts any combinations of the three prefixes."
+        "content": "****"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "* At least one of the optional fields must be provided."
+        "content": "* Accepts any combinations of the three prefixes."
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "****"
+        "content": "* At least one of the optional fields must be provided."
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "shouteck"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "shouteck"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "* `recommend difficulty/beginner` +"
+        "content": ""
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "Recommends a beginner workout."
+        "content": "* `recommend difficulty/beginner` +"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "* `recommend duration/10m calories/150` +"
+        "content": "Recommends a beginner workout."
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "Recommends a 10 minute workout that burns 150 calories."
+        "content": "* `recommend duration/10m calories/150` +"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "* `recommend duration/35m calories/200 difficulty/advanced` +"
+        "content": "Recommends a 10 minute workout that burns 150 calories."
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "shouteck"
         },
-        "content": "Recommends an advanced 35 minute workout that burns 200 calories."
+        "content": "* `recommend duration/35m calories/200 difficulty/advanced` +"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "shouteck"
         },
-        "content": ""
+        "content": "Recommends an advanced 35 minute workout that burns 200 calories."
       },
       {
         "lineNumber": 285,
         "author": {
-          "gitId": "-"
+          "gitId": "shouteck"
         },
-        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
+        "content": ""
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
         "lineNumber": 287,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 288,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Restores the workout book to the state before the previous _undoable_ command was executed. +"
       },
       {
-        "lineNumber": 288,
+        "lineNumber": 289,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `undo`"
       },
       {
-        "lineNumber": 289,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 290,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 292,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 293,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Undoable commands: those commands that modify the workout book\u0027s content (`add`, `delete`, `edit` and `clear`)."
       },
       {
-        "lineNumber": 293,
+        "lineNumber": 294,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 294,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 295,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "-"
         },
-        "content": "`list` +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "`list` +"
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "-"
         },
-        "content": "* `select 1` +"
+        "content": ""
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "-"
         },
-        "content": "`list` +"
+        "content": "* `select 1` +"
       },
       {
         "lineNumber": 303,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` +"
+        "content": "`list` +"
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "-"
         },
-        "content": "The `undo` command fails as there are no undoable commands executed previously."
+        "content": "`undo` +"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+        "content": ""
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "-"
         },
-        "content": "Reverses the most recent `undo` command. +"
+        "content": ""
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `redo`"
+        "content": "Reverses the most recent `undo` command. +"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `redo`"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 323,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "-"
         },
-        "content": "The `redo` command fails as there are no `undo` commands executed previously."
+        "content": "`redo` +"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 329,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 330,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 331,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `clear` command) +"
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "-"
         },
-        "content": "// end::undoredo[]"
+        "content": "`redo` (reapplies the `clear` command) +"
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "// end::undoredo[]"
       },
       {
         "lineNumber": 334,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Clearing all entries : `clear`"
+        "content": ""
       },
       {
         "lineNumber": 335,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Clearing all entries : `clear`"
       },
       {
         "lineNumber": 336,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 337,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Clears all entries from the workout book. +"
       },
       {
-        "lineNumber": 337,
+        "lineNumber": 338,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `clear`"
       },
       {
-        "lineNumber": 338,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 339,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": ""
       },
       {
         "lineNumber": 340,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
       },
       {
         "lineNumber": 341,
         "author": {
           "gitId": "-"
         },
-        "content": "Exits the program. +"
+        "content": ""
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `exit`"
+        "content": "Exits the program. +"
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 344,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Saving the data"
+        "content": ""
       },
       {
         "lineNumber": 345,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 346,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 347,
         "author": {
           "gitId": "sijieg"
         },
         "content": "Workout book data are saved in the hard disk automatically after any command that changes the data. +"
       },
       {
-        "lineNumber": 347,
+        "lineNumber": 348,
         "author": {
           "gitId": "-"
         },
         "content": "There is no need to save manually."
       },
       {
-        "lineNumber": 348,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 349,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d FAQ"
+        "content": ""
       },
       {
         "lineNumber": 350,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d FAQ"
       },
       {
         "lineNumber": 351,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Command Summary"
+        "content": ""
       },
       {
         "lineNumber": 352,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d Command Summary"
       },
       {
         "lineNumber": 353,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 354,
         "author": {
           "gitId": "shouteck"
         },
         "content": "* *Add* : `add name/NAME type/TYPE duration/DURATION difficulty/DIFFICULTY equipment/EQUIPMENT muscle/MUSCLE calories/CALORIES instruction/INSTRUCTION [tag/TAG]...` +"
       },
       {
-        "lineNumber": 354,
+        "lineNumber": 355,
         "author": {
           "gitId": "sijieg"
         },
         "content": "e.g. `add name/commando workout type/strength, cardio duration/20m difficulty/advanced equipment/dumbbell, bench muscle/bicep, tricep calories/150 instruction/set 1: bicep curl reps: 4-6 set 2: tricep extension reps: 4-6 tag/heavy`"
       },
       {
-        "lineNumber": 355,
+        "lineNumber": 356,
         "author": {
           "gitId": "-"
         },
         "content": "* *Clear* : `clear`"
       },
       {
-        "lineNumber": 356,
+        "lineNumber": 357,
         "author": {
           "gitId": "-"
         },
         "content": "* *Delete* : `delete INDEX` +"
       },
       {
-        "lineNumber": 357,
+        "lineNumber": 358,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `delete 3`"
       },
       {
-        "lineNumber": 358,
+        "lineNumber": 359,
         "author": {
           "gitId": "shouteck"
         },
         "content": "* *Edit* : `edit INDEX [name/NAME] [type/TYPE] [duration/DURATION] [difficulty/DIFFICULTY] [equipment/EQUIPMENT] [muscle/MUSCLE] [calories/CALORIES] [instruction/INSTRUCTION] [tag/TAG]…​` +"
       },
       {
-        "lineNumber": 359,
+        "lineNumber": 360,
         "author": {
           "gitId": "sijieg"
         },
         "content": "e.g. `edit 1 type/light duration/25m`"
       },
       {
-        "lineNumber": 360,
+        "lineNumber": 361,
         "author": {
           "gitId": "shouteck"
         },
         "content": "* *Filter* : `filter type/TYPE duration/DURATION equipment/EQUIPMENT` +"
       },
       {
-        "lineNumber": 361,
+        "lineNumber": 362,
         "author": {
           "gitId": "yicheng12"
         },
         "content": "e.g. `filter type/strength duration/20m equipment/dumbbell`"
       },
       {
-        "lineNumber": 362,
+        "lineNumber": 363,
         "author": {
           "gitId": "-"
         },
         "content": "* *Find* : `find KEYWORD [MORE_KEYWORDS]` +"
       },
       {
-        "lineNumber": 363,
+        "lineNumber": 364,
         "author": {
           "gitId": "sijieg"
         },
         "content": "e.g. `find bench`"
       },
       {
-        "lineNumber": 364,
+        "lineNumber": 365,
         "author": {
           "gitId": "-"
         },
         "content": "* *List* : `list`"
       },
       {
-        "lineNumber": 365,
+        "lineNumber": 366,
         "author": {
           "gitId": "-"
         },
         "content": "* *Help* : `help`"
       },
       {
-        "lineNumber": 366,
+        "lineNumber": 367,
         "author": {
           "gitId": "-"
         },
         "content": "* *Select* : `select INDEX` +"
       },
       {
-        "lineNumber": 367,
+        "lineNumber": 368,
         "author": {
           "gitId": "-"
         },
         "content": "e.g.`select 2`"
       },
       {
-        "lineNumber": 368,
+        "lineNumber": 369,
         "author": {
           "gitId": "yicheng12"
         },
         "content": "* *Sort* : `sort`"
       },
       {
-        "lineNumber": 369,
+        "lineNumber": 370,
         "author": {
           "gitId": "-"
         },
         "content": "* *History* : `history`"
       },
       {
-        "lineNumber": 370,
+        "lineNumber": 371,
         "author": {
           "gitId": "-"
         },
         "content": "* *Undo* : `undo`"
       },
       {
-        "lineNumber": 371,
+        "lineNumber": 372,
         "author": {
           "gitId": "-"
         },
         "content": "* *Redo* : `redo`"
       },
       {
-        "lineNumber": 372,
+        "lineNumber": 373,
         "author": {
           "gitId": "shouteck"
         },
         "content": "* *Recommend* : `recommend [calories/CALORIES] [difficulty/DIFFICULTY] [duration/DURATION]` +"
       },
       {
-        "lineNumber": 373,
+        "lineNumber": 374,
         "author": {
           "gitId": "shouteck"
         },
         "content": "e.g. `recommend calories/150`"
       },
       {
-        "lineNumber": 374,
+        "lineNumber": 375,
         "author": {
           "gitId": "shouteck"
         },
         "content": "* *Modify* : `modify` +"
       },
       {
-        "lineNumber": 375,
+        "lineNumber": 376,
         "author": {
           "gitId": "sijieg"
         },
@@ -13339,9 +13346,9 @@
       }
     ],
     "authorContributionMap": {
-      "sijieg": 76,
+      "sijieg": 72,
       "shouteck": 45,
-      "-": 220,
+      "-": 225,
       "yicheng12": 34
     }
   },
@@ -22339,7 +22346,7 @@
         "author": {
           "gitId": "sijieg"
         },
-        "content": "                    .trimmedCalories(updatedCalories.toString())), userCalories )) {"
+        "content": "                    .trimmedCalories(updatedCalories.toString())), userCalories)) {"
       },
       {
         "lineNumber": 139,
@@ -77809,453 +77816,467 @@
       {
         "lineNumber": 14,
         "author": {
+          "gitId": "garyheng"
+        },
+        "content": "\u003c?import javafx.scene.control.Label?\u003e"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
           "gitId": "-"
         },
         "content": "\u003cfx:root type\u003d\"javafx.stage.Stage\" xmlns\u003d\"http://javafx.com/javafx/8\" xmlns:fx\u003d\"http://javafx.com/fxml/1\""
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 16,
         "author": {
           "gitId": "garyheng"
         },
         "content": "         minWidth\u003d\"950\" minHeight\u003d\"600\" onCloseRequest\u003d\"#handleExit\"\u003e"
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
         "content": "  \u003cicons\u003e"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 18,
         "author": {
           "gitId": "sijieg"
         },
         "content": "    \u003cImage url\u003d\"@/images/workoutbook.png\" /\u003e"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
         "content": "  \u003c/icons\u003e"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
         "content": "  \u003cscene\u003e"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
         "content": "    \u003cScene\u003e"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
         "content": "      \u003cstylesheets\u003e"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
         "content": "        \u003cURL value\u003d\"@DarkTheme.css\" /\u003e"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 24,
         "author": {
           "gitId": "-"
         },
         "content": "        \u003cURL value\u003d\"@Extensions.css\" /\u003e"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 25,
         "author": {
           "gitId": "-"
         },
         "content": "      \u003c/stylesheets\u003e"
       },
       {
-        "lineNumber": 25,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
-        "content": "      \u003cVBox\u003e"
+        "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cMenuBar fx:id\u003d\"menuBar\" VBox.vgrow\u003d\"NEVER\"\u003e"
+        "content": "      \u003cVBox\u003e"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"File\"\u003e"
+        "content": "        \u003cMenuBar fx:id\u003d\"menuBar\" VBox.vgrow\u003d\"NEVER\"\u003e"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cMenuItem mnemonicParsing\u003d\"false\" onAction\u003d\"#handleExit\" text\u003d\"Exit\" /\u003e"
+        "content": "          \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"File\"\u003e"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c/Menu\u003e"
+        "content": "            \u003cMenuItem mnemonicParsing\u003d\"false\" onAction\u003d\"#handleExit\" text\u003d\"Exit\" /\u003e"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"Help\"\u003e"
+        "content": "          \u003c/Menu\u003e"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cMenuItem fx:id\u003d\"helpMenuItem\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleHelp\" text\u003d\"Help\" /\u003e"
+        "content": "          \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"Help\"\u003e"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c/Menu\u003e"
+        "content": "            \u003cMenuItem fx:id\u003d\"helpMenuItem\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleHelp\" text\u003d\"Help\" /\u003e"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "sijieg"
+          "gitId": "-"
         },
-        "content": "          \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"Profile\"\u003e"
+        "content": "          \u003c/Menu\u003e"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "sijieg"
         },
-        "content": "            \u003cMenuItem fx:id\u003d\"profileMenuItem\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleProfile\" text\u003d\"Profile\" /\u003e"
+        "content": "          \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"Profile\"\u003e"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "sijieg"
         },
-        "content": "          \u003c/Menu\u003e"
+        "content": "            \u003cMenuItem fx:id\u003d\"profileMenuItem\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleProfile\" text\u003d\"Profile\" /\u003e"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003c/MenuBar\u003e"
+        "content": "          \u003c/Menu\u003e"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        \u003c/MenuBar\u003e"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cStackPane VBox.vgrow\u003d\"NEVER\" fx:id\u003d\"commandBoxPlaceholder\" styleClass\u003d\"pane-with-border\"\u003e"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003cpadding\u003e"
+        "content": "        \u003cStackPane VBox.vgrow\u003d\"NEVER\" fx:id\u003d\"commandBoxPlaceholder\" styleClass\u003d\"pane-with-border\"\u003e"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cInsets top\u003d\"5\" right\u003d\"10\" bottom\u003d\"5\" left\u003d\"10\" /\u003e"
+        "content": "          \u003cpadding\u003e"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c/padding\u003e"
+        "content": "            \u003cInsets top\u003d\"5\" right\u003d\"10\" bottom\u003d\"5\" left\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003c/StackPane\u003e"
+        "content": "          \u003c/padding\u003e"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        \u003c/StackPane\u003e"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cStackPane VBox.vgrow\u003d\"NEVER\" fx:id\u003d\"resultDisplayPlaceholder\" styleClass\u003d\"pane-with-border\""
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "                   minHeight\u003d\"100\" prefHeight\u003d\"100\" maxHeight\u003d\"100\"\u003e"
+        "content": "        \u003cStackPane VBox.vgrow\u003d\"NEVER\" fx:id\u003d\"resultDisplayPlaceholder\" styleClass\u003d\"pane-with-border\""
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "garyheng"
         },
-        "content": "          \u003cpadding\u003e"
+        "content": "                   minHeight\u003d\"135\" prefHeight\u003d\"100\" maxHeight\u003d\"100\"\u003e"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cInsets top\u003d\"5\" right\u003d\"10\" bottom\u003d\"5\" left\u003d\"10\" /\u003e"
+        "content": "          \u003cpadding\u003e"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c/padding\u003e"
+        "content": "            \u003cInsets top\u003d\"5\" right\u003d\"10\" bottom\u003d\"5\" left\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003c/StackPane\u003e"
+        "content": "          \u003c/padding\u003e"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        \u003c/StackPane\u003e"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cSplitPane id\u003d\"splitPane\" fx:id\u003d\"splitPane\" dividerPositions\u003d\"0.4\" VBox.vgrow\u003d\"ALWAYS\"\u003e"
+        "content": ""
       },
       {
         "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        \u003cSplitPane id\u003d\"splitPane\" fx:id\u003d\"splitPane\" dividerPositions\u003d\"0.4\" VBox.vgrow\u003d\"ALWAYS\"\u003e"
+      },
+      {
+        "lineNumber": 54,
         "author": {
           "gitId": "garyheng"
         },
         "content": "          \u003cVBox fx:id\u003d\"workoutList\" minWidth\u003d\"350\" maxWidth\u003d\"350\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
       },
       {
-        "lineNumber": 54,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            \u003cpadding\u003e"
-      },
-      {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "              \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\" /\u003e"
+        "content": "            \u003cpadding\u003e"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003c/padding\u003e"
+        "content": "              \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            \u003c/padding\u003e"
+      },
+      {
+        "lineNumber": 58,
         "author": {
           "gitId": "sijieg"
         },
         "content": "            \u003cStackPane fx:id\u003d\"workoutListPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\"/\u003e"
       },
       {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "          \u003c/VBox\u003e"
-      },
-      {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "          \u003c/VBox\u003e"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003cStackPane fx:id\u003d\"browserPlaceholder\" prefWidth\u003d\"340\" \u003e"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cpadding\u003e"
+        "content": "          \u003cStackPane fx:id\u003d\"browserPlaceholder\" prefWidth\u003d\"340\" \u003e"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "              \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\" /\u003e"
+        "content": "            \u003cpadding\u003e"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003c/padding\u003e"
+        "content": "              \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c/StackPane\u003e"
+        "content": "            \u003c/padding\u003e"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "garyheng"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "          \u003c/StackPane\u003e"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "garyheng"
         },
-        "content": "          \u003cVBox fx:id\u003d\"trackedDataList\" minWidth\u003d\"200\" maxWidth\u003d\"200\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "garyheng"
         },
-        "content": "            \u003cpadding\u003e"
+        "content": "          \u003cVBox fx:id\u003d\"trackedDataList\" minWidth\u003d\"200\" maxWidth\u003d\"200\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "garyheng"
         },
-        "content": "              \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\" /\u003e"
+        "content": "            \u003cpadding\u003e"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "garyheng"
         },
-        "content": "            \u003c/padding\u003e"
+        "content": "              \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "garyheng"
         },
-        "content": "            \u003cStackPane fx:id\u003d\"trackedDataListPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\"/\u003e"
+        "content": "            \u003c/padding\u003e"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "garyheng"
         },
-        "content": "          \u003c/VBox\u003e"
+        "content": "            \u003cLabel fx:id\u003d\"trackedDataListPanelTitle\" text\u003d\"Tracked Parameters\" styleClass\u003d\"label-bright\" VBox.vgrow\u003d\"NEVER\"/\u003e"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "-"
+          "gitId": "garyheng"
         },
-        "content": "        \u003c/SplitPane\u003e"
+        "content": "            \u003cStackPane fx:id\u003d\"trackedDataListPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\"/\u003e"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "-"
+          "gitId": "garyheng"
         },
-        "content": ""
+        "content": "          \u003c/VBox\u003e"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cStackPane fx:id\u003d\"statusbarPlaceholder\" VBox.vgrow\u003d\"NEVER\" /\u003e"
+        "content": "        \u003c/SplitPane\u003e"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "      \u003c/VBox\u003e"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "    \u003c/Scene\u003e"
+        "content": "        \u003cStackPane fx:id\u003d\"statusbarPlaceholder\" VBox.vgrow\u003d\"NEVER\" /\u003e"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
-        "content": "  \u003c/scene\u003e"
+        "content": "      \u003c/VBox\u003e"
       },
       {
         "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \u003c/Scene\u003e"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "  \u003c/scene\u003e"
+      },
+      {
+        "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
@@ -78263,9 +78284,9 @@
       }
     ],
     "authorContributionMap": {
-      "garyheng": 9,
+      "garyheng": 12,
       "sijieg": 4,
-      "-": 65
+      "-": 64
     }
   },
   {
