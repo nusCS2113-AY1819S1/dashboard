@@ -14,7 +14,7 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 234,
+        "insertions": 1004,
         "deletions": 16,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
@@ -32,10 +32,16 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 259,
-        "deletions": 147,
+        "insertions": 320,
+        "deletions": 169,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 80,
+        "deletions": 33,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "zhihong8888": [
@@ -52,14 +58,14 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1508,
+        "deletions": 2279,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 2140,
-        "deletions": 589,
+        "insertions": 2909,
+        "deletions": 1358,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-10"
       },
@@ -74,6 +80,12 @@
         "deletions": 120152,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 1919,
+        "deletions": 924,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "LimYiSheng": [
@@ -108,10 +120,16 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 454,
-        "deletions": 64,
+        "insertions": 689,
+        "deletions": 149,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 2140,
+        "deletions": 1369,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "ryanchen2018": [
@@ -150,6 +168,12 @@
         "deletions": 304,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 405,
+        "deletions": 63,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "XiiaoPanda": [
@@ -188,6 +212,12 @@
         "deletions": 149,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 270,
+        "deletions": 528,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ]
   },
@@ -290,7 +320,7 @@
         "untilDate": "2018-09-28"
       },
       {
-        "insertions": 12,
+        "insertions": 782,
         "deletions": 13,
         "sinceDate": "2018-09-28",
         "untilDate": "2018-09-29"
@@ -426,6 +456,60 @@
         "deletions": 0,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 60,
+        "deletions": 21,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 73,
+        "deletions": 27,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 7,
+        "deletions": 6,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "zhihong8888": [
@@ -526,8 +610,8 @@
         "untilDate": "2018-09-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1508,
+        "deletions": 2279,
         "sinceDate": "2018-09-28",
         "untilDate": "2018-09-29"
       },
@@ -556,8 +640,8 @@
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 1993,
-        "deletions": 514,
+        "insertions": 2762,
+        "deletions": 1283,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-04"
       },
@@ -662,6 +746,60 @@
         "deletions": 146,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 291,
+        "deletions": 113,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 325,
+        "deletions": 426,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 535,
+        "deletions": 271,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 56,
+        "deletions": 58,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 532,
+        "deletions": 46,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 180,
+        "deletions": 10,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "LimYiSheng": [
@@ -898,6 +1036,60 @@
         "deletions": 20,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 97,
+        "deletions": 7,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 24,
+        "deletions": 24,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 114,
+        "deletions": 54,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 381,
+        "deletions": 60,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 306,
+        "deletions": 103,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 84,
+        "deletions": 92,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 985,
+        "deletions": 482,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 384,
+        "deletions": 632,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "ryanchen2018": [
@@ -1134,6 +1326,60 @@
         "deletions": 0,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 253,
+        "deletions": 33,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 114,
+        "deletions": 21,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 38,
+        "deletions": 9,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "XiiaoPanda": [
@@ -1370,22 +1616,76 @@
         "deletions": 141,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-21",
+        "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 270,
+        "deletions": 528,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChuaZhenWei": 437,
-    "zhihong8888": 3702,
-    "LimYiSheng": 2685,
-    "ryanchen2018": 1772,
-    "XiiaoPanda": 2285
+    "ChuaZhenWei": 521,
+    "zhihong8888": 4676,
+    "LimYiSheng": 4043,
+    "ryanchen2018": 2095,
+    "XiiaoPanda": 2033
   },
   "authorContributionVariance": {
-    "ChuaZhenWei": 5000.684,
-    "zhihong8888": 2.80711142E9,
-    "LimYiSheng": 118271.04,
-    "ryanchen2018": 64052.51,
-    "XiiaoPanda": 72547.03
+    "ChuaZhenWei": 16278.007,
+    "zhihong8888": 2.3015401E9,
+    "LimYiSheng": 151245.69,
+    "ryanchen2018": 53677.645,
+    "XiiaoPanda": 70746.38
   },
   "authorDisplayNameMap": {
     "ChuaZhenWei": "CHU...WEI",

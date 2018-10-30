@@ -36,6 +36,12 @@
         "deletions": 17,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 387,
+        "deletions": 68,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "kennethcsj": [
@@ -70,10 +76,16 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 553,
-        "deletions": 322,
+        "insertions": 651,
+        "deletions": 325,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 569,
+        "deletions": 456,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "guiyong96": [
@@ -108,10 +120,16 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 395,
-        "deletions": 344,
+        "insertions": 437,
+        "deletions": 354,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 813,
+        "deletions": 261,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "iashcole": [
@@ -150,6 +168,12 @@
         "deletions": 3,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ]
   },
@@ -394,6 +418,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 387,
+        "deletions": 68,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
       }
     ],
     "kennethcsj": [
@@ -636,6 +702,48 @@
         "deletions": 53,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 98,
+        "deletions": 3,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 9,
+        "deletions": 6,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 169,
+        "deletions": 131,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 5,
+        "deletions": 1,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 385,
+        "deletions": 317,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
       }
     ],
     "guiyong96": [
@@ -878,6 +986,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 42,
+        "deletions": 10,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 608,
+        "deletions": 242,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 201,
+        "deletions": 18,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 4,
+        "deletions": 1,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
       }
     ],
     "iashcole": [
@@ -1120,20 +1270,62 @@
         "deletions": 0,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-22",
+        "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kohjunkiat": 920,
-    "kennethcsj": 2918,
-    "guiyong96": 3492,
-    "iashcole": 269
+    "kohjunkiat": 1167,
+    "kennethcsj": 3414,
+    "guiyong96": 3982,
+    "iashcole": 265
   },
   "authorContributionVariance": {
-    "kohjunkiat": 38176.26,
-    "kennethcsj": 299518.75,
-    "guiyong96": 517909.94,
-    "iashcole": 5451.4224
+    "kohjunkiat": 36268.28,
+    "kennethcsj": 263685.62,
+    "guiyong96": 453873.7,
+    "iashcole": 4694.2163
   },
   "authorDisplayNameMap": {
     "kohjunkiat": "KOH...IAT",

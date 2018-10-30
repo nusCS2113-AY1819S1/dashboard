@@ -36,6 +36,12 @@
         "deletions": 9,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "T0roloco": [
@@ -74,6 +80,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "ian-tjahjono": [
@@ -112,6 +124,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "ChenSongJian": [
@@ -150,6 +168,12 @@
         "deletions": 31,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 5016,
+        "deletions": 116,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "QzSG": [
@@ -188,6 +212,12 @@
         "deletions": 63,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 1373,
+        "deletions": 378,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ]
   },
@@ -438,6 +468,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "T0roloco": [
@@ -686,6 +758,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "ian-tjahjono": [
@@ -934,6 +1048,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "ChenSongJian": [
@@ -1182,6 +1338,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 2563,
+        "deletions": 51,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 532,
+        "deletions": 6,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 264,
+        "deletions": 31,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 1657,
+        "deletions": 28,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ],
     "QzSG": [
@@ -1430,22 +1628,64 @@
         "deletions": 0,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-23",
+        "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 624,
+        "deletions": 148,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 248,
+        "deletions": 65,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 501,
+        "deletions": 165,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "luhan02": 728,
+    "luhan02": 727,
     "T0roloco": 352,
-    "ian-tjahjono": 0,
-    "ChenSongJian": 368,
-    "QzSG": 2015
+    "ian-tjahjono": 103,
+    "ChenSongJian": 5276,
+    "QzSG": 2528
   },
   "authorContributionVariance": {
-    "luhan02": 7476.837,
-    "T0roloco": 2266.1558,
+    "luhan02": 6429.0396,
+    "T0roloco": 1946.0402,
     "ian-tjahjono": 0.0,
-    "ChenSongJian": 312.4902,
-    "QzSG": 16704.684
+    "ChenSongJian": 197352.98,
+    "QzSG": 33585.246
   },
   "authorDisplayNameMap": {
     "luhan02": "LU ...HAN",

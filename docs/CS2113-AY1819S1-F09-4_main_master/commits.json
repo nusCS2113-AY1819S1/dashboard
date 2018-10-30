@@ -36,6 +36,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "sxqnicholas96": [
@@ -52,14 +58,14 @@
         "untilDate": "2018-09-26"
       },
       {
-        "insertions": 63335,
-        "deletions": 62217,
+        "insertions": 63337,
+        "deletions": 62219,
         "sinceDate": "2018-09-26",
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 5459,
-        "deletions": 3108,
+        "insertions": 5465,
+        "deletions": 3112,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-10"
       },
@@ -70,10 +76,16 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 908,
-        "deletions": 351,
+        "insertions": 1218,
+        "deletions": 516,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 343,
+        "deletions": 212,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "MingXunSeah": [
@@ -108,10 +120,16 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 3825,
-        "deletions": 935,
+        "insertions": 4104,
+        "deletions": 939,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 505,
+        "deletions": 172,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "andrewome": [
@@ -134,8 +152,8 @@
         "untilDate": "2018-10-03"
       },
       {
-        "insertions": 60523,
-        "deletions": 60535,
+        "insertions": 60525,
+        "deletions": 60545,
         "sinceDate": "2018-10-03",
         "untilDate": "2018-10-10"
       },
@@ -150,6 +168,12 @@
         "deletions": 181,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 242,
+        "deletions": 55,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ],
     "leerachel": [
@@ -188,6 +212,12 @@
         "deletions": 157,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 1829,
+        "deletions": 1163,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-31"
       }
     ]
   },
@@ -444,6 +474,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "sxqnicholas96": [
@@ -562,8 +634,8 @@
         "untilDate": "2018-10-01"
       },
       {
-        "insertions": 60486,
-        "deletions": 477,
+        "insertions": 60488,
+        "deletions": 479,
         "sinceDate": "2018-10-01",
         "untilDate": "2018-10-02"
       },
@@ -592,8 +664,8 @@
         "untilDate": "2018-10-06"
       },
       {
-        "insertions": 1105,
-        "deletions": 364,
+        "insertions": 1109,
+        "deletions": 366,
         "sinceDate": "2018-10-06",
         "untilDate": "2018-10-07"
       },
@@ -604,8 +676,8 @@
         "untilDate": "2018-10-08"
       },
       {
-        "insertions": 2997,
-        "deletions": 2271,
+        "insertions": 2999,
+        "deletions": 2273,
         "sinceDate": "2018-10-08",
         "untilDate": "2018-10-09"
       },
@@ -682,22 +754,64 @@
         "untilDate": "2018-10-21"
       },
       {
-        "insertions": 536,
-        "deletions": 253,
+        "insertions": 744,
+        "deletions": 352,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 91,
+        "deletions": 55,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 11,
+        "deletions": 11,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 62,
+        "deletions": 6,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 254,
+        "deletions": 193,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 27,
+        "deletions": 13,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "MingXunSeah": [
@@ -930,8 +1044,8 @@
         "untilDate": "2018-10-20"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 279,
+        "deletions": 4,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
       },
@@ -952,6 +1066,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 113,
+        "deletions": 14,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 336,
+        "deletions": 136,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 16,
+        "deletions": 16,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 40,
+        "deletions": 6,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "andrewome": [
@@ -1088,8 +1244,8 @@
         "untilDate": "2018-10-04"
       },
       {
-        "insertions": 60333,
-        "deletions": 60386,
+        "insertions": 60335,
+        "deletions": 60396,
         "sinceDate": "2018-10-04",
         "untilDate": "2018-10-05"
       },
@@ -1206,6 +1362,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 205,
+        "deletions": 30,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 37,
+        "deletions": 25,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ],
     "leerachel": [
@@ -1460,22 +1658,64 @@
         "deletions": 1,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
+      },
+      {
+        "insertions": 804,
+        "deletions": 124,
+        "sinceDate": "2018-10-24",
+        "untilDate": "2018-10-25"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-25",
+        "untilDate": "2018-10-26"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-26",
+        "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 187,
+        "deletions": 472,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 838,
+        "deletions": 567,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
       }
     ]
   },
   "authorFinalContributionMap": {
     "kianmengtan": 0,
-    "sxqnicholas96": 7983,
-    "MingXunSeah": 1166,
-    "andrewome": 376,
-    "leerachel": 1261
+    "sxqnicholas96": 8080,
+    "MingXunSeah": 1753,
+    "andrewome": 707,
+    "leerachel": 2664
   },
   "authorContributionVariance": {
     "kianmengtan": 0.0,
-    "sxqnicholas96": 1.65494304E8,
-    "MingXunSeah": 445029.47,
-    "andrewome": 3.3851024E8,
-    "leerachel": 8.3785424E7
+    "sxqnicholas96": 1.4305088E8,
+    "MingXunSeah": 385354.28,
+    "andrewome": 2.91218656E8,
+    "leerachel": 7.1999656E7
   },
   "authorDisplayNameMap": {
     "kianmengtan": "TAN...ENG",
