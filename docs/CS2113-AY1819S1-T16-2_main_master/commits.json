@@ -42,6 +42,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 368,
+        "deletions": 42,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "jieliangang": [
@@ -82,10 +88,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1520,
-        "deletions": 680,
+        "insertions": 1927,
+        "deletions": 1022,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 2414,
+        "deletions": 1120,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "fr3ddy4": [
@@ -130,6 +142,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "Jeevz10": [
@@ -174,6 +192,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 2450,
+        "deletions": 2080,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "IcedCoffeeBoy": [
@@ -218,6 +242,12 @@
         "deletions": 109,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 61,
+        "deletions": 265,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -510,6 +540,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 239,
+        "deletions": 4,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 118,
+        "deletions": 27,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 11,
+        "deletions": 11,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "jieliangang": [
@@ -772,8 +832,8 @@
         "untilDate": "2018-10-25"
       },
       {
-        "insertions": 1,
-        "deletions": 1,
+        "insertions": 15,
+        "deletions": 6,
         "sinceDate": "2018-10-25",
         "untilDate": "2018-10-26"
       },
@@ -790,16 +850,46 @@
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 192,
+        "deletions": 266,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 201,
-        "deletions": 266,
+        "insertions": 286,
+        "deletions": 268,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 116,
+        "deletions": 69,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1580,
+        "deletions": 598,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 18,
+        "deletions": 10,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 501,
+        "deletions": 154,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 315,
+        "deletions": 358,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "fr3ddy4": [
@@ -1090,6 +1180,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "Jeevz10": [
@@ -1380,6 +1500,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 2450,
+        "deletions": 2080,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "IcedCoffeeBoy": [
@@ -1670,22 +1820,52 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 61,
+        "deletions": 265,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "perrythewang": 697,
-    "jieliangang": 3695,
+    "perrythewang": 986,
+    "jieliangang": 4984,
     "fr3ddy4": 0,
-    "Jeevz10": 908,
-    "IcedCoffeeBoy": 2228
+    "Jeevz10": 1539,
+    "IcedCoffeeBoy": 1740
   },
   "authorContributionVariance": {
-    "perrythewang": 15516.745,
-    "jieliangang": 264779.6,
+    "perrythewang": 15154.439,
+    "jieliangang": 319726.16,
     "fr3ddy4": 0.0,
-    "Jeevz10": 14732.536,
-    "IcedCoffeeBoy": 7.3395488E7
+    "Jeevz10": 386807.84,
+    "IcedCoffeeBoy": 6.6618796E7
   },
   "authorDisplayNameMap": {
     "perrythewang": "PER...ING",

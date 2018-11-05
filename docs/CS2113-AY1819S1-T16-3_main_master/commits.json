@@ -38,10 +38,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 467,
-        "deletions": 601,
+        "insertions": 803,
+        "deletions": 1183,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 100,
+        "deletions": 821,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "speezy37": [
@@ -82,10 +88,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 289,
+        "deletions": 247,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 629,
+        "deletions": 120,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "Hafizuddin-NUS": [
@@ -126,10 +138,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1272,
-        "deletions": 288,
+        "insertions": 1288,
+        "deletions": 292,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 201,
+        "deletions": 206,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "Woonhian": [
@@ -174,6 +192,12 @@
         "deletions": 105,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 425,
+        "deletions": 299,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "pinjuen": [
@@ -208,16 +232,22 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 51,
-        "deletions": 16,
+        "insertions": 191,
+        "deletions": 83,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 800,
+        "deletions": 293,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 191,
+        "deletions": 73,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -506,10 +536,40 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 357,
-        "deletions": 589,
+        "insertions": 597,
+        "deletions": 829,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 96,
+        "deletions": 342,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 79,
+        "deletions": 814,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 21,
+        "deletions": 7,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "speezy37": [
@@ -796,10 +856,40 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 99,
+        "deletions": 148,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 190,
+        "deletions": 99,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 99,
+        "deletions": 57,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 1,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 530,
+        "deletions": 62,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "Hafizuddin-NUS": [
@@ -1090,6 +1180,36 @@
         "deletions": 121,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 16,
+        "deletions": 4,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 80,
+        "deletions": 53,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 121,
+        "deletions": 153,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "Woonhian": [
@@ -1380,6 +1500,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 43,
+        "deletions": 4,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 359,
+        "deletions": 290,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 23,
+        "deletions": 5,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ],
     "pinjuen": [
@@ -1600,8 +1750,8 @@
         "untilDate": "2018-10-18"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 70,
+        "deletions": 8,
         "sinceDate": "2018-10-18",
         "untilDate": "2018-10-19"
       },
@@ -1630,8 +1780,8 @@
         "untilDate": "2018-10-23"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 70,
+        "deletions": 59,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
       },
@@ -1642,14 +1792,14 @@
         "untilDate": "2018-10-25"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 39,
+        "deletions": 29,
         "sinceDate": "2018-10-25",
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 14,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
       },
@@ -1666,26 +1816,56 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 336,
+        "deletions": 27,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 345,
+        "deletions": 223,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 191,
+        "deletions": 73,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jylee-git": 2427,
-    "speezy37": 1849,
-    "Hafizuddin-NUS": 4474,
-    "Woonhian": 1851,
-    "pinjuen": 501
+    "jylee-git": 2358,
+    "speezy37": 2377,
+    "Hafizuddin-NUS": 4408,
+    "Woonhian": 2261,
+    "pinjuen": 1176
   },
   "authorContributionVariance": {
-    "jylee-git": 33169.75,
-    "speezy37": 34280.887,
-    "Hafizuddin-NUS": 75947.59,
-    "Woonhian": 20406.896,
-    "pinjuen": 11680.246
+    "jylee-git": 63529.96,
+    "speezy37": 37624.906,
+    "Hafizuddin-NUS": 70112.49,
+    "Woonhian": 25041.27,
+    "pinjuen": 18305.582
   },
   "authorDisplayNameMap": {
     "jylee-git": "LEE...YAO",

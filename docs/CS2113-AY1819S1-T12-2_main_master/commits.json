@@ -38,10 +38,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 35,
-        "deletions": 23,
+        "insertions": 468,
+        "deletions": 154,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 28,
+        "deletions": 8,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "xhxh96": [
@@ -82,10 +88,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 164,
-        "deletions": 32,
+        "insertions": 552,
+        "deletions": 120,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 556,
+        "deletions": 118,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "chewkahmeng": [
@@ -126,10 +138,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 113,
-        "deletions": 49,
+        "insertions": 533,
+        "deletions": 98,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 9,
+        "deletions": 53,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "brandonccm1996": [
@@ -170,10 +188,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 623,
-        "deletions": 427,
+        "insertions": 1412,
+        "deletions": 654,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 134,
+        "deletions": 429,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "chokxy": [
@@ -214,10 +238,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 251,
-        "deletions": 21,
+        "insertions": 523,
+        "deletions": 122,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 649,
+        "deletions": 110,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -488,34 +518,64 @@
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 194,
+        "deletions": 32,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 46,
+        "deletions": 42,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 5,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 25,
+        "deletions": 7,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 88,
+        "deletions": 45,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 28,
+        "deletions": 8,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "xhxh96": [
@@ -796,22 +856,52 @@
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 125,
+        "deletions": 18,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 99,
-        "deletions": 16,
+        "insertions": 236,
+        "deletions": 55,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 126,
+        "deletions": 31,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 540,
+        "deletions": 101,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 11,
+        "deletions": 13,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 5,
+        "deletions": 4,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "chewkahmeng": [
@@ -1074,20 +1164,20 @@
         "untilDate": "2018-10-25"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 26,
+        "deletions": 4,
         "sinceDate": "2018-10-25",
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 13,
+        "deletions": 17,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 24,
-        "deletions": 29,
+        "insertions": 69,
+        "deletions": 33,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
@@ -1098,8 +1188,8 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 336,
+        "deletions": 24,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
@@ -1108,6 +1198,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 9,
+        "deletions": 53,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "brandonccm1996": [
@@ -1376,26 +1496,26 @@
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 131,
-        "deletions": 200,
+        "insertions": 323,
+        "deletions": 208,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 72,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 10,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 44,
-        "deletions": 62,
+        "insertions": 498,
+        "deletions": 223,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 2,
-        "deletions": 53,
+        "insertions": 137,
+        "deletions": 101,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
@@ -1404,6 +1524,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 105,
+        "deletions": 53,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 266,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 76,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 29,
+        "deletions": 34,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "chokxy": [
@@ -1690,32 +1840,62 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 37,
+        "deletions": 34,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 39,
-        "deletions": 10,
+        "insertions": 274,
+        "deletions": 77,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 28,
+        "deletions": 14,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 621,
+        "deletions": 96,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "xShaivan": 1210,
-    "xhxh96": 1566,
-    "chewkahmeng": 1246,
-    "brandonccm1996": 2472,
-    "chokxy": 933
+    "xShaivan": 1488,
+    "xhxh96": 2252,
+    "chewkahmeng": 1562,
+    "brandonccm1996": 3100,
+    "chokxy": 1687
   },
   "authorContributionVariance": {
-    "xShaivan": 29319.658,
-    "xhxh96": 38088.227,
-    "chewkahmeng": 41081.152,
-    "brandonccm1996": 94433.86,
-    "chokxy": 9490.505
+    "xShaivan": 27093.05,
+    "xhxh96": 41337.934,
+    "chewkahmeng": 39028.7,
+    "brandonccm1996": 94339.21,
+    "chokxy": 19168.002
   },
   "authorDisplayNameMap": {
     "xShaivan": "HOV...HAO",

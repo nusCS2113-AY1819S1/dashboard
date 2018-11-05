@@ -38,10 +38,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1407,
-        "deletions": 354,
+        "insertions": 1410,
+        "deletions": 357,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 2125,
+        "deletions": 273,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "sijieg": [
@@ -82,10 +88,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1787,
-        "deletions": 1508,
+        "insertions": 1849,
+        "deletions": 1548,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 318,
+        "deletions": 296,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "shouteck": [
@@ -130,6 +142,12 @@
         "deletions": 503,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 2486,
+        "deletions": 136,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "DarylTew": [
@@ -170,10 +188,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 67,
+        "deletions": 30,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 55,
+        "deletions": 40,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "yicheng12": [
@@ -214,10 +238,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 342,
-        "deletions": 102,
+        "insertions": 463,
+        "deletions": 105,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 369,
+        "deletions": 20,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -512,10 +542,40 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 15,
-        "deletions": 14,
+        "insertions": 18,
+        "deletions": 17,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 555,
+        "deletions": 148,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 130,
+        "deletions": 37,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 102,
+        "deletions": 13,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 1338,
+        "deletions": 75,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "sijieg": [
@@ -808,10 +868,40 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 28,
-        "deletions": 26,
+        "insertions": 90,
+        "deletions": 66,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 311,
+        "deletions": 286,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 7,
+        "deletions": 10,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "shouteck": [
@@ -1108,6 +1198,36 @@
         "deletions": 0,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 2482,
+        "deletions": 132,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 4,
+        "deletions": 4,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "DarylTew": [
@@ -1400,10 +1520,40 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 67,
+        "deletions": 30,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 35,
+        "deletions": 32,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 12,
+        "deletions": 8,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 8,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "yicheng12": [
@@ -1696,26 +1846,56 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 121,
+        "deletions": 3,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 369,
+        "deletions": 20,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "garyheng": 3060,
-    "sijieg": 2602,
-    "shouteck": 2090,
-    "DarylTew": 1734,
-    "yicheng12": 969
+    "garyheng": 4927,
+    "sijieg": 2633,
+    "shouteck": 2945,
+    "DarylTew": 1789,
+    "yicheng12": 1429
   },
   "authorContributionVariance": {
-    "garyheng": 178243.78,
-    "sijieg": 370334.9,
-    "shouteck": 258667.16,
-    "DarylTew": 248329.45,
-    "yicheng12": 31866.506
+    "garyheng": 195575.03,
+    "sijieg": 341651.4,
+    "shouteck": 344620.6,
+    "DarylTew": 226122.78,
+    "yicheng12": 31308.326
   },
   "authorDisplayNameMap": {
     "garyheng": "GAR...HEN",

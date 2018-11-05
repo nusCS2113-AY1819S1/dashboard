@@ -42,6 +42,12 @@
         "deletions": 175,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 303,
+        "deletions": 58,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "Meowzz95": [
@@ -86,6 +92,12 @@
         "deletions": 3525,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 443,
+        "deletions": 187,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "E0191729": [
@@ -130,6 +142,12 @@
         "deletions": 58,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 115,
+        "deletions": 84,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "xllx1": [
@@ -174,6 +192,12 @@
         "deletions": 1696,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1452,
+        "deletions": 1017,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -472,6 +496,24 @@
         "deletions": 1,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 303,
+        "deletions": 58,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ],
     "Meowzz95": [
@@ -768,6 +810,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 437,
+        "deletions": 182,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 6,
+        "deletions": 5,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ],
     "E0191729": [
@@ -1064,6 +1124,24 @@
         "deletions": 0,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 99,
+        "deletions": 84,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 16,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ],
     "xllx1": [
@@ -1360,20 +1438,38 @@
         "deletions": 0,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1148,
+        "deletions": 506,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 177,
+        "deletions": 403,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 127,
+        "deletions": 108,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "HansKoh": 1351,
-    "Meowzz95": 3175,
-    "E0191729": 318,
-    "xllx1": 2180
+    "HansKoh": 1534,
+    "Meowzz95": 3336,
+    "E0191729": 325,
+    "xllx1": 3132
   },
   "authorContributionVariance": {
-    "HansKoh": 21137.814,
-    "Meowzz95": 842123.75,
-    "E0191729": 2159.3801,
-    "xllx1": 149570.55
+    "HansKoh": 21808.857,
+    "Meowzz95": 798505.1,
+    "E0191729": 2592.6775,
+    "xllx1": 186140.1
   },
   "authorDisplayNameMap": {
     "HansKoh": "Xu Hanhui",

@@ -38,10 +38,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 334,
-        "deletions": 76,
+        "insertions": 671,
+        "deletions": 147,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 334,
+        "deletions": 69,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "XiaoYunhan": [
@@ -82,10 +88,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2,
+        "deletions": 3,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 252,
+        "deletions": 47,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "feijunzi": [
@@ -126,10 +138,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 293,
+        "insertions": 342,
         "deletions": 196,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 448,
+        "deletions": 447,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "arty9": [
@@ -170,10 +188,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 237,
-        "deletions": 123,
+        "insertions": 457,
+        "deletions": 256,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 848,
+        "deletions": 208,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -444,10 +468,52 @@
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 82,
+        "deletions": 1,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 255,
+        "deletions": 70,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 334,
+        "deletions": 69,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ],
     "XiaoYunhan": [
@@ -720,6 +786,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 2,
+        "deletions": 3,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 144,
+        "deletions": 11,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 108,
+        "deletions": 36,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ],
     "feijunzi": [
@@ -992,6 +1100,48 @@
         "deletions": 20,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 49,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 8,
+        "deletions": 56,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 395,
+        "deletions": 349,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 45,
+        "deletions": 42,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ],
     "arty9": [
@@ -1264,20 +1414,62 @@
         "deletions": 0,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 169,
+        "deletions": 105,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 51,
+        "deletions": 28,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 714,
+        "deletions": 140,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 134,
+        "deletions": 68,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "SHININGGGG": 2337,
-    "XiaoYunhan": 7,
-    "feijunzi": 725,
-    "arty9": 2760
+    "SHININGGGG": 2864,
+    "XiaoYunhan": 776,
+    "feijunzi": 850,
+    "arty9": 3579
   },
   "authorContributionVariance": {
-    "SHININGGGG": 31240.43,
-    "XiaoYunhan": 54.321003,
-    "feijunzi": 10685.091,
-    "arty9": 46744.74
+    "SHININGGGG": 30663.717,
+    "XiaoYunhan": 863.0015,
+    "feijunzi": 18749.918,
+    "arty9": 52800.82
   },
   "authorDisplayNameMap": {
     "SHININGGGG": "WAN...ING",

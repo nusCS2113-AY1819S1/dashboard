@@ -38,10 +38,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 6320,
-        "deletions": 15985,
+        "insertions": 6378,
+        "deletions": 16178,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1051,
+        "deletions": 178,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "amirulmaricar": [
@@ -86,6 +92,12 @@
         "deletions": 221,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1071,
+        "deletions": 180,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "ParasK26": [
@@ -126,10 +138,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 728,
-        "deletions": 392,
+        "insertions": 1687,
+        "deletions": 1003,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 832,
+        "deletions": 295,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "garagaristahir": [
@@ -174,6 +192,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -456,10 +480,52 @@
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 5005,
-        "deletions": 675,
+        "insertions": 5006,
+        "deletions": 681,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 57,
+        "deletions": 187,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 755,
+        "deletions": 141,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 17,
+        "deletions": 17,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 279,
+        "deletions": 20,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "amirulmaricar": [
@@ -744,6 +810,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 78,
+        "deletions": 57,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 988,
+        "deletions": 115,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 5,
+        "deletions": 8,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "ParasK26": [
@@ -1028,6 +1136,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 594,
+        "deletions": 582,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 365,
+        "deletions": 29,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 799,
+        "deletions": 274,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 31,
+        "deletions": 15,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 2,
+        "deletions": 6,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "garagaristahir": [
@@ -1312,20 +1462,62 @@
         "deletions": 0,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "dyeosy98": 5078,
-    "amirulmaricar": 2255,
-    "ParasK26": 1675,
+    "dyeosy98": 4496,
+    "amirulmaricar": 3906,
+    "ParasK26": 2795,
     "garagaristahir": 0
   },
   "authorContributionVariance": {
-    "dyeosy98": 1.110541E7,
-    "amirulmaricar": 154288.98,
-    "ParasK26": 76307.92,
-    "garagaristahir": 136.62567
+    "dyeosy98": 9732043.0,
+    "amirulmaricar": 153090.2,
+    "ParasK26": 106832.164,
+    "garagaristahir": 119.25
   },
   "authorDisplayNameMap": {
     "dyeosy98": "YEO...ISE",

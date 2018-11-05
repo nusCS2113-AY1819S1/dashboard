@@ -38,10 +38,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 517,
-        "deletions": 202,
+        "insertions": 571,
+        "deletions": 252,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1023,
+        "deletions": 334,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "kronicler": [
@@ -86,6 +92,12 @@
         "deletions": 68,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 231,
+        "deletions": 57,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "SarahTaaherBonna": [
@@ -126,10 +138,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 863,
-        "deletions": 115,
+        "insertions": 1668,
+        "deletions": 401,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 116,
+        "deletions": 62,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "wm28": [
@@ -164,16 +182,22 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 308,
-        "deletions": 105,
+        "insertions": 506,
+        "deletions": 106,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 415,
-        "deletions": 65,
+        "insertions": 1147,
+        "deletions": 206,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 618,
+        "deletions": 114,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "SandhyaGopakumar": [
@@ -214,10 +238,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 250,
-        "deletions": 484653,
+        "insertions": 673,
+        "deletions": 484776,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 3333,
+        "deletions": 2681,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -492,6 +522,60 @@
         "deletions": 29,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 12,
+        "deletions": 18,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 42,
+        "deletions": 32,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 516,
+        "deletions": 197,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 3,
+        "deletions": 3,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 504,
+        "deletions": 134,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "kronicler": [
@@ -764,6 +848,60 @@
         "deletions": 0,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 231,
+        "deletions": 57,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "SarahTaaherBonna": [
@@ -1032,10 +1170,64 @@
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 863,
-        "deletions": 115,
+        "insertions": 957,
+        "deletions": 124,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 711,
+        "deletions": 277,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 22,
+        "deletions": 9,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 29,
+        "deletions": 23,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 65,
+        "deletions": 30,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "wm28": [
@@ -1274,8 +1466,8 @@
         "untilDate": "2018-10-21"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 198,
+        "deletions": 1,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
       },
@@ -1292,8 +1484,8 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 71,
+        "deletions": 53,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-25"
       },
@@ -1308,6 +1500,60 @@
         "deletions": 8,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 110,
+        "deletions": 14,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 21,
+        "deletions": 19,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 530,
+        "deletions": 55,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 75,
+        "deletions": 4,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 16,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 429,
+        "deletions": 76,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 98,
+        "deletions": 34,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ],
     "SandhyaGopakumar": [
@@ -1580,22 +1826,76 @@
         "deletions": 0,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-27",
+        "untilDate": "2018-10-28"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-28",
+        "untilDate": "2018-10-29"
+      },
+      {
+        "insertions": 121,
+        "deletions": 19,
+        "sinceDate": "2018-10-29",
+        "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 302,
+        "deletions": 104,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 3217,
+        "deletions": 2614,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 116,
+        "deletions": 67,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "aaryamNUS": 2238,
-    "kronicler": 751,
-    "SarahTaaherBonna": 3810,
-    "wm28": 1343,
-    "SandhyaGopakumar": 1504
+    "aaryamNUS": 2917,
+    "kronicler": 910,
+    "SarahTaaherBonna": 4391,
+    "wm28": 2621,
+    "SandhyaGopakumar": 2578
   },
   "authorContributionVariance": {
-    "aaryamNUS": 28789.344,
-    "kronicler": 4542.781,
-    "SarahTaaherBonna": 150953.1,
-    "wm28": 13050.188,
-    "SandhyaGopakumar": 2.60239557E11
+    "aaryamNUS": 37176.63,
+    "kronicler": 5160.324,
+    "SarahTaaherBonna": 144719.86,
+    "wm28": 19959.713,
+    "SandhyaGopakumar": 2.18167558E11
   },
   "authorDisplayNameMap": {
     "aaryamNUS": "SRI...YAM",

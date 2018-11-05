@@ -32,16 +32,22 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 130,
-        "deletions": 21,
+        "insertions": 256,
+        "deletions": 38,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1559,
-        "deletions": 1454,
+        "insertions": 1681,
+        "deletions": 1511,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 237,
+        "deletions": 87,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "nianfei97": [
@@ -76,16 +82,22 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 748,
-        "deletions": 185,
+        "insertions": 780,
+        "deletions": 188,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 486,
-        "deletions": 1519,
+        "insertions": 615,
+        "deletions": 1598,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 135,
+        "deletions": 57,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "alexiscatnip": [
@@ -126,10 +138,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 32,
-        "deletions": 104,
+        "insertions": 933,
+        "deletions": 825,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "bennchong": [
@@ -170,10 +188,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 848,
-        "deletions": 213,
+        "insertions": 946,
+        "deletions": 229,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 105,
+        "deletions": 75,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -402,7 +426,7 @@
         "untilDate": "2018-10-19"
       },
       {
-        "insertions": 0,
+        "insertions": 39,
         "deletions": 0,
         "sinceDate": "2018-10-19",
         "untilDate": "2018-10-20"
@@ -414,8 +438,8 @@
         "untilDate": "2018-10-21"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 15,
+        "deletions": 17,
         "sinceDate": "2018-10-21",
         "untilDate": "2018-10-22"
       },
@@ -426,7 +450,7 @@
         "untilDate": "2018-10-23"
       },
       {
-        "insertions": 94,
+        "insertions": 166,
         "deletions": 14,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
@@ -462,16 +486,52 @@
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
+        "insertions": 116,
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 6,
+        "deletions": 57,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 121,
+        "deletions": 45,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 4,
+        "deletions": 4,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 111,
+        "deletions": 38,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 1,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ],
     "nianfei97": [
@@ -716,8 +776,8 @@
         "untilDate": "2018-10-22"
       },
       {
-        "insertions": 303,
-        "deletions": 71,
+        "insertions": 335,
+        "deletions": 74,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
       },
@@ -764,10 +824,46 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 84,
-        "deletions": 1320,
+        "insertions": 213,
+        "deletions": 1399,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 6,
+        "deletions": 4,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 54,
+        "deletions": 24,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 75,
+        "deletions": 29,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ],
     "alexiscatnip": [
@@ -1042,28 +1138,64 @@
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 0,
+        "insertions": 141,
         "deletions": 0,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 292,
+        "deletions": 247,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 122,
+        "deletions": 58,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 346,
+        "deletions": 416,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ],
     "bennchong": [
@@ -1356,24 +1488,60 @@
         "untilDate": "2018-10-30"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 98,
+        "deletions": 16,
         "sinceDate": "2018-10-30",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 67,
+        "deletions": 41,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 27,
+        "deletions": 30,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 11,
+        "deletions": 4,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "cjinting-nus": 945,
-    "nianfei97": 2575,
-    "alexiscatnip": 1154,
-    "bennchong": 2194
+    "cjinting-nus": 1259,
+    "nianfei97": 2793,
+    "alexiscatnip": 1336,
+    "bennchong": 2310
   },
   "authorContributionVariance": {
-    "cjinting-nus": 163105.95,
-    "nianfei97": 82548.65,
-    "alexiscatnip": 16048.929,
-    "bennchong": 13836.491
+    "cjinting-nus": 145734.55,
+    "nianfei97": 85438.98,
+    "alexiscatnip": 27144.445,
+    "bennchong": 12605.694
   },
   "authorDisplayNameMap": {
     "cjinting-nus": "CHE...ING",

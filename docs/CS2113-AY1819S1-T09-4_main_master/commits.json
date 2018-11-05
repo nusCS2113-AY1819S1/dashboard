@@ -32,16 +32,22 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 43,
+        "insertions": 143,
         "deletions": 0,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 626,
+        "deletions": 312,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1428,
+        "deletions": 1163,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "nguyenngoclinhchi": [
@@ -76,16 +82,22 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 323,
-        "deletions": 83,
+        "insertions": 2085,
+        "deletions": 561,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2186,
+        "deletions": 1656,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1725,
+        "deletions": 757,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "Tenvinc": [
@@ -130,6 +142,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ],
     "oscarzeng": [
@@ -170,10 +188,16 @@
         "untilDate": "2018-10-24"
       },
       {
-        "insertions": 1104,
-        "deletions": 304,
+        "insertions": 1117,
+        "deletions": 307,
         "sinceDate": "2018-10-24",
         "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 80,
+        "deletions": 6,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-07"
       }
     ]
   },
@@ -420,7 +444,7 @@
         "untilDate": "2018-10-22"
       },
       {
-        "insertions": 0,
+        "insertions": 100,
         "deletions": 0,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
@@ -438,8 +462,8 @@
         "untilDate": "2018-10-25"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 23,
         "sinceDate": "2018-10-25",
         "untilDate": "2018-10-26"
       },
@@ -450,22 +474,64 @@
         "untilDate": "2018-10-27"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 301,
+        "deletions": 198,
         "sinceDate": "2018-10-27",
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 110,
+        "deletions": 53,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 211,
+        "deletions": 38,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 1066,
+        "deletions": 795,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 114,
+        "deletions": 80,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 118,
+        "deletions": 19,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 116,
+        "deletions": 47,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 14,
+        "deletions": 222,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ],
     "nguyenngoclinhchi": [
@@ -698,8 +764,8 @@
         "untilDate": "2018-10-20"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 354,
+        "deletions": 111,
         "sinceDate": "2018-10-20",
         "untilDate": "2018-10-21"
       },
@@ -716,8 +782,8 @@
         "untilDate": "2018-10-23"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1408,
+        "deletions": 367,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
       },
@@ -734,8 +800,8 @@
         "untilDate": "2018-10-26"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1328,
+        "deletions": 1386,
         "sinceDate": "2018-10-26",
         "untilDate": "2018-10-27"
       },
@@ -746,8 +812,8 @@
         "untilDate": "2018-10-28"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 433,
+        "deletions": 152,
         "sinceDate": "2018-10-28",
         "untilDate": "2018-10-29"
       },
@@ -756,6 +822,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 425,
+        "deletions": 118,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 207,
+        "deletions": 177,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 865,
+        "deletions": 436,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 409,
+        "deletions": 115,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 244,
+        "deletions": 29,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ],
     "Tenvinc": [
@@ -1046,6 +1154,48 @@
         "deletions": 0,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ],
     "oscarzeng": [
@@ -1336,20 +1486,62 @@
         "deletions": 60,
         "sinceDate": "2018-10-29",
         "untilDate": "2018-10-30"
+      },
+      {
+        "insertions": 13,
+        "deletions": 3,
+        "sinceDate": "2018-10-30",
+        "untilDate": "2018-10-31"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-10-31",
+        "untilDate": "2018-11-01"
+      },
+      {
+        "insertions": 80,
+        "deletions": 6,
+        "sinceDate": "2018-11-01",
+        "untilDate": "2018-11-02"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-02",
+        "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "tztzt": 609,
-    "nguyenngoclinhchi": 916,
-    "Tenvinc": 2745,
-    "oscarzeng": 2135
+    "tztzt": 1606,
+    "nguyenngoclinhchi": 3503,
+    "Tenvinc": 2792,
+    "oscarzeng": 2044
   },
   "authorContributionVariance": {
-    "tztzt": 13077.169,
-    "nguyenngoclinhchi": 10911.649,
-    "Tenvinc": 0.100260414,
-    "oscarzeng": 20397.084
+    "tztzt": 75507.234,
+    "nguyenngoclinhchi": 220370.56,
+    "Tenvinc": 0.08793384,
+    "oscarzeng": 18441.244
   },
   "authorDisplayNameMap": {
     "tztzt": "TEH...HON",
