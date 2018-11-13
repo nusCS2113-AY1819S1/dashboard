@@ -44,10 +44,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 90,
+        "deletions": 79,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 2046461,
+        "deletions": 2042578,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "BearPerson1": [
@@ -94,10 +100,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 460,
-        "deletions": 399,
+        "insertions": 761,
+        "deletions": 424,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 828,
+        "deletions": 747,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "auskure": [
@@ -144,10 +156,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 505,
-        "deletions": 233,
+        "insertions": 1170,
+        "deletions": 447,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 2051,
+        "deletions": 1020649,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "leegengyu": [
@@ -194,10 +212,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 1132,
-        "deletions": 994,
+        "insertions": 1830,
+        "deletions": 1713,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1021270,
+        "deletions": 703,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ]
   },
@@ -526,6 +550,54 @@
         "deletions": 0,
         "sinceDate": "2018-11-04",
         "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 90,
+        "deletions": 79,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 363,
+        "deletions": 505,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 556,
+        "deletions": 359,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 2190,
+        "deletions": 334,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 2744,
+        "deletions": 1061,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 1020065,
+        "deletions": 1020064,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 1020543,
+        "deletions": 1020255,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "BearPerson1": [
@@ -852,6 +924,54 @@
         "deletions": 5,
         "sinceDate": "2018-11-04",
         "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 301,
+        "deletions": 25,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 239,
+        "deletions": 159,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 19,
+        "deletions": 12,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 175,
+        "deletions": 165,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 160,
+        "deletions": 202,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 235,
+        "deletions": 209,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "auskure": [
@@ -1178,6 +1298,54 @@
         "deletions": 0,
         "sinceDate": "2018-11-04",
         "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 332,
+        "deletions": 31,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 333,
+        "deletions": 183,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 226,
+        "deletions": 139,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 76,
+        "deletions": 209,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 807,
+        "deletions": 118,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 942,
+        "deletions": 1020183,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "leegengyu": [
@@ -1504,20 +1672,68 @@
         "deletions": 82,
         "sinceDate": "2018-11-04",
         "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 161,
+        "deletions": 404,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 537,
+        "deletions": 315,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 49,
+        "deletions": 60,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 30,
+        "deletions": 22,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 72,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 1021010,
+        "deletions": 410,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 181,
+        "deletions": 139,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "E0201942": 1934,
-    "BearPerson1": 828,
-    "auskure": 1315,
-    "leegengyu": 980
+    "E0201942": 6543,
+    "BearPerson1": 1461,
+    "auskure": 3226,
+    "leegengyu": 1632
   },
   "authorContributionVariance": {
-    "E0201942": 877125.75,
-    "BearPerson1": 20917.611,
-    "auskure": 18912.934,
-    "leegengyu": 32260.703
+    "E0201942": 1.2993708E11,
+    "BearPerson1": 25903.723,
+    "auskure": 1.65437184E10,
+    "leegengyu": 1.65529201E10
   },
   "authorDisplayNameMap": {
     "E0201942": "LIM...DEN",

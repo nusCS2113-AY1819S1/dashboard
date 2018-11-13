@@ -48,6 +48,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "Limminghong": [
@@ -94,10 +100,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 94,
-        "deletions": 4,
+        "insertions": 407,
+        "deletions": 243,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 441,
+        "deletions": 289,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "LowGinWee": [
@@ -144,10 +156,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 317,
-        "deletions": 121,
+        "insertions": 463,
+        "deletions": 200,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 448,
+        "deletions": 155,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "lekoook": [
@@ -194,10 +212,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 101,
-        "deletions": 51,
+        "insertions": 480,
+        "deletions": 186,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 776,
+        "deletions": 514,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "lws803": [
@@ -244,10 +268,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 214,
-        "deletions": 59,
+        "insertions": 252,
+        "deletions": 81,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 481,
+        "deletions": 275,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ]
   },
@@ -582,6 +612,48 @@
         "deletions": 0,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "Limminghong": [
@@ -910,10 +982,52 @@
         "untilDate": "2018-11-05"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 313,
+        "deletions": 239,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 29,
+        "deletions": 7,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 412,
+        "deletions": 282,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "LowGinWee": [
@@ -1246,6 +1360,48 @@
         "deletions": 20,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 146,
+        "deletions": 79,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 122,
+        "deletions": 94,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 196,
+        "deletions": 10,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 130,
+        "deletions": 51,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "lekoook": [
@@ -1544,14 +1700,14 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 99,
-        "deletions": 50,
+        "insertions": 106,
+        "deletions": 52,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-01"
       },
       {
-        "insertions": 2,
-        "deletions": 1,
+        "insertions": 271,
+        "deletions": 100,
         "sinceDate": "2018-11-01",
         "untilDate": "2018-11-02"
       },
@@ -1574,10 +1730,52 @@
         "untilDate": "2018-11-05"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 94,
+        "deletions": 5,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 9,
+        "deletions": 29,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 16,
+        "deletions": 8,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 4,
+        "deletions": 2,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 120,
+        "deletions": 121,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 293,
+        "deletions": 177,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 6,
+        "deletions": 3,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 337,
+        "deletions": 203,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "lws803": [
@@ -1900,8 +2098,8 @@
         "untilDate": "2018-11-04"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 38,
+        "deletions": 22,
         "sinceDate": "2018-11-04",
         "untilDate": "2018-11-05"
       },
@@ -1910,22 +2108,64 @@
         "deletions": 0,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 157,
+        "deletions": 98,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 167,
+        "deletions": 96,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 73,
+        "deletions": 55,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 84,
+        "deletions": 26,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ]
   },
   "authorFinalContributionMap": {
     "peiying98": 0,
-    "Limminghong": 1618,
-    "LowGinWee": 3313,
-    "lekoook": 3226,
-    "lws803": 9078
+    "Limminghong": 1865,
+    "LowGinWee": 3806,
+    "lekoook": 3854,
+    "lws803": 9281
   },
   "authorContributionVariance": {
     "peiying98": 0.0,
-    "Limminghong": 23772.143,
-    "LowGinWee": 52000.176,
-    "lekoook": 31515.225,
-    "lws803": 686485.8
+    "Limminghong": 31494.855,
+    "LowGinWee": 47380.87,
+    "lekoook": 34055.574,
+    "lws803": 611851.06
   },
   "authorDisplayNameMap": {
     "peiying98": "LIM...ING",

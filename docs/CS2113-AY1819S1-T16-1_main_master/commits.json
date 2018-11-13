@@ -48,6 +48,12 @@
         "deletions": 720,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1069,
+        "deletions": 385,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "m-aslam-mj2": [
@@ -98,6 +104,12 @@
         "deletions": 1898,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1512,
+        "deletions": 720,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "zhicaizack": [
@@ -144,10 +156,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 640,
+        "insertions": 649,
         "deletions": 242,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 2595,
+        "deletions": 428,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "jomcruz93": [
@@ -194,10 +212,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 1384,
-        "deletions": 412,
+        "insertions": 1523,
+        "deletions": 453,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1672,
+        "deletions": 601,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "harriuscai": [
@@ -248,6 +272,12 @@
         "deletions": 209,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 548,
+        "deletions": 223,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ]
   },
@@ -570,6 +600,60 @@
         "deletions": 0,
         "sinceDate": "2018-11-03",
         "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 147,
+        "deletions": 52,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 3,
+        "deletions": 6,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 238,
+        "deletions": 18,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 178,
+        "deletions": 77,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 3,
+        "deletions": 2,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 500,
+        "deletions": 230,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "m-aslam-mj2": [
@@ -890,6 +974,60 @@
         "deletions": 0,
         "sinceDate": "2018-11-03",
         "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 33,
+        "deletions": 60,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 74,
+        "deletions": 7,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 1405,
+        "deletions": 653,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "zhicaizack": [
@@ -1210,6 +1348,60 @@
         "deletions": 1,
         "sinceDate": "2018-11-03",
         "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 9,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 57,
+        "deletions": 8,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 15,
+        "deletions": 2,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 287,
+        "deletions": 38,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 697,
+        "deletions": 93,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 1539,
+        "deletions": 287,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "jomcruz93": [
@@ -1526,10 +1718,64 @@
         "untilDate": "2018-11-03"
       },
       {
-        "insertions": 274,
+        "insertions": 331,
         "deletions": 120,
         "sinceDate": "2018-11-03",
         "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 82,
+        "deletions": 41,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 59,
+        "deletions": 18,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 410,
+        "deletions": 268,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 25,
+        "deletions": 27,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 351,
+        "deletions": 110,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 827,
+        "deletions": 178,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "harriuscai": [
@@ -1850,22 +2096,76 @@
         "deletions": 0,
         "sinceDate": "2018-11-03",
         "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 57,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 3,
+        "deletions": 1,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 488,
+        "deletions": 222,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "tristyxxnana": 3292,
-    "m-aslam-mj2": 2876,
-    "zhicaizack": 3147,
-    "jomcruz93": 4494,
-    "harriuscai": 2525
+    "tristyxxnana": 3854,
+    "m-aslam-mj2": 3996,
+    "zhicaizack": 5380,
+    "jomcruz93": 5682,
+    "harriuscai": 2892
   },
   "authorContributionVariance": {
-    "tristyxxnana": 100233.22,
-    "m-aslam-mj2": 3620912.2,
-    "zhicaizack": 31005.754,
-    "jomcruz93": 139784.66,
-    "harriuscai": 134492.83
+    "tristyxxnana": 93494.96,
+    "m-aslam-mj2": 3157151.2,
+    "zhicaizack": 82880.17,
+    "jomcruz93": 138109.48,
+    "harriuscai": 122142.88
   },
   "authorDisplayNameMap": {
     "tristyxxnana": "NUR...LAN",

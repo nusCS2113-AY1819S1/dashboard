@@ -44,10 +44,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 116,
-        "deletions": 34,
+        "insertions": 122,
+        "deletions": 43,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 772,
+        "deletions": 156,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "elstonayx": [
@@ -94,10 +100,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 13,
-        "deletions": 1,
+        "insertions": 300,
+        "deletions": 92,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 391,
+        "deletions": 440,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "driedmelon": [
@@ -144,10 +156,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 144,
-        "deletions": 100,
+        "insertions": 147,
+        "deletions": 102,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 2318,
+        "deletions": 1260,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "jitwei98": [
@@ -182,8 +200,8 @@
         "untilDate": "2018-10-17"
       },
       {
-        "insertions": 57,
-        "deletions": 41,
+        "insertions": 169,
+        "deletions": 55,
         "sinceDate": "2018-10-17",
         "untilDate": "2018-10-24"
       },
@@ -194,10 +212,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 53,
-        "deletions": 19,
+        "insertions": 705,
+        "deletions": 201,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1315,
+        "deletions": 744,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "junweiljw": [
@@ -244,10 +268,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 350,
-        "deletions": 108,
+        "insertions": 417,
+        "deletions": 110,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 3092,
+        "deletions": 478,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ]
   },
@@ -564,6 +594,66 @@
         "deletions": 2,
         "sinceDate": "2018-11-02",
         "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 6,
+        "deletions": 9,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 367,
+        "deletions": 30,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 224,
+        "deletions": 76,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 181,
+        "deletions": 50,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "elstonayx": [
@@ -868,8 +958,8 @@
         "untilDate": "2018-11-01"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 37,
+        "deletions": 37,
         "sinceDate": "2018-11-01",
         "untilDate": "2018-11-02"
       },
@@ -878,6 +968,66 @@
         "deletions": 0,
         "sinceDate": "2018-11-02",
         "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 250,
+        "deletions": 54,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 6,
+        "deletions": 1,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 128,
+        "deletions": 45,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 257,
+        "deletions": 394,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "driedmelon": [
@@ -1192,6 +1342,66 @@
         "deletions": 11,
         "sinceDate": "2018-11-02",
         "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 3,
+        "deletions": 2,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 5,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 6,
+        "deletions": 10,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 179,
+        "deletions": 78,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 942,
+        "deletions": 620,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 1186,
+        "deletions": 552,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "jitwei98": [
@@ -1436,14 +1646,14 @@
         "untilDate": "2018-10-22"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 108,
+        "deletions": 12,
         "sinceDate": "2018-10-22",
         "untilDate": "2018-10-23"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 2,
         "sinceDate": "2018-10-23",
         "untilDate": "2018-10-24"
       },
@@ -1496,8 +1706,8 @@
         "untilDate": "2018-11-01"
       },
       {
-        "insertions": 47,
-        "deletions": 16,
+        "insertions": 88,
+        "deletions": 42,
         "sinceDate": "2018-11-01",
         "untilDate": "2018-11-02"
       },
@@ -1506,6 +1716,66 @@
         "deletions": 0,
         "sinceDate": "2018-11-02",
         "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 611,
+        "deletions": 156,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 49,
+        "deletions": 56,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 230,
+        "deletions": 48,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 600,
+        "deletions": 193,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 436,
+        "deletions": 447,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ],
     "junweiljw": [
@@ -1810,8 +2080,8 @@
         "untilDate": "2018-11-01"
       },
       {
-        "insertions": 324,
-        "deletions": 102,
+        "insertions": 391,
+        "deletions": 104,
         "sinceDate": "2018-11-01",
         "untilDate": "2018-11-02"
       },
@@ -1820,22 +2090,82 @@
         "deletions": 6,
         "sinceDate": "2018-11-02",
         "untilDate": "2018-11-03"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-03",
+        "untilDate": "2018-11-04"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-04",
+        "untilDate": "2018-11-05"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-05",
+        "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 2835,
+        "deletions": 269,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 257,
+        "deletions": 209,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "linnnruoo": 2267,
-    "elstonayx": 930,
-    "driedmelon": 995,
-    "jitwei98": 1357,
-    "junweiljw": 243
+    "linnnruoo": 2902,
+    "elstonayx": 1385,
+    "driedmelon": 2086,
+    "jitwei98": 2789,
+    "junweiljw": 2526
   },
   "authorContributionVariance": {
-    "linnnruoo": 99467.3,
-    "elstonayx": 13618.817,
-    "driedmelon": 6.7881696E7,
-    "jitwei98": 3.35610912E8,
-    "junweiljw": 3431.193
+    "linnnruoo": 86862.85,
+    "elstonayx": 19053.568,
+    "driedmelon": 5.7097184E7,
+    "jitwei98": 2.82887648E8,
+    "junweiljw": 158498.4
   },
   "authorDisplayNameMap": {
     "linnnruoo": "BAO...RUO",

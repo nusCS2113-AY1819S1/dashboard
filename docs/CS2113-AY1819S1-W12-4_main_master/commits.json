@@ -48,6 +48,12 @@
         "deletions": 369,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 76,
+        "deletions": 4,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "scottljw": [
@@ -98,6 +104,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "Lunastryke": [
@@ -144,10 +156,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 2544,
-        "deletions": 2300,
+        "insertions": 3055,
+        "deletions": 2768,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1672,
+        "deletions": 1094,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "liu-tianhang": [
@@ -198,6 +216,12 @@
         "deletions": 0,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ]
   },
@@ -532,6 +556,54 @@
         "deletions": 0,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 76,
+        "deletions": 4,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
       }
     ],
     "scottljw": [
@@ -864,6 +936,54 @@
         "deletions": 0,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
       }
     ],
     "Lunastryke": [
@@ -1192,10 +1312,58 @@
         "untilDate": "2018-11-05"
       },
       {
-        "insertions": 170,
-        "deletions": 121,
+        "insertions": 405,
+        "deletions": 131,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 276,
+        "deletions": 458,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 65,
+        "deletions": 107,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 7,
+        "deletions": 7,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 22,
+        "deletions": 5,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 998,
+        "deletions": 742,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 272,
+        "deletions": 68,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 298,
+        "deletions": 139,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 10,
+        "deletions": 26,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
       }
     ],
     "liu-tianhang": [
@@ -1528,20 +1696,68 @@
         "deletions": 0,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-12",
+        "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "bluein-green": 2761,
+    "bluein-green": 2335,
     "scottljw": 0,
-    "Lunastryke": 1724,
-    "liu-tianhang": 2022
+    "Lunastryke": 3239,
+    "liu-tianhang": 3554
   },
   "authorContributionVariance": {
-    "bluein-green": 197425.47,
+    "bluein-green": 174989.84,
     "scottljw": 0.0,
-    "Lunastryke": 302968.8,
-    "liu-tianhang": 280318.1
+    "Lunastryke": 313233.66,
+    "liu-tianhang": 248492.47
   },
   "authorDisplayNameMap": {
     "bluein-green": "JIN...JIA",

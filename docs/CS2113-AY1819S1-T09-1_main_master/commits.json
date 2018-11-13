@@ -44,10 +44,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 1107,
-        "deletions": 1015,
+        "insertions": 1740,
+        "deletions": 1053,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 1566,
+        "deletions": 565,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "teojunjie": [
@@ -94,10 +100,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 622,
-        "deletions": 500,
+        "insertions": 1744,
+        "deletions": 970,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 5171,
+        "deletions": 5064,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "Psyf": [
@@ -144,10 +156,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 389,
-        "deletions": 158,
+        "insertions": 838,
+        "deletions": 422,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 294,
+        "deletions": 890,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ],
     "trufflepirate": [
@@ -194,10 +212,16 @@
         "untilDate": "2018-10-31"
       },
       {
-        "insertions": 2429,
-        "deletions": 1805,
+        "insertions": 2902,
+        "deletions": 1975,
         "sinceDate": "2018-10-31",
         "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 2128,
+        "deletions": 896,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-14"
       }
     ]
   },
@@ -532,6 +556,42 @@
         "deletions": 773,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 633,
+        "deletions": 38,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 215,
+        "deletions": 100,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 919,
+        "deletions": 401,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 375,
+        "deletions": 28,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 57,
+        "deletions": 36,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
       }
     ],
     "teojunjie": [
@@ -848,22 +908,58 @@
         "untilDate": "2018-11-03"
       },
       {
-        "insertions": 45,
-        "deletions": 37,
+        "insertions": 81,
+        "deletions": 43,
         "sinceDate": "2018-11-03",
         "untilDate": "2018-11-04"
       },
       {
-        "insertions": 226,
-        "deletions": 22,
+        "insertions": 422,
+        "deletions": 44,
         "sinceDate": "2018-11-04",
         "untilDate": "2018-11-05"
       },
       {
-        "insertions": 62,
-        "deletions": 31,
+        "insertions": 749,
+        "deletions": 275,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 203,
+        "deletions": 198,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 14,
+        "deletions": 14,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 4809,
+        "deletions": 4748,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 328,
+        "deletions": 270,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 7,
+        "deletions": 6,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 13,
+        "deletions": 26,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
       }
     ],
     "Psyf": [
@@ -1192,10 +1288,46 @@
         "untilDate": "2018-11-05"
       },
       {
-        "insertions": 16,
-        "deletions": 1,
+        "insertions": 105,
+        "deletions": 12,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 360,
+        "deletions": 253,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 25,
+        "deletions": 117,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 162,
+        "deletions": 78,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 107,
+        "deletions": 695,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
       }
     ],
     "trufflepirate": [
@@ -1524,24 +1656,60 @@
         "untilDate": "2018-11-05"
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 471,
+        "deletions": 169,
         "sinceDate": "2018-11-05",
         "untilDate": "2018-11-06"
+      },
+      {
+        "insertions": 2,
+        "deletions": 1,
+        "sinceDate": "2018-11-06",
+        "untilDate": "2018-11-07"
+      },
+      {
+        "insertions": 670,
+        "deletions": 216,
+        "sinceDate": "2018-11-07",
+        "untilDate": "2018-11-08"
+      },
+      {
+        "insertions": 12,
+        "deletions": 16,
+        "sinceDate": "2018-11-08",
+        "untilDate": "2018-11-09"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-09",
+        "untilDate": "2018-11-10"
+      },
+      {
+        "insertions": 1291,
+        "deletions": 583,
+        "sinceDate": "2018-11-10",
+        "untilDate": "2018-11-11"
+      },
+      {
+        "insertions": 155,
+        "deletions": 81,
+        "sinceDate": "2018-11-11",
+        "untilDate": "2018-11-12"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Ftywan": 1206,
-    "teojunjie": 3675,
-    "Psyf": 3604,
-    "trufflepirate": 3054
+    "Ftywan": 2944,
+    "teojunjie": 3962,
+    "Psyf": 3848,
+    "trufflepirate": 4758
   },
   "authorContributionVariance": {
-    "Ftywan": 97287.13,
-    "teojunjie": 78634.79,
-    "Psyf": 115977.42,
-    "trufflepirate": 188054.14
+    "Ftywan": 118434.01,
+    "teojunjie": 1500348.9,
+    "Psyf": 114815.2,
+    "trufflepirate": 231477.47
   },
   "authorDisplayNameMap": {
     "Ftywan": "FU ...UAN",
