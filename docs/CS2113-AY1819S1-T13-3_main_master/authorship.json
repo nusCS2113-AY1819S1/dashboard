@@ -5324,7 +5324,7 @@
         "author": {
           "gitId": "ParasK26"
         },
-        "content": "image::transactionsequencediagram.png[widith\u003d\"800\"]"
+        "content": "image::TransactionSequenceDiagram.png[width\u003d\"800\"]"
       },
       {
         "lineNumber": 423,
