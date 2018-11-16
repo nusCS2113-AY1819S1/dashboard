@@ -54,6 +54,12 @@
         "deletions": 562,
         "sinceDate": "2018-11-07",
         "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-21"
       }
     ],
     "Chocological": [
@@ -110,6 +116,12 @@
         "deletions": 2129,
         "sinceDate": "2018-11-07",
         "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-21"
       }
     ],
     "derpyplops": [
@@ -166,6 +178,12 @@
         "deletions": 22,
         "sinceDate": "2018-11-07",
         "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-21"
       }
     ],
     "sanjukta99": [
@@ -222,6 +240,12 @@
         "deletions": 192,
         "sinceDate": "2018-11-07",
         "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-21"
       }
     ]
   },
@@ -598,6 +622,24 @@
         "deletions": 140,
         "sinceDate": "2018-11-12",
         "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-15"
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "sinceDate": "2018-11-15",
+        "untilDate": "2018-11-16"
       }
     ],
     "Chocological": [
@@ -972,6 +1014,24 @@
         "deletions": 3,
         "sinceDate": "2018-11-12",
         "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-15"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-15",
+        "untilDate": "2018-11-16"
       }
     ],
     "derpyplops": [
@@ -1346,6 +1406,24 @@
         "deletions": 0,
         "sinceDate": "2018-11-12",
         "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-15"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-15",
+        "untilDate": "2018-11-16"
       }
     ],
     "sanjukta99": [
@@ -1720,20 +1798,38 @@
         "deletions": 115,
         "sinceDate": "2018-11-12",
         "untilDate": "2018-11-13"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-13",
+        "untilDate": "2018-11-14"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-14",
+        "untilDate": "2018-11-15"
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "sinceDate": "2018-11-15",
+        "untilDate": "2018-11-16"
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ladderinc": 2346,
+    "ladderinc": 2375,
     "Chocological": 3983,
     "derpyplops": 740,
-    "sanjukta99": 5532
+    "sanjukta99": 5503
   },
   "authorContributionVariance": {
-    "ladderinc": 70663.09,
-    "Chocological": 113343.92,
-    "derpyplops": 7252.543,
-    "sanjukta99": 65193.406
+    "ladderinc": 68046.83,
+    "Chocological": 109847.01,
+    "derpyplops": 6942.082,
+    "sanjukta99": 62739.91
   },
   "authorDisplayNameMap": {
     "ladderinc": "SOH...JUN",

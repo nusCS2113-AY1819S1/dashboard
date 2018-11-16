@@ -36716,147 +36716,147 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "package seedu.address.logic.commands;"
+        "content": "//@@author E0201942"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "package seedu.address.logic.commands;"
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
-        },
-        "content": "import static java.util.Objects.requireNonNull;"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": "import static java.util.Objects.requireNonNull;"
+      },
+      {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.commons.core.Messages;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import seedu.address.commons.core.Messages;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.IsNotSelfOrMergedPredicate;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.TimetableContainsModulePredicate;"
+        "content": "import seedu.address.model.person.IsNotSelfOrMergedPredicate;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import seedu.address.model.person.TimetableContainsModulePredicate;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "//@@E0201942"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "/**"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " * Finds and lists all persons in address book who has any of the modules or time slots inputted."
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " * Keyword matching is case insensitive."
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " */"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "public class FilterCommand extends Command {"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public static final String COMMAND_WORD \u003d \"filter\";"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Filters the list to based on free time slots and \""
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "E0201942"
         },
         "content": "            + \"modules taken \""
       },
@@ -36877,84 +36877,84 @@
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    private final TimetableContainsModulePredicate predicate;"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public FilterCommand(TimetableContainsModulePredicate predicate) {"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        this.predicate \u003d predicate;"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public CommandResult execute(Model model, CommandHistory history) {"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        requireNonNull(model);"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        model.updateFilteredPersonList(predicate);"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        return new CommandResult("
       },
@@ -36975,99 +36975,97 @@
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "                || (other instanceof FilterCommand // instanceof handles nulls"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "                \u0026\u0026 predicate.equals(((FilterCommand) other).predicate)); // state check"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "}"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       }
     ],
     "authorContributionMap": {
-      "E0201942": 6,
-      "-": 42,
-      "leegengyu": 2
+      "E0201942": 50
     }
   },
   {
@@ -40579,1143 +40577,1143 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "package seedu.address.logic.commands;"
+        "content": "//@@author E0201942"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "package seedu.address.logic.commands;"
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import static java.util.Objects.requireNonNull;"
+        "content": ""
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_MERGE;"
+        "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_MERGE;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.ArrayList;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.HashMap;"
+        "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.HashSet;"
+        "content": "import java.util.HashMap;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.List;"
+        "content": "import java.util.HashSet;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.Map;"
+        "content": "import java.util.List;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.Set;"
+        "content": "import java.util.Map;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.TreeMap;"
+        "content": "import java.util.Set;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import java.util.TreeMap;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import javafx.collections.ObservableList;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import javafx.collections.ObservableList;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "auskure"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.enrolledmodule.EnrolledModule;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.Address;"
+        "content": "import seedu.address.model.enrolledmodule.EnrolledModule;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.Email;"
+        "content": "import seedu.address.model.person.Address;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.IsNotSelfOrMergedPredicate;"
+        "content": "import seedu.address.model.person.Email;"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.IsSelfPredicate;"
+        "content": "import seedu.address.model.person.IsNotSelfOrMergedPredicate;"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.Name;"
+        "content": "import seedu.address.model.person.IsSelfPredicate;"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.Person;"
+        "content": "import seedu.address.model.person.Name;"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.Phone;"
+        "content": "import seedu.address.model.person.Person;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.TimeSlots;"
+        "content": "import seedu.address.model.person.Phone;"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.tag.Tag;"
+        "content": "import seedu.address.model.person.TimeSlots;"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import seedu.address.model.tag.Tag;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "//@@E0201942"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "leegengyu"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " * Merges the timetables of multiple people"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " */"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "public class MergeCommand extends Command {"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public static final String COMMAND_WORD \u003d \"merge\";"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Merges the timetables of selected people \""
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "            + \"by the index number used in the last person listing.\\n\""
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 41,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            + \"Parameters: INDEX (must be positive integer) + GROUP NAME (must not be empty)\""
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 42,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            + PREFIX_MERGE + \"[INDEX] \" + PREFIX_NAME + \"[GROUP NAME] \""
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 43,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "            + \"for all timetables you want to merge.\\n\""
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 44,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            + \"Example: \" + COMMAND_WORD + \" \" + PREFIX_MERGE + \"1 \" + PREFIX_MERGE + \"2 \" + PREFIX_NAME"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 45,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            + \"GES PROJECT\";"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_MERGE_TIMETABLE_SUCCESS \u003d \"Timetables Merged\";"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 48,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_INVALID_INDEX \u003d \"Invalid index. Index selected does not exist.\";"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 49,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_UPDATE_GROUP_SUCCESS \u003d \"Group has been edited: %1$s\";"
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 50,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_INDEX_NEEDS_TO_BE_NUMBER \u003d \"Invalid index. Index needs to be a positive \""
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 51,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            + \"integer\\n\";"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 52,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    public static final String MESSAGE_NO_GROUP_NAME \u003d \"No group name entered.\";"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 54,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    private final List\u003cInteger\u003e indices;"
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 55,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    private final Name name;"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 56,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 57,
         "author": {
           "gitId": "E0201942"
         },
         "content": "    public MergeCommand(List\u003cInteger\u003e indices, String name) {"
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 58,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        requireNonNull(indices);"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 59,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        requireNonNull(name);"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 60,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        this.indices \u003d indices;"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 62,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        this.name \u003d new Name(name);"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 63,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 64,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 65,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 66,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 67,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        requireNonNull(model);"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 68,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        List\u003cPerson\u003e lastShownList \u003d model.getFilteredPersonList();"
       },
       {
-        "lineNumber": 70,
+        "lineNumber": 69,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        List\u003cPerson\u003e mainList \u003d ((ObservableList\u003cPerson\u003e) lastShownList).filtered(new IsNotSelfOrMergedPredicate());"
       },
       {
-        "lineNumber": 71,
+        "lineNumber": 70,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        List\u003cPerson\u003e selfList \u003d ((ObservableList\u003cPerson\u003e) lastShownList).filtered(new IsSelfPredicate());"
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 71,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        Person[] personsToMerge \u003d new Person[lastShownList.size()];"
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 72,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 74,
+        "lineNumber": 73,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        for (Integer index : indices) {"
       },
       {
-        "lineNumber": 75,
+        "lineNumber": 74,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            if (index \u003e lastShownList.size()) {"
       },
       {
-        "lineNumber": 76,
+        "lineNumber": 75,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                throw new CommandException(MESSAGE_INVALID_INDEX);"
       },
       {
-        "lineNumber": 77,
+        "lineNumber": 76,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 77,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 79,
+        "lineNumber": 78,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 80,
+        "lineNumber": 79,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        int i \u003d 0;"
       },
       {
-        "lineNumber": 81,
+        "lineNumber": 80,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        for (int it : indices) {"
       },
       {
-        "lineNumber": 82,
+        "lineNumber": 81,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            if (it \u003e mainList.size() - 1 || it \u003c 0) {"
       },
       {
-        "lineNumber": 83,
+        "lineNumber": 82,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                throw new CommandException(String.format(MESSAGE_INVALID_INDEX,"
       },
       {
-        "lineNumber": 84,
+        "lineNumber": 83,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                        MergeCommand.MESSAGE_USAGE));"
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 84,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 86,
+        "lineNumber": 85,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            personsToMerge[i] \u003d mainList.get(it);"
       },
       {
-        "lineNumber": 87,
+        "lineNumber": 86,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "            i++;"
       },
       {
-        "lineNumber": 88,
+        "lineNumber": 87,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 89,
+        "lineNumber": 88,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        personsToMerge[i] \u003d selfList.get(0);"
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 89,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        i++;"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 90,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        for (int j \u003d 0; j \u003c i - 1; j++) {"
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 91,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            personsToMerge[j + 1] \u003d mergeTimetables(personsToMerge[j], personsToMerge[j + 1], j);"
       },
       {
-        "lineNumber": 93,
+        "lineNumber": 92,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 94,
+        "lineNumber": 93,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        if (model.hasPerson(personsToMerge[i - 1])) {"
       },
       {
-        "lineNumber": 95,
+        "lineNumber": 94,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            model.updatePerson(personsToMerge[i - 1], personsToMerge[i - 1]);"
       },
       {
-        "lineNumber": 96,
+        "lineNumber": 95,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            model.commitAddressBook();"
       },
       {
-        "lineNumber": 97,
+        "lineNumber": 96,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            return new CommandResult(String.format(MESSAGE_UPDATE_GROUP_SUCCESS, name));"
       },
       {
-        "lineNumber": 98,
+        "lineNumber": 97,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 99,
+        "lineNumber": 98,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        model.addPerson(personsToMerge[i - 1]);"
       },
       {
-        "lineNumber": 100,
+        "lineNumber": 99,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        model.commitAddressBook();"
       },
       {
-        "lineNumber": 101,
+        "lineNumber": 100,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        return new CommandResult(MESSAGE_MERGE_TIMETABLE_SUCCESS);"
       },
       {
-        "lineNumber": 102,
+        "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 103,
+        "lineNumber": 102,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": ""
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    @Override"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": "                || (other instanceof MergeCommand // instanceof handles nulls"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                || (other instanceof MergeCommand // instanceof handles nulls"
+        "content": "                \u0026\u0026 indices.equals(((MergeCommand) other).indices) \u0026\u0026 name.equals(((MergeCommand) other).name));"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                \u0026\u0026 indices.equals(((MergeCommand) other).indices) \u0026\u0026 name.equals(((MergeCommand) other).name));"
+        "content": "    }"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    /**"
+        "content": "     * Merges 2 people into a single person with a merged timetable"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     * Merges 2 people into a single person with a merged timetable"
+        "content": "     */"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     */"
+        "content": "    private Person mergeTimetables(Person person1, Person person2, int index) {"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    private Person mergeTimetables(Person person1, Person person2, int index) {"
+        "content": "        Name mergedName \u003d name;"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        Name mergedName \u003d name;"
+        "content": "        Phone phone \u003d new Phone(\"99999999\");"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        Phone phone \u003d new Phone(\"99999999\");"
-      },
-      {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "-"
-        },
         "content": "        Email email \u003d new Email(\"notimportant@no\");"
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 118,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        Address address;"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 119,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        if (index \u003d\u003d 0) {"
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 120,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            address \u003d new Address(person1.getName().toString() + \", \" + person2.getName().toString());"
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 121,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        } else {"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 122,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            address \u003d new Address(person1.getAddress().toString() + \", \" + person2.getName().toString());"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 123,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 124,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        Set\u003cTag\u003e mergedTags \u003d new HashSet\u003c\u003e();"
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 125,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        mergedTags.add(new Tag(\"merged\"));"
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 126,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        Map\u003cString, List\u003cTimeSlots\u003e\u003e mergedSlots \u003d mergeTimeSlots(person1.getTimeSlots(), person2.getTimeSlots());"
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 127,
         "author": {
-          "gitId": "auskure"
+          "gitId": "E0201942"
         },
         "content": "        Map\u003cString, EnrolledModule\u003e enrolledClassMap \u003d new TreeMap\u003c\u003e();"
       },
       {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 129,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "        return new Person(mergedName, phone, email, address, mergedTags, enrolledClassMap,"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        return new Person(mergedName, phone, email, address, mergedTags, enrolledClassMap,"
+        "content": "                mergedSlots);"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                mergedSlots);"
+        "content": ""
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    /**"
+        "content": "     * Creates a new merged timetable from 2 timetables."
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     * Creates a new merged timetable from 2 timetables."
+        "content": "     */"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     */"
+        "content": "    private Map\u003cString, List\u003cTimeSlots\u003e\u003e mergeTimeSlots(Map\u003cString, List\u003cTimeSlots\u003e\u003e slots1,"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    private Map\u003cString, List\u003cTimeSlots\u003e\u003e mergeTimeSlots(Map\u003cString, List\u003cTimeSlots\u003e\u003e slots1,"
+        "content": "                                                        Map\u003cString, List\u003cTimeSlots\u003e\u003e slots2) {"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                                                        Map\u003cString, List\u003cTimeSlots\u003e\u003e slots2) {"
+        "content": "        TimeSlots[] mon1 \u003d slots1.get(\"mon\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] mon1 \u003d slots1.get(\"mon\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] mon2 \u003d slots2.get(\"mon\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] mon2 \u003d slots2.get(\"mon\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] tue1 \u003d slots1.get(\"tue\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] tue1 \u003d slots1.get(\"tue\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] tue2 \u003d slots2.get(\"tue\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] tue2 \u003d slots2.get(\"tue\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] wed1 \u003d slots1.get(\"wed\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] wed1 \u003d slots1.get(\"wed\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] wed2 \u003d slots2.get(\"wed\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] wed2 \u003d slots2.get(\"wed\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] thu1 \u003d slots1.get(\"thu\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] thu1 \u003d slots1.get(\"thu\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] thu2 \u003d slots2.get(\"thu\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] thu2 \u003d slots2.get(\"thu\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] fri1 \u003d slots1.get(\"fri\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] fri1 \u003d slots1.get(\"fri\").toArray(new TimeSlots[0]);"
+        "content": "        TimeSlots[] fri2 \u003d slots2.get(\"fri\").toArray(new TimeSlots[0]);"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        TimeSlots[] fri2 \u003d slots2.get(\"fri\").toArray(new TimeSlots[0]);"
+        "content": "        List\u003cTimeSlots\u003e finalMon;"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        List\u003cTimeSlots\u003e finalMon;"
+        "content": "        List\u003cTimeSlots\u003e finalTue;"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        List\u003cTimeSlots\u003e finalTue;"
+        "content": "        List\u003cTimeSlots\u003e finalWed;"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        List\u003cTimeSlots\u003e finalWed;"
+        "content": "        List\u003cTimeSlots\u003e finalThu;"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        List\u003cTimeSlots\u003e finalThu;"
+        "content": "        List\u003cTimeSlots\u003e finalFri;"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        List\u003cTimeSlots\u003e finalFri;"
+        "content": "        Map\u003cString, List\u003cTimeSlots\u003e\u003e finalSlots \u003d new HashMap\u003c\u003e();"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        Map\u003cString, List\u003cTimeSlots\u003e\u003e finalSlots \u003d new HashMap\u003c\u003e();"
+        "content": ""
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "        finalMon \u003d compareTimeSlots(mon1, mon2);"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalMon \u003d compareTimeSlots(mon1, mon2);"
+        "content": "        finalTue \u003d compareTimeSlots(tue1, tue2);"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalTue \u003d compareTimeSlots(tue1, tue2);"
+        "content": "        finalWed \u003d compareTimeSlots(wed1, wed2);"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalWed \u003d compareTimeSlots(wed1, wed2);"
+        "content": "        finalThu \u003d compareTimeSlots(thu1, thu2);"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalThu \u003d compareTimeSlots(thu1, thu2);"
+        "content": "        finalFri \u003d compareTimeSlots(fri1, fri2);"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalFri \u003d compareTimeSlots(fri1, fri2);"
+        "content": ""
       },
       {
         "lineNumber": 164,
@@ -41729,315 +41727,305 @@
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "        finalSlots.put(\"mon\", finalMon);"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalSlots.put(\"mon\", finalMon);"
+        "content": "        finalSlots.put(\"tue\", finalTue);"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalSlots.put(\"tue\", finalTue);"
+        "content": "        finalSlots.put(\"wed\", finalWed);"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalSlots.put(\"wed\", finalWed);"
+        "content": "        finalSlots.put(\"thu\", finalThu);"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalSlots.put(\"thu\", finalThu);"
+        "content": "        finalSlots.put(\"fri\", finalFri);"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        finalSlots.put(\"fri\", finalFri);"
+        "content": "        return finalSlots;"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        return finalSlots;"
+        "content": "    }"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    /**"
+        "content": "     * Compares 2 lists of time slots and returns a merged list."
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     * Compares 2 lists of time slots and returns a merged list."
+        "content": "     */"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     */"
+        "content": "    List\u003cTimeSlots\u003e compareTimeSlots(TimeSlots[] day1, TimeSlots[] day2) {"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    List\u003cTimeSlots\u003e compareTimeSlots(TimeSlots[] day1, TimeSlots[] day2) {"
+        "content": "        List\u003cTimeSlots\u003e finalDay \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        List\u003cTimeSlots\u003e finalDay \u003d new ArrayList\u003c\u003e();"
+        "content": "        for (int i \u003d 0; i \u003c 12; i++) {"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        for (int i \u003d 0; i \u003c 12; i++) {"
+        "content": "            if (day1[i].toString().equalsIgnoreCase(\"free\")"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            if (day1[i].toString().equalsIgnoreCase(\"free\")"
+        "content": "                    || day1[i].toString().equalsIgnoreCase(\"0\")) {"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    || day1[i].toString().equalsIgnoreCase(\"0\")) {"
+        "content": "                day1[i] \u003d new TimeSlots(\"0\");"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                day1[i] \u003d new TimeSlots(\"0\");"
+        "content": "            } else {"
       },
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "leegengyu"
-        },
-        "content": "            } else {"
-      },
-      {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "leegengyu"
+          "gitId": "E0201942"
         },
         "content": "                try {"
       },
       {
-        "lineNumber": 185,
+        "lineNumber": 184,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                    Integer.parseInt(day1[i].toString());"
       },
       {
-        "lineNumber": 186,
+        "lineNumber": 185,
         "author": {
-          "gitId": "leegengyu"
+          "gitId": "E0201942"
         },
         "content": "                } catch (NumberFormatException e) {"
       },
       {
-        "lineNumber": 187,
+        "lineNumber": 186,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                    day1[i] \u003d new TimeSlots(\"1\");"
       },
       {
-        "lineNumber": 188,
+        "lineNumber": 187,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                }"
       },
       {
-        "lineNumber": 189,
+        "lineNumber": 188,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            }"
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": ""
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "            if (day2[i].toString().equalsIgnoreCase(\"free\")) {"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            if (day2[i].toString().equalsIgnoreCase(\"free\")) {"
+        "content": "                day2[i] \u003d new TimeSlots(\"0\");"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                day2[i] \u003d new TimeSlots(\"0\");"
-      },
-      {
-        "lineNumber": 193,
-        "author": {
-          "gitId": "leegengyu"
-        },
         "content": "            } else {"
       },
       {
-        "lineNumber": 194,
+        "lineNumber": 193,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                day2[i] \u003d new TimeSlots(\"1\");"
       },
       {
-        "lineNumber": 195,
+        "lineNumber": 194,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 196,
+        "lineNumber": 195,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            String day1BusyCount \u003d day1[i].toString();"
       },
       {
-        "lineNumber": 197,
+        "lineNumber": 196,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            String day2BusyCount \u003d day2[i].toString();"
       },
       {
-        "lineNumber": 198,
+        "lineNumber": 197,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            int totalBusyCount \u003d Integer.parseInt(day1BusyCount) + Integer.parseInt(day2BusyCount);"
       },
       {
-        "lineNumber": 199,
+        "lineNumber": 198,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            String newBusyCount \u003d Integer.toString(totalBusyCount);"
       },
       {
-        "lineNumber": 200,
+        "lineNumber": 199,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            finalDay.add(new TimeSlots(newBusyCount));"
       },
       {
-        "lineNumber": 201,
+        "lineNumber": 200,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 202,
+        "lineNumber": 201,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        return finalDay;"
       },
       {
-        "lineNumber": 203,
+        "lineNumber": 202,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 204,
+        "lineNumber": 203,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 205,
+        "lineNumber": 204,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "}"
       },
       {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 206,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 208,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       }
     ],
     "authorContributionMap": {
-      "E0201942": 136,
-      "auskure": 2,
-      "-": 64,
-      "leegengyu": 6
+      "E0201942": 207
     }
   },
   {
@@ -44816,59 +44804,66 @@
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            if (!it.equalsIgnoreCase(removedGroups.get(removedGroups.size() - 1))) {"
+        "content": "            if (!it.equalsIgnoreCase("
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                output \u003d output + it + \", \";"
+        "content": "                    removedGroups.get(removedGroups.size() - 1))) {"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            } else {"
+        "content": "                output \u003d output + it + \", \";"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                output \u003d output + it;"
+        "content": "            } else {"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            }"
+        "content": "                output \u003d output + it;"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        return output;"
+        "content": "        }"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    }"
+        "content": "        return output;"
       },
       {
         "lineNumber": 250,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 251,
         "author": {
           "gitId": "E0201942"
         },
@@ -44876,7 +44871,7 @@
       }
     ],
     "authorContributionMap": {
-      "E0201942": 250
+      "E0201942": 251
     }
   },
   {
@@ -46317,103 +46312,131 @@
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "auskure"
+          "gitId": "BearPerson1"
         },
-        "content": "        case DownloadAllNotesCommand.COMMAND_WORD:"
+        "content": "        // @@author BearPerson1"
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "auskure"
+          "gitId": "BearPerson1"
         },
-        "content": "            return new DownloadAllNotesCommandParser().parse(arguments);"
+        "content": ""
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "auskure"
+          "gitId": "BearPerson1"
         },
-        "content": ""
+        "content": "        case DownloadAllNotesCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "auskure"
+          "gitId": "BearPerson1"
         },
-        "content": "        case DownloadSelectNotesCommand.COMMAND_WORD:"
+        "content": "            return new DownloadAllNotesCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "auskure"
+          "gitId": "BearPerson1"
         },
-        "content": "            return new DownloadSelectNotesCommandParser().parse(arguments);"
+        "content": ""
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "auskure"
+          "gitId": "BearPerson1"
         },
-        "content": ""
+        "content": "        case DownloadSelectNotesCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "BearPerson1"
         },
-        "content": "        case ShowNotesCommand.COMMAND_WORD:"
+        "content": "            return new DownloadSelectNotesCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "BearPerson1"
         },
-        "content": "            return new ShowNotesCommand();"
+        "content": ""
       },
       {
         "lineNumber": 136,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        case ShowNotesCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "            return new ShowNotesCommand();"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "BearPerson1"
+        },
+        "content": "        // @@author"
+      },
+      {
+        "lineNumber": 140,
         "author": {
           "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 137,
+        "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
         "content": "        default:"
       },
       {
-        "lineNumber": 138,
+        "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
         "content": "            throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
       },
       {
-        "lineNumber": 139,
+        "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 140,
+        "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 141,
+        "lineNumber": 145,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 142,
+        "lineNumber": 146,
         "author": {
           "gitId": "-"
         },
@@ -46422,8 +46445,8 @@
     ],
     "authorContributionMap": {
       "E0201942": 19,
-      "BearPerson1": 2,
-      "auskure": 12,
+      "BearPerson1": 12,
+      "auskure": 6,
       "-": 95,
       "leegengyu": 14
     }
@@ -49684,589 +49707,580 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "package seedu.address.logic.parser;"
+        "content": "//@@author E0201942"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "package seedu.address.logic.parser;"
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
-        },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+      },
+      {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import java.util.Arrays;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import java.util.Arrays;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.commands.FilterCommand;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "import seedu.address.logic.commands.FilterCommand;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.model.person.TimetableContainsModulePredicate;"
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import seedu.address.model.person.TimetableContainsModulePredicate;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "//@@E0201942"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "leegengyu"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " * Parses input arguments and creates a new FilterCommand object"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " */"
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "public class FilterCommandParser implements Parser\u003cFilterCommand\u003e {"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 16,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     * Parses the given {@code String} of arguments in the context of the FilterCommand"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     * and returns an EditCommand object for execution."
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "E0201942"
         },
         "content": "     *"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public FilterCommand parse(String args) throws ParseException {"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        String trimmedArgs \u003d args.trim();"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        if (trimmedArgs.isEmpty()) {"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "            throw new ParseException("
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, FilterCommand.MESSAGE_USAGE));"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        String[] keywords \u003d trimmedArgs.split(\"\\\\s+\");"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 29,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        String[] days \u003d {\"mon\", \"tue\", \"wed\", \"thu\", \"fri\"};"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        for (int i \u003d 0; i \u003c keywords.length; i++) {"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            for (String day : days) {"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                if (keywords[i].equalsIgnoreCase(day)) {"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                    if (i + 1 \u003e\u003d keywords.length) {"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                        throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": "                            FilterCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                            FilterCommand.MESSAGE_USAGE));"
+        "content": "                    }"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    }"
+        "content": "                    String time \u003d keywords[i + 1];"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    String time \u003d keywords[i + 1];"
+        "content": "                    int timeIndex \u003d changeTimeToIndex(time);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    int timeIndex \u003d changeTimeToIndex(time);"
+        "content": "                    if (timeIndex \u003d\u003d 13) {"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    if (timeIndex \u003d\u003d 13) {"
+        "content": "                        throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                        throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
+        "content": "                            FilterCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                            FilterCommand.MESSAGE_USAGE));"
+        "content": "                    }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    }"
+        "content": "                    keywords[i + 1] \u003d Integer.toString(timeIndex);"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                    keywords[i + 1] \u003d Integer.toString(timeIndex);"
+        "content": "                }"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                }"
+        "content": "            }"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            }"
+        "content": "        }"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "        return new FilterCommand(new TimetableContainsModulePredicate(Arrays.asList(keywords)));"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        return new FilterCommand(new TimetableContainsModulePredicate(Arrays.asList(keywords)));"
+        "content": "    }"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    /**"
+        "content": "     * Changes an inputted time into the correct index in the list of time slots in a day"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     * Changes an inputted time into the correct index in the list of time slots in a day"
+        "content": "     */"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "     */"
+        "content": "    private int changeTimeToIndex(String time) {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "    private int changeTimeToIndex(String time) {"
+        "content": "        int index \u003d 13;"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        int index \u003d 13;"
+        "content": "        if (time.equalsIgnoreCase(\"8am\")) {"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        if (time.equalsIgnoreCase(\"8am\")) {"
+        "content": "            index \u003d 0;"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 0;"
+        "content": "        } else if (time.equalsIgnoreCase(\"9am\")) {"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"9am\")) {"
+        "content": "            index \u003d 1;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 1;"
+        "content": "        } else if (time.equalsIgnoreCase(\"10am\")) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"10am\")) {"
+        "content": "            index \u003d 2;"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 2;"
+        "content": "        } else if (time.equalsIgnoreCase(\"11am\")) {"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"11am\")) {"
+        "content": "            index \u003d 3;"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 3;"
+        "content": "        } else if (time.equalsIgnoreCase(\"12pm\")) {"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"12pm\")) {"
+        "content": "            index \u003d 4;"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 4;"
+        "content": "        } else if (time.equalsIgnoreCase(\"1pm\")) {"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"1pm\")) {"
+        "content": "            index \u003d 5;"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 5;"
+        "content": "        } else if (time.equalsIgnoreCase(\"2pm\")) {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"2pm\")) {"
+        "content": "            index \u003d 6;"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 6;"
+        "content": "        } else if (time.equalsIgnoreCase(\"3pm\")) {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"3pm\")) {"
+        "content": "            index \u003d 7;"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 7;"
+        "content": "        } else if (time.equalsIgnoreCase(\"4pm\")) {"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"4pm\")) {"
+        "content": "            index \u003d 8;"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 8;"
+        "content": "        } else if (time.equalsIgnoreCase(\"5pm\")) {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"5pm\")) {"
+        "content": "            index \u003d 9;"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 9;"
+        "content": "        } else if (time.equalsIgnoreCase(\"6pm\")) {"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"6pm\")) {"
+        "content": "            index \u003d 10;"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 10;"
+        "content": "        } else if (time.equalsIgnoreCase(\"7pm\")) {"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        } else if (time.equalsIgnoreCase(\"7pm\")) {"
+        "content": "            index \u003d 11;"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            index \u003d 11;"
+        "content": "        }"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        }"
+        "content": "        return index;"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        return index;"
+        "content": "    }"
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "E0201942": 56,
-      "-": 26,
-      "leegengyu": 1
+      "E0201942": 82
     }
   },
   {
@@ -51042,413 +51056,405 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "package seedu.address.logic.parser;"
+        "content": "//@@author E0201942"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "package seedu.address.logic.parser;"
       },
       {
         "lineNumber": 3,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": ""
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.commands.MergeCommand.MESSAGE_INDEX_NEEDS_TO_BE_NUMBER;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.commands.MergeCommand.MESSAGE_NO_GROUP_NAME;"
+        "content": "import static seedu.address.logic.commands.MergeCommand.MESSAGE_INDEX_NEEDS_TO_BE_NUMBER;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.commands.MergeCommand.MESSAGE_USAGE;"
+        "content": "import static seedu.address.logic.commands.MergeCommand.MESSAGE_NO_GROUP_NAME;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_MERGE;"
+        "content": "import static seedu.address.logic.commands.MergeCommand.MESSAGE_USAGE;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_MERGE;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "import java.util.ArrayList;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import java.util.List;"
+        "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import java.util.List;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.commands.MergeCommand;"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "import seedu.address.logic.commands.MergeCommand;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": ""
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "//@@E0201942"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "E0201942"
         },
-        "content": ""
+        "content": "/**"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
-        },
-        "content": "/**"
-      },
-      {
-        "lineNumber": 19,
-        "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " * Parses input arguments and creates a new FilterCommand object"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": " */"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "public class MergeCommandParser implements Parser\u003cMergeCommand\u003e {"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     * Parses the given {@code String} of arguments in the context of the EditCommand"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     * and returns an EditCommand object for execution."
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "E0201942"
         },
         "content": "     *"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    public MergeCommand parse(String args) throws ParseException {"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        ArgumentMultimap argMultimap \u003d"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 29,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                ArgumentTokenizer.tokenize(args, PREFIX_MERGE, PREFIX_NAME);"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        List\u003cString\u003e indices \u003d argMultimap.getAllValues(PREFIX_MERGE);"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        List\u003cInteger\u003e numIndices \u003d new ArrayList\u003c\u003e();"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        List\u003cString\u003e name \u003d argMultimap.getAllValues(PREFIX_NAME);"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        int numIndex;"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 35,
         "author": {
           "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 36,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        if (indices.isEmpty()) {"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 37,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, MergeCommand.MESSAGE_USAGE));"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        if (name.isEmpty()) {"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            throw new ParseException(MESSAGE_NO_GROUP_NAME + \" \" + MESSAGE_USAGE);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "E0201942"
+        },
+        "content": "        }"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        }"
+        "content": "        if (name.get(0).isEmpty()) {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        if (name.get(0).isEmpty()) {"
+        "content": "            throw new ParseException(MESSAGE_NO_GROUP_NAME + \" \" + MESSAGE_USAGE);"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "            throw new ParseException(MESSAGE_NO_GROUP_NAME + \" \" + MESSAGE_USAGE);"
+        "content": "        }"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 46,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 46,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        for (String index : indices) {"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 47,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            try {"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 48,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                numIndex \u003d Integer.parseInt(index);"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 49,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                numIndices.add(numIndex - 1);"
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 50,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            } catch (NumberFormatException nfe) {"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 51,
         "author": {
           "gitId": "E0201942"
         },
         "content": "                throw new ParseException(MESSAGE_INDEX_NEEDS_TO_BE_NUMBER + MESSAGE_USAGE);"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 52,
         "author": {
           "gitId": "E0201942"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 54,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": ""
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 55,
         "author": {
           "gitId": "E0201942"
         },
         "content": "        return new MergeCommand(numIndices, name.get(0));"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 56,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 57,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "E0201942": 31,
-      "-": 27
+      "E0201942": 57
     }
   },
   {
@@ -115423,688 +115429,688 @@
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String INCORRECT_USERNAME \u003d \"dummy\";"
+        "content": "    // @@author BearPerson1"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String INCORRECT_PASSWORD \u003d \"dummy\";"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String INCORRECT_MODULE_CODE \u003d \"dummy\";"
+        "content": "    public static final String INCORRECT_USERNAME \u003d \"dummy\";"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String CORRECT_MODULE_CODE \u003d \"cs2113\";"
+        "content": "    public static final String INCORRECT_PASSWORD \u003d \"dummy\";"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String CORRECT_FILE_INDEX \u003d \"0\";"
+        "content": "    public static final String INCORRECT_MODULE_CODE \u003d \"dummy\";"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String INCORRECT_FILE_INDEX \u003d \"10000000\";"
+        "content": "    public static final String CORRECT_MODULE_CODE \u003d \"cs2113\";"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "BearPerson1"
         },
-        "content": "    public static final String VERY_INCORRECT_FILE_INDEX \u003d \"10000000000000000000000000000000000000000000000\";"
+        "content": "    public static final String CORRECT_FILE_INDEX \u003d \"0\";"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "BearPerson1"
         },
-        "content": ""
+        "content": "    public static final String INCORRECT_FILE_INDEX \u003d \"10000000\";"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String NAME_DESC_AMY \u003d \" \" + PREFIX_NAME + VALID_NAME_AMY;"
+        "content": "    public static final String VERY_INCORRECT_FILE_INDEX \u003d \"10000000000000000000000000000000000000000000000\";"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String NAME_DESC_BOB \u003d \" \" + PREFIX_NAME + VALID_NAME_BOB;"
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String PHONE_DESC_AMY \u003d \" \" + PREFIX_PHONE + VALID_PHONE_AMY;"
+        "content": "    // @@author"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "-"
+          "gitId": "BearPerson1"
         },
-        "content": "    public static final String PHONE_DESC_BOB \u003d \" \" + PREFIX_PHONE + VALID_PHONE_BOB;"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String EMAIL_DESC_AMY \u003d \" \" + PREFIX_EMAIL + VALID_EMAIL_AMY;"
+        "content": "    public static final String NAME_DESC_AMY \u003d \" \" + PREFIX_NAME + VALID_NAME_AMY;"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String EMAIL_DESC_BOB \u003d \" \" + PREFIX_EMAIL + VALID_EMAIL_BOB;"
+        "content": "    public static final String NAME_DESC_BOB \u003d \" \" + PREFIX_NAME + VALID_NAME_BOB;"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String ADDRESS_DESC_AMY \u003d \" \" + PREFIX_ADDRESS + VALID_ADDRESS_AMY;"
+        "content": "    public static final String PHONE_DESC_AMY \u003d \" \" + PREFIX_PHONE + VALID_PHONE_AMY;"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String ADDRESS_DESC_BOB \u003d \" \" + PREFIX_ADDRESS + VALID_ADDRESS_BOB;"
+        "content": "    public static final String PHONE_DESC_BOB \u003d \" \" + PREFIX_PHONE + VALID_PHONE_BOB;"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String TAG_DESC_FRIEND \u003d \" \" + PREFIX_TAG + VALID_TAG_FRIEND;"
+        "content": "    public static final String EMAIL_DESC_AMY \u003d \" \" + PREFIX_EMAIL + VALID_EMAIL_AMY;"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String TAG_DESC_HUSBAND \u003d \" \" + PREFIX_TAG + VALID_TAG_HUSBAND;"
+        "content": "    public static final String EMAIL_DESC_BOB \u003d \" \" + PREFIX_EMAIL + VALID_EMAIL_BOB;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String ADDRESS_DESC_AMY \u003d \" \" + PREFIX_ADDRESS + VALID_ADDRESS_AMY;"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String INVALID_NAME_DESC \u003d \" \" + PREFIX_NAME + \"James\u0026\"; // \u0027\u0026\u0027 not allowed in names"
+        "content": "    public static final String ADDRESS_DESC_BOB \u003d \" \" + PREFIX_ADDRESS + VALID_ADDRESS_BOB;"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String INVALID_PHONE_DESC \u003d \" \" + PREFIX_PHONE + \"911a\"; // \u0027a\u0027 not allowed in phones"
+        "content": "    public static final String TAG_DESC_FRIEND \u003d \" \" + PREFIX_TAG + VALID_TAG_FRIEND;"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String INVALID_EMAIL_DESC \u003d \" \" + PREFIX_EMAIL + \"bob!yahoo\"; // missing \u0027@\u0027 symbol"
+        "content": "    public static final String TAG_DESC_HUSBAND \u003d \" \" + PREFIX_TAG + VALID_TAG_HUSBAND;"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String INVALID_ADDRESS_DESC \u003d \" \" + PREFIX_ADDRESS; // empty string not allowed for addresses"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String INVALID_TAG_DESC \u003d \" \" + PREFIX_TAG + \"hubby*\"; // \u0027*\u0027 not allowed in tags"
+        "content": "    public static final String INVALID_NAME_DESC \u003d \" \" + PREFIX_NAME + \"James\u0026\"; // \u0027\u0026\u0027 not allowed in names"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String INVALID_PHONE_DESC \u003d \" \" + PREFIX_PHONE + \"911a\"; // \u0027a\u0027 not allowed in phones"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String PREAMBLE_WHITESPACE \u003d \"\\t  \\r  \\n\";"
+        "content": "    public static final String INVALID_EMAIL_DESC \u003d \" \" + PREFIX_EMAIL + \"bob!yahoo\"; // missing \u0027@\u0027 symbol"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String PREAMBLE_NON_EMPTY \u003d \"NonEmptyPreamble\";"
+        "content": "    public static final String INVALID_ADDRESS_DESC \u003d \" \" + PREFIX_ADDRESS; // empty string not allowed for addresses"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String INVALID_TAG_DESC \u003d \" \" + PREFIX_TAG + \"hubby*\"; // \u0027*\u0027 not allowed in tags"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final EditCommand.EditPersonDescriptor DESC_AMY;"
+        "content": ""
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final EditCommand.EditPersonDescriptor DESC_BOB;"
+        "content": "    public static final String PREAMBLE_WHITESPACE \u003d \"\\t  \\r  \\n\";"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String PREAMBLE_NON_EMPTY \u003d \"NonEmptyPreamble\";"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
-        "content": "    static {"
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": "        DESC_AMY \u003d new EditPersonDescriptorBuilder().withName(VALID_NAME_AMY)"
+        "content": "    public static final EditCommand.EditPersonDescriptor DESC_AMY;"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "-"
         },
-        "content": "                .withPhone(VALID_PHONE_AMY).withEmail(VALID_EMAIL_AMY).withAddress(VALID_ADDRESS_AMY).withTimeSlots()"
+        "content": "    public static final EditCommand.EditPersonDescriptor DESC_BOB;"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "-"
         },
-        "content": "                .withEnrolledModules().build();"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "        DESC_BOB \u003d new EditPersonDescriptorBuilder().withName(VALID_NAME_BOB)"
+        "content": "    static {"
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "E0201942"
+          "gitId": "-"
         },
-        "content": "                .withPhone(VALID_PHONE_BOB).withEmail(VALID_EMAIL_BOB).withAddress(VALID_ADDRESS_BOB).withTimeSlots()"
+        "content": "        DESC_AMY \u003d new EditPersonDescriptorBuilder().withName(VALID_NAME_AMY)"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "E0201942"
         },
-        "content": "                .build();"
+        "content": "                .withPhone(VALID_PHONE_AMY).withEmail(VALID_EMAIL_AMY).withAddress(VALID_ADDRESS_AMY).withTimeSlots()"
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "    }"
+        "content": "                .withEnrolledModules().build();"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        DESC_BOB \u003d new EditPersonDescriptorBuilder().withName(VALID_NAME_BOB)"
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "    /**"
+        "content": "                .withPhone(VALID_PHONE_BOB).withEmail(VALID_EMAIL_BOB).withAddress(VALID_ADDRESS_BOB).withTimeSlots()"
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "-"
+          "gitId": "E0201942"
         },
-        "content": "     * Executes the given {@code command}, confirms that \u003cbr\u003e"
+        "content": "                .build();"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - the result message matches {@code expectedMessage} \u003cbr\u003e"
+        "content": "    }"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - the {@code actualModel} matches {@code expectedModel} \u003cbr\u003e"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - the {@code actualCommandHistory} remains unchanged."
+        "content": "    /**"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Executes the given {@code command}, confirms that \u003cbr\u003e"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static void assertCommandSuccess(Command command, Model actualModel, CommandHistory actualCommandHistory,"
+        "content": "     * - the result message matches {@code expectedMessage} \u003cbr\u003e"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": "            String expectedMessage, Model expectedModel) {"
+        "content": "     * - the {@code actualModel} matches {@code expectedModel} \u003cbr\u003e"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
-        "content": "        CommandHistory expectedCommandHistory \u003d new CommandHistory(actualCommandHistory);"
+        "content": "     * - the {@code actualCommandHistory} remains unchanged."
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": "        try {"
+        "content": "     */"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "            CommandResult result \u003d command.execute(actualModel, actualCommandHistory);"
+        "content": "    public static void assertCommandSuccess(Command command, Model actualModel, CommandHistory actualCommandHistory,"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedMessage, result.feedbackToUser);"
+        "content": "            String expectedMessage, Model expectedModel) {"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedModel, actualModel);"
+        "content": "        CommandHistory expectedCommandHistory \u003d new CommandHistory(actualCommandHistory);"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedCommandHistory, actualCommandHistory);"
+        "content": "        try {"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": "        } catch (CommandException ce) {"
+        "content": "            CommandResult result \u003d command.execute(actualModel, actualCommandHistory);"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": "            throw new AssertionError(\"Execution of command should not fail.\", ce);"
+        "content": "            assertEquals(expectedMessage, result.feedbackToUser);"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "            assertEquals(expectedModel, actualModel);"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            assertEquals(expectedCommandHistory, actualCommandHistory);"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        } catch (CommandException ce) {"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "            throw new AssertionError(\"Execution of command should not fail.\", ce);"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Executes the given {@code command}, confirms that \u003cbr\u003e"
+        "content": "        }"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - a {@code CommandException} is thrown \u003cbr\u003e"
+        "content": "    }"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - the CommandException message matches {@code expectedMessage} \u003cbr\u003e"
+        "content": ""
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - the address book and the filtered person list in the {@code actualModel} remain unchanged \u003cbr\u003e"
+        "content": "    /**"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "     * - {@code actualCommandHistory} remains unchanged."
+        "content": "     * Executes the given {@code command}, confirms that \u003cbr\u003e"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * - a {@code CommandException} is thrown \u003cbr\u003e"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static void assertCommandFailure(Command command, Model actualModel, CommandHistory actualCommandHistory,"
+        "content": "     * - the CommandException message matches {@code expectedMessage} \u003cbr\u003e"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "            String expectedMessage) {"
+        "content": "     * - the address book and the filtered person list in the {@code actualModel} remain unchanged \u003cbr\u003e"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": "        // we are unable to defensively copy the model for comparison later, so we can"
+        "content": "     * - {@code actualCommandHistory} remains unchanged."
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": "        // only do so by copying its components."
+        "content": "     */"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": "        AddressBook expectedAddressBook \u003d new AddressBook(actualModel.getAddressBook());"
+        "content": "    public static void assertCommandFailure(Command command, Model actualModel, CommandHistory actualCommandHistory,"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
-        "content": "        List\u003cPerson\u003e expectedFilteredList \u003d new ArrayList\u003c\u003e(actualModel.getFilteredPersonList());"
+        "content": "            String expectedMessage) {"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "auskure"
+          "gitId": "-"
         },
-        "content": "        NotesDownloaded expectedNotesDownloaded \u003d new NotesDownloaded(actualModel.getNotesList());"
+        "content": "        // we are unable to defensively copy the model for comparison later, so we can"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        // only do so by copying its components."
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": "        CommandHistory expectedCommandHistory \u003d new CommandHistory(actualCommandHistory);"
+        "content": "        AddressBook expectedAddressBook \u003d new AddressBook(actualModel.getAddressBook());"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        List\u003cPerson\u003e expectedFilteredList \u003d new ArrayList\u003c\u003e(actualModel.getFilteredPersonList());"
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "-"
+          "gitId": "auskure"
         },
-        "content": "        try {"
+        "content": "        NotesDownloaded expectedNotesDownloaded \u003d new NotesDownloaded(actualModel.getNotesList());"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": "            command.execute(actualModel, actualCommandHistory);"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
-        "content": "            throw new AssertionError(\"The expected CommandException was not thrown.\");"
+        "content": "        CommandHistory expectedCommandHistory \u003d new CommandHistory(actualCommandHistory);"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
-        "content": "        } catch (CommandException e) {"
+        "content": ""
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedMessage, e.getMessage());"
+        "content": "        try {"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedAddressBook, actualModel.getAddressBook());"
+        "content": "            command.execute(actualModel, actualCommandHistory);"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedFilteredList, actualModel.getFilteredPersonList());"
+        "content": "            throw new AssertionError(\"The expected CommandException was not thrown.\");"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "auskure"
+          "gitId": "-"
         },
-        "content": "            assertEquals(expectedNotesDownloaded, actualModel.getNotesList());"
+        "content": "        } catch (CommandException e) {"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "            assertEquals(expectedCommandHistory, actualCommandHistory);"
+        "content": "            assertEquals(expectedMessage, e.getMessage());"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "            assertEquals(expectedAddressBook, actualModel.getAddressBook());"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            assertEquals(expectedFilteredList, actualModel.getFilteredPersonList());"
       },
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "-"
+          "gitId": "auskure"
         },
-        "content": ""
+        "content": "            assertEquals(expectedNotesDownloaded, actualModel.getNotesList());"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "            assertEquals(expectedCommandHistory, actualCommandHistory);"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Updates {@code model}\u0027s filtered list to show only the person at the given {@code targetIndex} in the"
+        "content": "        }"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
-        "content": "     * {@code model}\u0027s address book."
+        "content": "    }"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static void showPersonAtIndex(Model model, Index targetIndex) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertTrue(targetIndex.getZeroBased() \u003c model.getFilteredPersonList().size());"
+        "content": "     * Updates {@code model}\u0027s filtered list to show only the person at the given {@code targetIndex} in the"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * {@code model}\u0027s address book."
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "        Person person \u003d model.getFilteredPersonList().get(targetIndex.getZeroBased());"
+        "content": "     */"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": "        final String[] splitName \u003d person.getName().fullName.split(\"\\\\s+\");"
+        "content": "    public static void showPersonAtIndex(Model model, Index targetIndex) {"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "        model.updateFilteredPersonList(new NameContainsKeywordsPredicate(Arrays.asList(splitName[0])));"
+        "content": "        assertTrue(targetIndex.getZeroBased() \u003c model.getFilteredPersonList().size());"
       },
       {
         "lineNumber": 139,
@@ -116118,87 +116124,115 @@
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(1, model.getFilteredPersonList().size());"
+        "content": "        Person person \u003d model.getFilteredPersonList().get(targetIndex.getZeroBased());"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        final String[] splitName \u003d person.getName().fullName.split(\"\\\\s+\");"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        model.updateFilteredPersonList(new NameContainsKeywordsPredicate(Arrays.asList(splitName[0])));"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Deletes the first person in {@code model}\u0027s filtered list from {@code model}\u0027s address book."
+        "content": "        assertEquals(1, model.getFilteredPersonList().size());"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static void deleteFirstPerson(Model model) {"
+        "content": ""
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
-        "content": "        Person firstPerson \u003d model.getFilteredPersonList().get(0);"
+        "content": "    /**"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "-"
         },
-        "content": "        model.deletePerson(firstPerson);"
+        "content": "     * Deletes the first person in {@code model}\u0027s filtered list from {@code model}\u0027s address book."
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "-"
         },
-        "content": "        model.commitAddressBook();"
+        "content": "     */"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public static void deleteFirstPerson(Model model) {"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        Person firstPerson \u003d model.getFilteredPersonList().get(0);"
       },
       {
         "lineNumber": 152,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        model.deletePerson(firstPerson);"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        model.commitAddressBook();"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 156,
         "author": {
           "gitId": "-"
         },
@@ -116206,8 +116240,8 @@
       }
     ],
     "authorContributionMap": {
-      "E0201942": 10,
-      "BearPerson1": 2,
+      "E0201942": 4,
+      "BearPerson1": 12,
       "auskure": 3,
       "-": 137
     }

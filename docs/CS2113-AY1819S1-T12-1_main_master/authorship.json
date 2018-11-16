@@ -22871,7 +22871,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 11,
@@ -32245,70 +32245,70 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static java.util.Objects.requireNonNull;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
+        "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 13,
@@ -32729,7 +32729,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 11,
@@ -36379,7 +36379,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 13,
@@ -43663,325 +43663,332 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.stream.Stream;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.stream.Stream;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.LoginCommand;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "import seedu.address.logic.commands.LoginCommand;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Password;"
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.user.Password;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " * Parses input arguments and creates a new LoginCommand object."
+        "content": "/**"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " */"
+        "content": " * Parses input arguments and creates a new LoginCommand object."
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "public class LoginCommandParser implements Parser\u003cLoginCommand\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class LoginCommandParser implements Parser\u003cLoginCommand\u003e {"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Parses the given {@code String} of arguments in the context of the LoginCommand"
+        "content": "    /**"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * and returns an LoginCommand object for execution."
+        "content": "     * Parses the given {@code String} of arguments in the context of the LoginCommand"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * @throws ParseException if the user input does not conform the expected format"
+        "content": "     * and returns an LoginCommand object for execution."
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public LoginCommand parse(String args) throws ParseException {"
+        "content": "     */"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        ArgumentMultimap argMultimap \u003d"
+        "content": "    public LoginCommand parse(String args) throws ParseException {"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "                ArgumentTokenizer.tokenize(args, PREFIX_USERNAME, PREFIX_PASSWORD);"
+        "content": "        ArgumentMultimap argMultimap \u003d"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "                ArgumentTokenizer.tokenize(args, PREFIX_USERNAME, PREFIX_PASSWORD);"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        if (!arePrefixesPresent(argMultimap, PREFIX_USERNAME, PREFIX_PASSWORD)"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "                || !argMultimap.getPreamble().isEmpty()) {"
+        "content": "        if (!arePrefixesPresent(argMultimap, PREFIX_USERNAME, PREFIX_PASSWORD)"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, LoginCommand.MESSAGE_USAGE));"
+        "content": "                || !argMultimap.getPreamble().isEmpty()) {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        }"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, LoginCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        Username username \u003d ParserUtil.parseUsername(argMultimap.getValue(PREFIX_USERNAME).get());"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        Password password \u003d ParserUtil.parsePassword(argMultimap.getValue(PREFIX_PASSWORD).get());"
+        "content": "        Username username \u003d ParserUtil.parseUsername(argMultimap.getValue(PREFIX_USERNAME).get());"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        Password password \u003d ParserUtil.parsePassword(argMultimap.getValue(PREFIX_PASSWORD).get());"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        User user \u003d new User(username, password);"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        User user \u003d new User(username, password);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return new LoginCommand(user);"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return new LoginCommand(user);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
+        "content": "    /**"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * {@code ArgumentMultimap}."
+        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * {@code ArgumentMultimap}."
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+        "content": "     */"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
+        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
       },
       {
         "lineNumber": 49,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 50,
         "author": {
           "gitId": "jamesyaputra"
         },
@@ -43989,7 +43996,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 49
+      "jamesyaputra": 50
     }
   },
   {
@@ -46772,325 +46779,332 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PASSWORD;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_USERNAME;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.stream.Stream;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.stream.Stream;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.SignupCommand;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "import seedu.address.logic.commands.SignupCommand;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Password;"
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.user.Password;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " * Parses input arguments and creates a new SignupCommand object."
+        "content": "/**"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " */"
+        "content": " * Parses input arguments and creates a new SignupCommand object."
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "public class SignupCommandParser implements Parser\u003cSignupCommand\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class SignupCommandParser implements Parser\u003cSignupCommand\u003e {"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Parses the given {@code String} of arguments in the context of the SignupCommand"
+        "content": "    /**"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * and returns an SignupCommand object for execution."
+        "content": "     * Parses the given {@code String} of arguments in the context of the SignupCommand"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * @throws ParseException if the user input does not conform the expected format"
+        "content": "     * and returns an SignupCommand object for execution."
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public SignupCommand parse(String args) throws ParseException {"
+        "content": "     */"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        ArgumentMultimap argMultimap \u003d"
+        "content": "    public SignupCommand parse(String args) throws ParseException {"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "                ArgumentTokenizer.tokenize(args, PREFIX_USERNAME, PREFIX_PASSWORD);"
+        "content": "        ArgumentMultimap argMultimap \u003d"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "                ArgumentTokenizer.tokenize(args, PREFIX_USERNAME, PREFIX_PASSWORD);"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        if (!arePrefixesPresent(argMultimap, PREFIX_USERNAME, PREFIX_PASSWORD)"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "                || !argMultimap.getPreamble().isEmpty()) {"
+        "content": "        if (!arePrefixesPresent(argMultimap, PREFIX_USERNAME, PREFIX_PASSWORD)"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, SignupCommand.MESSAGE_USAGE));"
+        "content": "                || !argMultimap.getPreamble().isEmpty()) {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        }"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, SignupCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        Username username \u003d ParserUtil.parseUsername(argMultimap.getValue(PREFIX_USERNAME).get());"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        Password password \u003d ParserUtil.parsePassword(argMultimap.getValue(PREFIX_PASSWORD).get());"
+        "content": "        Username username \u003d ParserUtil.parseUsername(argMultimap.getValue(PREFIX_USERNAME).get());"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        Password password \u003d ParserUtil.parsePassword(argMultimap.getValue(PREFIX_PASSWORD).get());"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        User user \u003d new User(username, password);"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        User user \u003d new User(username, password);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return new SignupCommand(user);"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return new SignupCommand(user);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
+        "content": "    /**"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * {@code ArgumentMultimap}."
+        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * {@code ArgumentMultimap}."
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+        "content": "     */"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
+        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
       },
       {
         "lineNumber": 49,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 50,
         "author": {
           "gitId": "jamesyaputra"
         },
@@ -47098,7 +47112,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 49
+      "jamesyaputra": 50
     }
   },
   {
@@ -49756,7 +49770,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 68,
@@ -49798,7 +49812,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 74,
@@ -49840,7 +49854,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 80,
@@ -49889,7 +49903,7 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 87,
@@ -49938,12 +49952,12 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -49971,14 +49985,14 @@
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
@@ -49987,12 +50001,12 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50013,14 +50027,14 @@
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
@@ -50029,12 +50043,12 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    //@@ jamesyaputra"
+        "content": "    //@@author jamesyaputra"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50055,28 +50069,28 @@
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Event List Accessors and Modifiers \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50104,21 +50118,21 @@
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50146,21 +50160,21 @@
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50195,21 +50209,21 @@
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50230,7 +50244,7 @@
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
@@ -50251,14 +50265,14 @@
       {
         "lineNumber": 138,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
@@ -50272,14 +50286,14 @@
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    /**"
       },
@@ -50300,14 +50314,14 @@
       {
         "lineNumber": 145,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "     */"
       },
       {
         "lineNumber": 146,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50328,21 +50342,21 @@
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 150,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 151,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50356,7 +50370,7 @@
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        requireNonNull(predicate);"
       },
@@ -50370,98 +50384,98 @@
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "    //@@ tertium3"
       },
       {
         "lineNumber": 158,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 159,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "    public ObservableList\u003cEvent\u003e getAttendingEventList(Username currentUser) {"
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        requireNonNull(currentUser);"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        updateFilteredEventList(new AttendanceContainsUserPredicate(currentUser));"
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 163,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        return getFilteredEventList();"
       },
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 165,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 166,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Undo/Redo \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 167,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 168,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50482,21 +50496,21 @@
       {
         "lineNumber": 171,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 173,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50517,21 +50531,21 @@
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 177,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50559,21 +50573,21 @@
       {
         "lineNumber": 182,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 184,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50601,21 +50615,21 @@
       {
         "lineNumber": 188,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 189,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 190,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
@@ -50636,112 +50650,112 @@
       {
         "lineNumber": 193,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 196,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    public boolean equals(Object obj) {"
       },
       {
         "lineNumber": 197,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        if (obj \u003d\u003d this) {"
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "            return true;"
       },
       {
         "lineNumber": 200,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        }"
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 203,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        if (!(obj instanceof ModelManager)) {"
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "            return false;"
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        }"
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        // state check"
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "        ModelManager other \u003d (ModelManager) obj;"
       },
@@ -50769,29 +50783,29 @@
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
         "lineNumber": 213,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
         "lineNumber": 214,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 94,
-      "-": 107,
-      "Tertium3": 13
+      "jamesyaputra": 170,
+      "-": 39,
+      "Tertium3": 5
     }
   },
   {
@@ -51435,126 +51449,126 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.FileNotFoundException;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.IOException;"
+        "content": "import java.io.FileNotFoundException;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.nio.file.Path;"
+        "content": "import java.io.IOException;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.nio.file.Paths;"
+        "content": "import java.nio.file.Path;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.security.NoSuchAlgorithmException;"
+        "content": "import java.nio.file.Paths;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.security.spec.InvalidKeySpecException;"
+        "content": "import java.security.NoSuchAlgorithmException;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.Map;"
+        "content": "import java.security.spec.InvalidKeySpecException;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.logging.Logger;"
+        "content": "import java.util.Map;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.logging.Logger;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.commons.core.LogsCenter;"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.commons.util.PasswordUtil;"
+        "content": "import seedu.address.commons.core.LogsCenter;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.commons.util.StringUtil;"
+        "content": "import seedu.address.commons.util.PasswordUtil;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Password;"
+        "content": "import seedu.address.commons.util.StringUtil;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.user.Password;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.storage.JsonUserStorage;"
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.storage.JsonUserStorage;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 21,
@@ -52175,7 +52189,7 @@
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
         },
         "content": "     * Returns logged in user\u0027s username."
       },
@@ -52496,8 +52510,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 153,
-      "-": 1
+      "jamesyaputra": 154
     }
   },
   {
@@ -62158,28 +62171,28 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static java.util.Objects.requireNonNull;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.util.AppUtil.checkArgument;"
+        "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.commons.util.AppUtil.checkArgument;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 7,
@@ -62537,21 +62550,21 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 6,
@@ -62839,28 +62852,28 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static java.util.Objects.requireNonNull;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.util.AppUtil.checkArgument;"
+        "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.commons.util.AppUtil.checkArgument;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 7,
@@ -64753,112 +64766,112 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.FileNotFoundException;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.FileReader;"
+        "content": "import java.io.FileNotFoundException;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.FileWriter;"
+        "content": "import java.io.FileReader;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.IOException;"
+        "content": "import java.io.FileWriter;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.lang.reflect.Type;"
+        "content": "import java.io.IOException;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.nio.file.Files;"
+        "content": "import java.lang.reflect.Type;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.nio.file.Path;"
+        "content": "import java.nio.file.Files;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.Map;"
+        "content": "import java.nio.file.Path;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.Map;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import com.google.gson.Gson;"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import com.google.gson.JsonElement;"
+        "content": "import com.google.gson.Gson;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import com.google.gson.JsonObject;"
+        "content": "import com.google.gson.JsonElement;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import com.google.gson.JsonParser;"
+        "content": "import com.google.gson.JsonObject;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import com.google.gson.reflect.TypeToken;"
+        "content": "import com.google.gson.JsonParser;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import com.google.gson.reflect.TypeToken;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 19,
@@ -65241,7 +65254,7 @@
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "chiaxr"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
@@ -65380,8 +65393,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 91,
-      "chiaxr": 1
+      "jamesyaputra": 92
     }
   },
   {
@@ -66348,42 +66360,42 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.io.IOException;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.Map;"
+        "content": "import java.io.IOException;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.Map;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.UserSession;"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.UserSession;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 9,
@@ -100555,147 +100567,147 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static java.util.Objects.requireNonNull;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertEquals;"
+        "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.testutil.TypicalUsers.ALICE;"
+        "content": "import static org.junit.Assert.assertEquals;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.testutil.TypicalUsers.ALICE;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.function.Predicate;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.function.Predicate;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Rule;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Rule;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.rules.ExpectedException;"
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.rules.ExpectedException;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import javafx.collections.ObservableList;"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import javafx.collections.ObservableList;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.ReadOnlyEventManager;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.event.Event;"
+        "content": "import seedu.address.model.ReadOnlyEventManager;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.event.Event;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.testutil.UserBuilder;"
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.UserBuilder;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 24,
@@ -101631,35 +101643,35 @@
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        @Override"
       },
       {
         "lineNumber": 158,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        public ObservableList\u003cEvent\u003e getAttendingEventList(Username currentUser) {"
       },
       {
         "lineNumber": 159,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        }"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
@@ -102232,8 +102244,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 237,
-      "Tertium3": 5
+      "jamesyaputra": 242
     }
   },
   {
@@ -102258,98 +102269,98 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.assertCommandSuccess;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.assertCommandSuccess;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Rule;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Rule;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.rules.ExpectedException;"
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.rules.ExpectedException;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.ModelManager;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.ModelManager;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.testutil.UserBuilder;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.UserBuilder;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 17,
@@ -108339,147 +108350,147 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static java.util.Objects.requireNonNull;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertEquals;"
+        "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.testutil.TypicalUsers.ALICE;"
+        "content": "import static org.junit.Assert.assertEquals;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.testutil.TypicalUsers.ALICE;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import java.util.function.Predicate;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import java.util.function.Predicate;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Rule;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Rule;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.rules.ExpectedException;"
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.rules.ExpectedException;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import javafx.collections.ObservableList;"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import javafx.collections.ObservableList;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.ReadOnlyEventManager;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.event.Event;"
+        "content": "import seedu.address.model.ReadOnlyEventManager;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.event.Event;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.testutil.UserBuilder;"
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.UserBuilder;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 24,
@@ -109387,35 +109398,35 @@
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        @Override"
       },
       {
         "lineNumber": 154,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        public ObservableList\u003cEvent\u003e getAttendingEventList(Username currentUser) {"
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": "        }"
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "Tertium3"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
@@ -109911,8 +109922,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 222,
-      "Tertium3": 5
+      "jamesyaputra": 227
     }
   },
   {
@@ -119276,140 +119286,140 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_PASSWORD_DESC;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_USERNAME_DESC;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_PASSWORD_DESC;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.PASSWORD_DESC;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_USERNAME_DESC;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_NON_EMPTY;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.PASSWORD_DESC;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_WHITESPACE;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_NON_EMPTY;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.USERNAME_DESC;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_WHITESPACE;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.USERNAME_DESC;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;"
+        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.LoginCommand;"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Password;"
+        "content": "import seedu.address.logic.commands.LoginCommand;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.user.Password;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 23,
@@ -122294,140 +122304,140 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_PASSWORD_DESC;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_USERNAME_DESC;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_PASSWORD_DESC;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.PASSWORD_DESC;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.INVALID_USERNAME_DESC;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_NON_EMPTY;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.PASSWORD_DESC;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_WHITESPACE;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_NON_EMPTY;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.USERNAME_DESC;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.PREAMBLE_WHITESPACE;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.USERNAME_DESC;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;"
+        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.logic.commands.SignupCommand;"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Password;"
+        "content": "import seedu.address.logic.commands.SignupCommand;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.user.Password;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "//@@ jamesyaputra"
+        "content": ""
       },
       {
         "lineNumber": 23,
@@ -132695,274 +132705,280 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertFalse;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertTrue;"
+        "content": "import static org.junit.Assert.assertFalse;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static org.junit.Assert.assertTrue;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.testutil.Assert;"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.Assert;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "public class PasswordTest {"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class PasswordTest {"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    public void constructor_null_throwsNullPointerException() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e new Password(null));"
+        "content": "    public void constructor_null_throwsNullPointerException() {"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e new Password(null));"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "cqinkai"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "    @Test"
-      },
-      {
-        "lineNumber": 18,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "    public void constructor_invalidPassword_throwsIllegalArgumentException() {"
-      },
-      {
-        "lineNumber": 19,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        String invalidPassword \u003d \"\";"
-      },
-      {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        Assert.assertThrows(IllegalArgumentException.class, () -\u003e new Password(invalidPassword));"
-      },
-      {
-        "lineNumber": 21,
-        "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 17,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 18,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Test"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "jamesyaputra"
+        },
+        "content": "    public void constructor_invalidPassword_throwsIllegalArgumentException() {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        String invalidPassword \u003d \"\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        Assert.assertThrows(IllegalArgumentException.class, () -\u003e new Password(invalidPassword));"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "jamesyaputra"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    @Test"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public void isValidPassword() {"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        // null password"
+        "content": "    public void isValidPassword() {"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e Password.isValidPassword(null));"
+        "content": "        // null password"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e Password.isValidPassword(null));"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        // invalid passwords"
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        assertFalse(Password.isValidPassword(\"\")); // empty string"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        assertFalse(Password.isValidPassword(\" \")); // spaces only"
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        assertFalse(Password.isValidPassword(\"\\\"\")); // contains parentheses"
-      },
-      {
-        "lineNumber": 33,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        assertFalse(Password.isValidPassword(\"james 123\")); // contains space"
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        // invalid passwords"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        assertFalse(Password.isValidPassword(\"\")); // empty string"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        assertFalse(Password.isValidPassword(\" \")); // spaces only"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        assertFalse(Password.isValidPassword(\"\\\"\")); // contains parentheses"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        assertFalse(Password.isValidPassword(\"james 123\")); // contains space"
+      },
+      {
         "lineNumber": 35,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        // valid passwords"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Password.isValidPassword(\"james123\")); //alphanumeric"
+        "content": "        // valid passwords"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Password.isValidPassword(\"!@#$\u0027*+/\u003d?`{|}~^.@-\")); // special characters"
+        "content": "        assertTrue(Password.isValidPassword(\"james123\")); //alphanumeric"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Password.isValidPassword(\"james123!@#$\u0027*+/\u003d?`{|}~^.@-\")); // alphanumeric + special characters"
+        "content": "        assertTrue(Password.isValidPassword(\"!@#$\u0027*+/\u003d?`{|}~^.@-\")); // special characters"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        assertTrue(Password.isValidPassword(\"james123!@#$\u0027*+/\u003d?`{|}~^.@-\")); // alphanumeric + special characters"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "jamesyaputra"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "cqinkai": 38,
-      "jamesyaputra": 1,
-      "-": 1
+      "cqinkai": 2,
+      "jamesyaputra": 39
     }
   },
   {
@@ -132987,276 +133003,283 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertFalse;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertTrue;"
+        "content": "import static org.junit.Assert.assertFalse;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
+        "content": "import static org.junit.Assert.assertTrue;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.testutil.TypicalUsers.ALICE;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.testutil.TypicalUsers.BOB;"
+        "content": "import static seedu.address.testutil.TypicalUsers.ALICE;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.testutil.TypicalUsers.BOB;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.testutil.UserBuilder;"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.UserBuilder;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "public class UserTest {"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class UserTest {"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public void equals() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // same values -\u003e returns true"
+        "content": "    public void equals() {"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        User aliceCopy \u003d new UserBuilder(ALICE).build();"
+        "content": "        // same values -\u003e returns true"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(ALICE.equals(aliceCopy));"
+        "content": "        User aliceCopy \u003d new UserBuilder(ALICE).build();"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertTrue(ALICE.equals(aliceCopy));"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // same object -\u003e returns true"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(ALICE.equals(ALICE));"
+        "content": "        // same object -\u003e returns true"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertTrue(ALICE.equals(ALICE));"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // null -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(ALICE.equals(null));"
+        "content": "        // null -\u003e returns false"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertFalse(ALICE.equals(null));"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // different type -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(ALICE.equals(5));"
+        "content": "        // different type -\u003e returns false"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertFalse(ALICE.equals(5));"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // different event -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(ALICE.equals(BOB));"
+        "content": "        // different event -\u003e returns false"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertFalse(ALICE.equals(BOB));"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // different name -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        User editedAlice \u003d new UserBuilder(ALICE).withUsername(VALID_USERNAME).build();"
+        "content": "        // different name -\u003e returns false"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(ALICE.equals(editedAlice));"
+        "content": "        User editedAlice \u003d new UserBuilder(ALICE).withUsername(VALID_USERNAME).build();"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertFalse(ALICE.equals(editedAlice));"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        // different contact -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        editedAlice \u003d new UserBuilder(ALICE).withPassword(VALID_PASSWORD).build();"
+        "content": "        // different contact -\u003e returns false"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(ALICE.equals(editedAlice));"
+        "content": "        editedAlice \u003d new UserBuilder(ALICE).withPassword(VALID_PASSWORD).build();"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        assertFalse(ALICE.equals(editedAlice));"
       },
       {
         "lineNumber": 42,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 43,
         "author": {
           "gitId": "jamesyaputra"
         },
@@ -133264,7 +133287,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 42
+      "jamesyaputra": 43
     }
   },
   {
@@ -133287,280 +133310,287 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertFalse;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import static org.junit.Assert.assertTrue;"
+        "content": "import static org.junit.Assert.assertFalse;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static org.junit.Assert.assertTrue;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.testutil.Assert;"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.Assert;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "public class UsernameTest {"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class UsernameTest {"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    public void constructor_null_throwsNullPointerException() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e new Username(null));"
+        "content": "    public void constructor_null_throwsNullPointerException() {"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e new Username(null));"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "cqinkai"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "    @Test"
-      },
-      {
-        "lineNumber": 18,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "    public void constructor_invalidUsername_throwsIllegalArgumentException() {"
-      },
-      {
-        "lineNumber": 19,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        String invalidUsername \u003d \"\";"
-      },
-      {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "cqinkai"
-        },
-        "content": "        Assert.assertThrows(IllegalArgumentException.class, () -\u003e new Username(invalidUsername));"
-      },
-      {
-        "lineNumber": 21,
-        "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 17,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 18,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
         "content": "    @Test"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 19,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    public void isValidUsername() {"
+        "content": "    public void constructor_invalidUsername_throwsIllegalArgumentException() {"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 20,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        // null username"
+        "content": "        String invalidUsername \u003d \"\";"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 21,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e Username.isValidUsername(null));"
+        "content": "        Assert.assertThrows(IllegalArgumentException.class, () -\u003e new Username(invalidUsername));"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 22,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "jamesyaputra"
         },
         "content": ""
       },
       {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    public void isValidUsername() {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        // null username"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "        Assert.assertThrows(NullPointerException.class, () -\u003e Username.isValidUsername(null));"
+      },
+      {
         "lineNumber": 28,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        // invalid usernames"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(Username.isValidUsername(\"\")); // empty string"
+        "content": "        // invalid usernames"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(Username.isValidUsername(\" \")); // spaces only"
+        "content": "        assertFalse(Username.isValidUsername(\"\")); // empty string"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(Username.isValidUsername(\"*\")); // only non-alphanumeric"
+        "content": "        assertFalse(Username.isValidUsername(\" \")); // spaces only"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertFalse(Username.isValidUsername(\"_j_\")); // contains non-alphanumeric"
+        "content": "        assertFalse(Username.isValidUsername(\"*\")); // only non-alphanumeric"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "        assertFalse(Username.isValidUsername(\"_j_\")); // contains non-alphanumeric"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "        // valid usernames"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Username.isValidUsername(\"James Yaputra\")); // with upper-case"
+        "content": "        // valid usernames"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Username.isValidUsername(\"james yaputra\")); // lower-case only"
+        "content": "        assertTrue(Username.isValidUsername(\"James Yaputra\")); // with upper-case"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Username.isValidUsername(\"J\")); // one character"
+        "content": "        assertTrue(Username.isValidUsername(\"james yaputra\")); // lower-case only"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Username.isValidUsername(\"12345\")); // numbers only"
+        "content": "        assertTrue(Username.isValidUsername(\"J\")); // one character"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        assertTrue(Username.isValidUsername(\"Richard the 2nd\")); // letters and numbers"
+        "content": "        assertTrue(Username.isValidUsername(\"12345\")); // numbers only"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        assertTrue(Username.isValidUsername(\"Richard the 2nd\")); // letters and numbers"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "cqinkai"
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "jamesyaputra"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "cqinkai": 34,
-      "jamesyaputra": 7
+      "cqinkai": 2,
+      "jamesyaputra": 40
     }
   },
   {
@@ -142336,150 +142366,157 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_PASSWORD;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_USERNAME;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " * A utility class containing a list of {@code User} objects to be used in tests."
+        "content": "/**"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " */"
+        "content": " * A utility class containing a list of {@code User} objects to be used in tests."
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "public class TypicalUsers {"
+        "content": " */"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class TypicalUsers {"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public static final User ALICE \u003d  new UserBuilder().withUsername(\"Alice Williams\")"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "            .withPassword(\"in_Wond3rl4nD!\").build();"
+        "content": "    public static final User ALICE \u003d  new UserBuilder().withUsername(\"Alice Williams\")"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "            .withPassword(\"in_Wond3rl4nD!\").build();"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public static final User CARL \u003d  new UserBuilder().withUsername(\"Carl Sagan\")"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "            .withPassword(\"is_4_*star*\").build();"
+        "content": "    public static final User CARL \u003d  new UserBuilder().withUsername(\"Carl Sagan\")"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "            .withPassword(\"is_4_*star*\").build();"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public static final User DARYL \u003d  new UserBuilder().withUsername(\"Daryl Jones\")"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "            .withPassword(\"likes-to-eat\").build();"
+        "content": "    public static final User DARYL \u003d  new UserBuilder().withUsername(\"Daryl Jones\")"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "            .withPassword(\"likes-to-eat\").build();"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public static final User BOB \u003d  new UserBuilder().withUsername(VALID_USERNAME)"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "            .withPassword(VALID_PASSWORD).build();"
+        "content": "    public static final User BOB \u003d  new UserBuilder().withUsername(VALID_USERNAME)"
       },
       {
         "lineNumber": 24,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "            .withPassword(VALID_PASSWORD).build();"
+      },
+      {
+        "lineNumber": 25,
         "author": {
           "gitId": "jamesyaputra"
         },
@@ -142487,7 +142524,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 24
+      "jamesyaputra": 25
     }
   },
   {
@@ -142512,332 +142549,339 @@
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Password;"
+        "content": "//@@author jamesyaputra"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.User;"
+        "content": "import seedu.address.model.user.Password;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "import seedu.address.model.user.Username;"
+        "content": "import seedu.address.model.user.User;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "import seedu.address.model.user.Username;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " * A utility class to help with building User objects."
+        "content": "/**"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": " */"
+        "content": " * A utility class to help with building User objects."
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "public class UserBuilder {"
+        "content": " */"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "public class UserBuilder {"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public static final String DEFAULT_USERNAME \u003d \"admin\";"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public static final String DEFAULT_PASSWORD \u003d \"root\";"
+        "content": "    public static final String DEFAULT_USERNAME \u003d \"admin\";"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    public static final String DEFAULT_PASSWORD \u003d \"root\";"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    private Username username;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    private Password password;"
+        "content": "    private Username username;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    private Password password;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public UserBuilder() {"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        username \u003d new Username(DEFAULT_USERNAME);"
+        "content": "    public UserBuilder() {"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        password \u003d new Password(DEFAULT_PASSWORD);"
+        "content": "        username \u003d new Username(DEFAULT_USERNAME);"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        password \u003d new Password(DEFAULT_PASSWORD);"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Initializes the UserBuilder with the data of {@code userToCopy}."
+        "content": "    /**"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * Initializes the UserBuilder with the data of {@code userToCopy}."
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public UserBuilder(User userToCopy) {"
+        "content": "     */"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        username \u003d userToCopy.getUsername();"
+        "content": "    public UserBuilder(User userToCopy) {"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        password \u003d userToCopy.getPassword();"
+        "content": "        username \u003d userToCopy.getUsername();"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        password \u003d userToCopy.getPassword();"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Sets the {@code Username} of the {@code User} that we are building."
+        "content": "    /**"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * Sets the {@code Username} of the {@code User} that we are building."
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public UserBuilder withUsername(String username) {"
+        "content": "     */"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        this.username \u003d new Username(username);"
+        "content": "    public UserBuilder withUsername(String username) {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return this;"
+        "content": "        this.username \u003d new Username(username);"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return this;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     * Sets the {@code Password} of the {@code User} that we are building."
+        "content": "    /**"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "     */"
+        "content": "     * Sets the {@code Password} of the {@code User} that we are building."
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public UserBuilder withPassword(String password) {"
+        "content": "     */"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        this.password \u003d new Password(password);"
+        "content": "    public UserBuilder withPassword(String password) {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return this;"
+        "content": "        this.password \u003d new Password(password);"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return this;"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    public User build() {"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "        return new User(username, password);"
+        "content": "    public User build() {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "jamesyaputra"
         },
-        "content": "    }"
+        "content": "        return new User(username, password);"
       },
       {
         "lineNumber": 50,
+        "author": {
+          "gitId": "jamesyaputra"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 51,
         "author": {
           "gitId": "jamesyaputra"
         },
@@ -142845,7 +142889,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamesyaputra": 50
+      "jamesyaputra": 51
     }
   },
   {
